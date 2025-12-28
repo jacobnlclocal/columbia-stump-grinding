@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
@@ -67,6 +68,17 @@ export default function HowLongStumpGrindingPost() {
             </div>
           </div>
         </section>
+
+        {/* Featured Image */}
+        <div className="relative h-64 md:h-96 w-full">
+          <Image
+            src="/blog-how-long.jpg"
+            alt="Professional stump grinding in progress - time estimates for Upstate SC"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         {/* Article Content */}
         <article className="py-12 bg-white">
