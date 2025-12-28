@@ -1,0 +1,208 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
+
+export const metadata: Metadata = {
+  title: 'Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump',
+  description: 'Professional stump grinding, brush hogging, and land clearing services in Greenville, SC. Serving downtown Greenville, Simpsonville, Mauldin, Greer & surrounding areas. Free estimates. Call (864) 760-9203.',
+  keywords: 'stump grinding Greenville SC, land clearing Greenville, brush hogging Greenville SC, stump removal Greenville, tree stump grinding near Greenville',
+};
+
+export default function GreenvillePage() {
+  const neighborhoods = [
+    'Downtown Greenville', 'Simpsonville', 'Mauldin', 'Greer', 'Travelers Rest',
+    'Fountain Inn', 'Five Forks', 'Woodruff', 'Taylors', 'Berea',
+  ];
+
+  const services = [
+    {
+      name: 'Stump Grinding',
+      description: 'Remove unsightly stumps from your Greenville property. We grind stumps 6-8 inches below ground level.',
+      href: '/services/stump-grinding',
+    },
+    {
+      name: 'Brush Hogging',
+      description: 'Clear overgrown fields, fence lines, and trails on your Greenville County property.',
+      href: '/services/brush-hogging',
+    },
+    {
+      name: 'Land Clearing',
+      description: 'Full lot clearing for new construction or property development in the Greenville area.',
+      href: '/services/land-clearing',
+    },
+  ];
+
+  return (
+    <>
+      <Header />
+      <main className="pt-16 lg:pt-[104px]">
+        {/* Hero */}
+        <section className="bg-primary py-16 lg:py-20">
+          <div className="max-w-6xl mx-auto px-6">
+            <Breadcrumbs
+              items={[
+                { label: 'Home', href: '/' },
+                { label: 'Service Areas', href: '/#service-areas' },
+                { label: 'Greenville, SC' },
+              ]}
+            />
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+              STUMP GRINDING & LAND CLEARING IN GREENVILLE, SC
+            </h1>
+            <p className="text-xl text-gray-300 max-w-3xl mb-8">
+              Nelson Land & Stump provides professional stump grinding, brush hogging, and land clearing services
+              throughout Greenville and Greenville County. From downtown properties to rural acreage in Travelers Rest,
+              we&apos;ve got the equipment and experience to handle your project.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/#contact"
+                className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
+              >
+                Get a Free Quote
+              </Link>
+              <a
+                href="tel:8647609203"
+                className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
+              >
+                (864) 760-9203
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* About Greenville Service */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+                  YOUR LOCAL GREENVILLE LAND CLEARING EXPERTS
+                </h2>
+                <p className="text-muted text-lg mb-4">
+                  Greenville is one of the fastest-growing cities in South Carolina, and with that growth comes
+                  increased demand for land clearing and stump removal services. Whether you&apos;re preparing a lot
+                  for new construction in Five Forks or removing old stumps from your backyard in Simpsonville,
+                  Nelson Land & Stump is here to help.
+                </p>
+                <p className="text-muted text-lg mb-4">
+                  We understand the unique challenges of working in Greenville County—from navigating tight
+                  suburban lots to clearing larger rural properties. Our equipment is sized right for any job,
+                  and we always leave your property clean and ready for the next step.
+                </p>
+                <p className="text-muted text-lg">
+                  As a local, family-owned business, we take pride in serving our Greenville neighbors with
+                  honest pricing, reliable service, and results that speak for themselves.
+                </p>
+              </div>
+              <div className="bg-muted-light rounded-lg p-8">
+                <h3 className="font-bold text-primary text-xl mb-4">Why Greenville Chooses Us</h3>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-muted"><strong>Local Knowledge:</strong> We know Greenville County&apos;s terrain and soil conditions</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-muted"><strong>Fast Response:</strong> Usually on-site within 1-2 days for estimates</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-muted"><strong>Competitive Pricing:</strong> Fair rates for Greenville area projects</span>
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-muted"><strong>Fully Insured:</strong> Your property is protected</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services */}
+        <section className="py-16 bg-muted-light">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              OUR GREENVILLE SERVICES
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              {services.map((service) => (
+                <div key={service.name} className="bg-white rounded-lg p-6 shadow-sm">
+                  <h3 className="font-bold text-primary text-xl mb-3">{service.name}</h3>
+                  <p className="text-muted mb-4">{service.description}</p>
+                  <Link href={service.href} className="text-accent hover:text-accent-dark font-medium inline-flex items-center">
+                    Learn More
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Areas Served */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+              GREENVILLE AREAS WE SERVE
+            </h2>
+            <p className="text-muted text-lg mb-8">
+              We provide stump grinding, brush hogging, and land clearing services throughout Greenville County, including:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+              {neighborhoods.map((area) => (
+                <div key={area} className="flex items-center text-muted">
+                  <svg className="w-5 h-5 text-accent mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  {area}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="py-16 bg-primary">
+          <div className="max-w-4xl mx-auto px-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+              NEED STUMP GRINDING IN GREENVILLE?
+            </h2>
+            <p className="text-gray-300 text-lg mb-8">
+              Contact Nelson Land & Stump today for a free, no-obligation quote on stump grinding,
+              brush hogging, or land clearing services in Greenville, SC and surrounding areas.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/#contact"
+                className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
+              >
+                Request a Quote
+              </Link>
+              <a
+                href="tel:8647609203"
+                className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
+              >
+                Call (864) 760-9203
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}
