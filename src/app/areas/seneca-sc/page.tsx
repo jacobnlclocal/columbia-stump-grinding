@@ -5,31 +5,31 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Anderson SC | Nelson Land & Stump',
-  description: 'Professional stump grinding, brush hogging, and land clearing services in Anderson, SC. Serving Anderson County including Pendleton, Belton, Williamston & Honea Path. Free estimates. Call (864) 760-9203.',
-  keywords: 'stump grinding Anderson SC, land clearing Anderson County, brush hogging Anderson SC, stump removal Anderson, land clearing near Anderson',
+  title: 'Stump Grinding & Land Clearing in Seneca SC | Nelson Land & Stump',
+  description: 'Professional stump grinding, brush hogging, and land clearing services in Seneca, SC. Serving Lake Keowee, Oconee County & surrounding areas. Free estimates. Call (864) 760-9203.',
+  keywords: 'stump grinding Seneca SC, land clearing Lake Keowee, brush hogging Oconee County, stump removal Seneca, lakefront land clearing',
 };
 
-export default function AndersonPage() {
+export default function SenecaPage() {
   const neighborhoods = [
-    'Anderson', 'Pendleton', 'Belton', 'Williamston', 'Honea Path',
-    'Iva', 'Starr', 'Pelzer', 'Piedmont', 'Sandy Springs',
+    'Seneca', 'Lake Keowee', 'Walhalla', 'Westminster', 'West Union',
+    'Salem', 'Fair Play', 'Townville', 'Long Creek', 'Mountain Rest',
   ];
 
   const services = [
     {
       name: 'Stump Grinding',
-      description: 'Professional stump removal for Anderson homeowners. We grind stumps below ground level for a clean finish.',
+      description: 'Professional stump removal for Seneca and Lake Keowee properties. Perfect for lakefront homes and vacation properties.',
       href: '/services/stump-grinding',
     },
     {
       name: 'Brush Hogging',
-      description: 'Clear overgrown pastures, fields, and fence lines throughout Anderson County.',
+      description: 'Clear overgrown lakefront land, access roads, and wooded lots throughout the Seneca area.',
       href: '/services/brush-hogging',
     },
     {
       name: 'Land Clearing',
-      description: 'Prepare your Anderson property for building, farming, or landscaping projects.',
+      description: 'Full site preparation for new construction around Lake Keowee and Oconee County.',
       href: '/services/land-clearing',
     },
   ];
@@ -45,16 +45,16 @@ export default function AndersonPage() {
               items={[
                 { label: 'Home', href: '/' },
                 { label: 'Service Areas', href: '/#service-areas' },
-                { label: 'Anderson, SC' },
+                { label: 'Seneca, SC' },
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              STUMP GRINDING & LAND CLEARING IN ANDERSON, SC
+              STUMP GRINDING & LAND CLEARING IN SENECA, SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Nelson Land & Stump proudly serves Anderson and all of Anderson County with professional
-              stump grinding, brush hogging, and land clearing services. From residential properties in
-              town to farms and acreage throughout the county, we handle jobs of all sizes.
+              Nelson Land & Stump proudly serves Seneca and the beautiful Lake Keowee area with professional
+              stump grinding, brush hogging, and land clearing services. From lakefront properties to
+              mountain retreats, we help property owners make the most of their land.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -73,57 +73,56 @@ export default function AndersonPage() {
           </div>
         </section>
 
-        {/* About Anderson Service */}
+        {/* About Seneca Service */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-                  ANDERSON COUNTY&apos;S TRUSTED LAND CLEARING SERVICE
+                  LAKE KEOWEE&apos;S TRUSTED LAND CLEARING SERVICE
                 </h2>
                 <p className="text-muted text-lg mb-4">
-                  Anderson County is known for its mix of suburban neighborhoods and rural farmland.
-                  Whether you&apos;re a homeowner in Anderson with a few stumps to remove, or a farmer
-                  in Belton needing acres of overgrown pasture cleared, we have the equipment and
-                  expertise to get the job done right.
+                  Seneca and Lake Keowee have become one of the most desirable areas in Upstate South Carolina.
+                  With stunning waterfront properties and mountain views, homeowners here demand quality service
+                  that respects both their property and the natural beauty of the area.
                 </p>
                 <p className="text-muted text-lg mb-4">
-                  Our brush hogging services are especially popular in Anderson County, where many
-                  property owners have fields and fence lines that need regular maintenance. We help
-                  keep your land accessible and looking great year-round.
+                  We specialize in lakefront land clearing, helping property owners create usable outdoor
+                  spaces while maintaining the scenic character of their lots. Whether you need stumps
+                  removed for a new dock area or brush cleared for lake views, we have the experience
+                  to do it right.
                 </p>
                 <p className="text-muted text-lg">
-                  We&apos;ve worked with Anderson homeowners, farmers, builders, and commercial property
-                  owners. No matter your project, you can count on fair pricing, professional service,
-                  and clean results.
+                  Our team understands the unique challenges of working on sloped lakefront properties
+                  and takes extra care to prevent erosion and protect the shoreline.
                 </p>
               </div>
               <div className="bg-muted-light rounded-lg p-8">
-                <h3 className="font-bold text-primary text-xl mb-4">Popular Anderson Services</h3>
+                <h3 className="font-bold text-primary text-xl mb-4">Seneca Area Specialties</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>Farm & Pasture Clearing:</strong> Reclaim overgrown agricultural land</span>
+                    <span className="text-muted"><strong>Lakefront Clearing:</strong> Create views and usable waterfront space</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>Residential Stump Grinding:</strong> Clean up your yard after tree removal</span>
+                    <span className="text-muted"><strong>Vacation Home Prep:</strong> Get your property ready for building</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>Fence Line Maintenance:</strong> Keep boundaries clear and accessible</span>
+                    <span className="text-muted"><strong>Erosion Control:</strong> Careful clearing on slopes and hillsides</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>New Construction Prep:</strong> Clear lots for home building</span>
+                    <span className="text-muted"><strong>Dock Area Prep:</strong> Clear and level for dock installation</span>
                   </li>
                 </ul>
               </div>
@@ -135,7 +134,7 @@ export default function AndersonPage() {
         <section className="py-16 bg-muted-light">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
-              OUR ANDERSON SERVICES
+              OUR SENECA & LAKE KEOWEE SERVICES
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {services.map((service) => (
@@ -158,10 +157,10 @@ export default function AndersonPage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              ANDERSON COUNTY AREAS WE SERVE
+              SENECA & OCONEE COUNTY AREAS WE SERVE
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide stump grinding, brush hogging, and land clearing services throughout Anderson County, including:
+              We provide stump grinding, brush hogging, and land clearing services throughout Seneca and Oconee County:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {neighborhoods.map((area) => (
@@ -183,20 +182,20 @@ export default function AndersonPage() {
               ALSO SERVING NEARBY AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              In addition to Anderson, we provide services throughout Upstate South Carolina:
+              In addition to Seneca and Lake Keowee, we provide services throughout Upstate South Carolina:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/areas/easley-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Easley</span>
-              </Link>
               <Link href="/areas/clemson-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
                 <span className="font-bold text-primary">Clemson</span>
               </Link>
-              <Link href="/areas/seneca-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Seneca</span>
+              <Link href="/areas/pickens-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Pickens</span>
               </Link>
-              <Link href="/areas/greenville-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Greenville</span>
+              <Link href="/areas/easley-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Easley</span>
+              </Link>
+              <Link href="/areas/anderson-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Anderson</span>
               </Link>
             </div>
           </div>
@@ -206,11 +205,11 @@ export default function AndersonPage() {
         <section className="py-16 bg-primary">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              READY TO CLEAR YOUR ANDERSON PROPERTY?
+              NEED LAND CLEARING IN SENECA OR LAKE KEOWEE?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
               Contact Nelson Land & Stump today for a free quote on stump grinding,
-              brush hogging, or land clearing services in Anderson, SC and surrounding areas.
+              brush hogging, or land clearing services in Seneca, SC and Oconee County.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

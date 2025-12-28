@@ -197,6 +197,29 @@ export default function BrushHoggingPage() {
           </div>
         </section>
 
+        {/* Related Resources */}
+        <section className="py-16 bg-muted-light">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-8 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              BRUSH HOGGING RESOURCES
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Link href="/pricing" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Pricing Guide</h3>
+                <p className="text-muted text-sm">Get an idea of brush hogging costs for your project.</p>
+              </Link>
+              <Link href="/blog/brush-hogging-cost-per-acre-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Cost Per Acre</h3>
+                <p className="text-muted text-sm">Detailed pricing info for Upstate SC properties.</p>
+              </Link>
+              <Link href="/blog/5-signs-you-need-land-clearing" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">5 Signs You Need Clearing</h3>
+                <p className="text-muted text-sm">Know when it&apos;s time to call a professional.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 bg-primary">
           <div className="max-w-4xl mx-auto px-6 text-center">

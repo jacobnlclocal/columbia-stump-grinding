@@ -197,6 +197,29 @@ export default function StumpGrindingPage() {
           </div>
         </section>
 
+        {/* Related Resources */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-8 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              STUMP GRINDING RESOURCES
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Link href="/pricing" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Pricing Guide</h3>
+                <p className="text-muted text-sm">Get an idea of stump grinding costs for your project.</p>
+              </Link>
+              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Cost Breakdown</h3>
+                <p className="text-muted text-sm">Detailed pricing info for Greenville and Upstate SC.</p>
+              </Link>
+              <Link href="/blog/stump-grinding-vs-stump-removal" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Grinding vs Removal</h3>
+                <p className="text-muted text-sm">Learn which option is right for your situation.</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 bg-muted-light">
           <div className="max-w-4xl mx-auto px-6 text-center">

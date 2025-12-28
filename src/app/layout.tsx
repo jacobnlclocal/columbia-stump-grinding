@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: "Professional stump grinding and land clearing services in Upstate South Carolina. Free estimates!",
   },
   alternates: {
-    canonical: "https://nelsonlandservices.com",
+    canonical: "https://nelsonstump.com",
   },
   other: {
     "geo.region": "US-SC",
@@ -45,12 +45,25 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://nelsonlandservices.com/#business",
+  "@id": "https://nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
   description: "Professional stump grinding, brush hogging, and land clearing services serving Upstate South Carolina. Family-owned business with 5+ years experience.",
-  url: "https://nelsonlandservices.com",
+  url: "https://nelsonstump.com",
   telephone: "+1-864-760-9203",
-  email: "info@nelsonlandservices.com",
+  email: "tigernelson@gmail.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "230 Lewis Road",
+    addressLocality: "Williamston",
+    addressRegion: "SC",
+    postalCode: "29697",
+    addressCountry: "US",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 34.6182,
+    longitude: -82.4079,
+  },
   areaServed: [
     { "@type": "County", name: "Greenville County, SC" },
     { "@type": "County", name: "Anderson County, SC" },

@@ -11,8 +11,39 @@ export const metadata: Metadata = {
 };
 
 export default function LandClearingSignsPost() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "5 Signs You Need Professional Land Clearing",
+    "description": "Not sure if you need land clearing services? Here are 5 clear signs it's time to call a professional in Greenville, Anderson, Easley, or Upstate SC.",
+    "datePublished": "2025-01-01",
+    "dateModified": "2025-01-01",
+    "author": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nelsonstump.com/icon.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nelsonstump.com/blog/5-signs-you-need-land-clearing"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
@@ -30,7 +61,7 @@ export default function LandClearingSignsPost() {
               5 Signs You Need Professional Land Clearing
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>December 25, 2024</span>
+              <span>January 1, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>

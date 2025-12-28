@@ -1,11 +1,8 @@
 # Robots.txt for Nelson Land & Stump Services
-# https://nelsonlandservices.com
+# https://nelsonstump.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://nelsonlandservices.com/sitemap.xml
-
-# Crawl delay (optional, be nice to search engines)
-Crawl-delay: 1
+Sitemap: https://nelsonstump.com/sitemap.xml

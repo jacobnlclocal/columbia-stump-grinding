@@ -25,10 +25,12 @@ export default function Footer() {
           <div>
             <h4 className="font-bold uppercase text-sm tracking-wide mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
-              <li><Link href="#work" className="text-gray-400 hover:text-white transition-colors">Gallery</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-white transition-colors">About</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
+              <li><Link href="/services/stump-grinding" className="text-gray-400 hover:text-white transition-colors">Stump Grinding</Link></li>
+              <li><Link href="/services/brush-hogging" className="text-gray-400 hover:text-white transition-colors">Brush Hogging</Link></li>
+              <li><Link href="/services/land-clearing" className="text-gray-400 hover:text-white transition-colors">Land Clearing</Link></li>
+              <li><Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">Pricing</Link></li>
+              <li><Link href="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/#contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
@@ -37,8 +39,9 @@ export default function Footer() {
             <h4 className="font-bold uppercase text-sm tracking-wide mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><a href="tel:8647609203" className="hover:text-white transition-colors">(864) 760-9203</a></li>
-              <li><a href="mailto:info@nelsonlandservices.com" className="hover:text-white transition-colors">info@nelsonlandservices.com</a></li>
-              <li>Upstate South Carolina</li>
+              <li><a href="mailto:tigernelson@gmail.com" className="hover:text-white transition-colors">tigernelson@gmail.com</a></li>
+              <li>230 Lewis Road</li>
+              <li>Williamston, SC 29697</li>
             </ul>
           </div>
         </div>

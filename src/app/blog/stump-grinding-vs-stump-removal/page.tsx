@@ -11,8 +11,39 @@ export const metadata: Metadata = {
 };
 
 export default function StumpGrindingVsRemovalPost() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Stump Grinding vs Stump Removal: Which is Right for You?",
+    "description": "Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Upstate SC property and budget.",
+    "datePublished": "2025-01-01",
+    "dateModified": "2025-01-01",
+    "author": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nelsonstump.com/icon.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nelsonstump.com/blog/stump-grinding-vs-stump-removal"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
@@ -30,7 +61,7 @@ export default function StumpGrindingVsRemovalPost() {
               Stump Grinding vs Stump Removal: Which is Right for You?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>December 26, 2024</span>
+              <span>January 1, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>

@@ -175,6 +175,32 @@ export default function ClemsonPage() {
           </div>
         </section>
 
+        {/* Nearby Areas */}
+        <section className="py-16 bg-muted-light">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+              ALSO SERVING NEARBY AREAS
+            </h2>
+            <p className="text-muted text-lg mb-8">
+              In addition to Clemson, we provide services throughout Upstate South Carolina:
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <Link href="/areas/seneca-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Seneca</span>
+              </Link>
+              <Link href="/areas/pickens-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Pickens</span>
+              </Link>
+              <Link href="/areas/easley-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Easley</span>
+              </Link>
+              <Link href="/areas/anderson-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Anderson</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 bg-primary">
           <div className="max-w-4xl mx-auto px-6 text-center">

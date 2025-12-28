@@ -5,14 +5,45 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Much Does Stump Grinding Cost in Greenville SC? (2024 Prices)',
+  title: 'How Much Does Stump Grinding Cost in Greenville SC? (2025 Prices)',
   description: 'Complete guide to stump grinding costs in Greenville and Upstate SC. Learn what affects pricing, average costs per stump, and how to get the best value. Free estimates available.',
   keywords: 'stump grinding cost Greenville SC, stump removal price, how much stump grinding, stump grinding rates Upstate SC, tree stump removal cost',
 };
 
 export default function StumpGrindingCostPost() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How Much Does Stump Grinding Cost in Greenville SC? (2025 Prices)",
+    "description": "Complete guide to stump grinding costs in Greenville and Upstate SC. Learn what affects pricing, average costs per stump, and how to get the best value.",
+    "datePublished": "2025-01-01",
+    "dateModified": "2025-01-01",
+    "author": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Nelson Land & Stump",
+      "url": "https://nelsonstump.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nelsonstump.com/icon.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nelsonstump.com/blog/how-much-does-stump-grinding-cost-greenville-sc"
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
@@ -30,7 +61,7 @@ export default function StumpGrindingCostPost() {
               How Much Does Stump Grinding Cost in Greenville SC?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>December 27, 2024</span>
+              <span>January 1, 2025</span>
               <span>•</span>
               <span>5 min read</span>
             </div>

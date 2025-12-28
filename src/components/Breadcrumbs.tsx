@@ -17,7 +17,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.label,
-      "item": item.href ? `https://nelsonlandservices.com${item.href}` : undefined,
+      "item": item.href ? `https://nelsonstump.com${item.href}` : undefined,
     })),
   };
 
