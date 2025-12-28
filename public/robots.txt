@@ -1,5 +1,6 @@
 # Robots.txt for Nelson Land & Stump Services
 # https://nelsonstump.com
+# Updated: 2025
 
 User-agent: *
 Allow: /
