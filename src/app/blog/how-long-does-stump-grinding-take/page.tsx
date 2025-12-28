@@ -16,8 +16,8 @@ export default function HowLongStumpGrindingPost() {
     "@type": "Article",
     "headline": "How Long Does Stump Grinding Take?",
     "description": "Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Greenville and Upstate SC projects.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-09-05",
+    "dateModified": "2025-09-05",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function HowLongStumpGrindingPost() {
               How Long Does Stump Grinding Take?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>September 5, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>

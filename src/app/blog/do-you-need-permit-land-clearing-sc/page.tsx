@@ -16,8 +16,8 @@ export default function LandClearingPermitPost() {
     "@type": "Article",
     "headline": "Do You Need a Permit for Land Clearing in South Carolina?",
     "description": "Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Greenville, Anderson, and Upstate SC regulations explained.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-05-27",
+    "dateModified": "2025-05-27",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function LandClearingPermitPost() {
               Do You Need a Permit for Land Clearing in South Carolina?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>May 27, 2025</span>
               <span>•</span>
               <span>5 min read</span>
             </div>

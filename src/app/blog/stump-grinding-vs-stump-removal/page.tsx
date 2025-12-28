@@ -16,8 +16,8 @@ export default function StumpGrindingVsRemovalPost() {
     "@type": "Article",
     "headline": "Stump Grinding vs Stump Removal: Which is Right for You?",
     "description": "Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Upstate SC property and budget.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-02-22",
+    "dateModified": "2025-02-22",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function StumpGrindingVsRemovalPost() {
               Stump Grinding vs Stump Removal: Which is Right for You?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>February 22, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>

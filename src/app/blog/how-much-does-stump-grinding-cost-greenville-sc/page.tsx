@@ -16,8 +16,8 @@ export default function StumpGrindingCostPost() {
     "@type": "Article",
     "headline": "How Much Does Stump Grinding Cost in Greenville SC? (2025 Prices)",
     "description": "Complete guide to stump grinding costs in Greenville and Upstate SC. Learn what affects pricing, average costs per stump, and how to get the best value.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function StumpGrindingCostPost() {
               How Much Does Stump Grinding Cost in Greenville SC?
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>January 15, 2025</span>
               <span>•</span>
               <span>5 min read</span>
             </div>

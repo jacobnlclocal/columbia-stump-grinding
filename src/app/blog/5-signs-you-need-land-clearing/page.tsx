@@ -16,8 +16,8 @@ export default function LandClearingSignsPost() {
     "@type": "Article",
     "headline": "5 Signs You Need Professional Land Clearing",
     "description": "Not sure if you need land clearing services? Here are 5 clear signs it's time to call a professional in Greenville, Anderson, Easley, or Upstate SC.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-03-08",
+    "dateModified": "2025-03-08",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function LandClearingSignsPost() {
               5 Signs You Need Professional Land Clearing
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>March 8, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>

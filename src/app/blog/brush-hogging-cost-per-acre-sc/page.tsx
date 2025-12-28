@@ -16,8 +16,8 @@ export default function BrushHoggingCostPost() {
     "@type": "Article",
     "headline": "Brush Hogging Cost Per Acre in SC (2025 Pricing Guide)",
     "description": "How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Greenville, Anderson, and Upstate SC.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-04-18",
+    "dateModified": "2025-04-18",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function BrushHoggingCostPost() {
               Brush Hogging Cost Per Acre in South Carolina
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>April 18, 2025</span>
               <span>•</span>
               <span>5 min read</span>
             </div>

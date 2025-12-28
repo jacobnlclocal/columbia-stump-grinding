@@ -16,8 +16,8 @@ export default function AfterStumpGrindingPost() {
     "@type": "Article",
     "headline": "What to Do After Stump Grinding: Filling the Hole & Lawn Repair",
     "description": "Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Upstate SC homeowners.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-10-21",
+    "dateModified": "2025-10-21",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function AfterStumpGrindingPost() {
               What to Do After Stump Grinding
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>October 21, 2025</span>
               <span>•</span>
               <span>5 min read</span>
             </div>

@@ -16,8 +16,8 @@ export default function BestTimeStumpGrindingPost() {
     "@type": "Article",
     "headline": "Best Time of Year for Stump Grinding in South Carolina",
     "description": "When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Greenville and Upstate SC.",
-    "datePublished": "2025-01-01",
-    "dateModified": "2025-01-01",
+    "datePublished": "2025-07-12",
+    "dateModified": "2025-07-12",
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
@@ -61,7 +61,7 @@ export default function BestTimeStumpGrindingPost() {
               Best Time of Year for Stump Grinding in South Carolina
             </h1>
             <div className="flex items-center gap-4 text-gray-400 text-sm">
-              <span>January 1, 2025</span>
+              <span>July 12, 2025</span>
               <span>•</span>
               <span>4 min read</span>
             </div>
