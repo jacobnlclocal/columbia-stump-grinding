@@ -25,13 +25,13 @@ export default function Hero() {
             textShadow: '2px 4px 6px rgba(0,0,0,0.3)'
           }}
         >
-          <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
             STUMP & LAND
           </span>
-          <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
             CLEARING
           </span>
-          <span className="block text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
             SERVICES
           </span>
         </h1>
@@ -42,7 +42,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href="#contact"
+            href="/#contact"
             className="inline-block bg-accent hover:bg-accent-dark text-white px-10 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors shadow-lg text-center"
           >
             Get a Free Quote

@@ -95,8 +95,8 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm text-muted uppercase tracking-wide mb-2">Email</p>
-              <a href="mailto:info@nelsonlandservices.com" className="text-lg text-primary hover:text-accent transition-colors">
-                info@nelsonlandservices.com
+              <a href="mailto:tigernelson@gmail.com" className="text-lg text-primary hover:text-accent transition-colors">
+                tigernelson@gmail.com
               </a>
             </div>
 

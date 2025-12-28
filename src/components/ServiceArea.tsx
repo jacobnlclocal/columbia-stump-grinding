@@ -39,7 +39,7 @@ export default function ServiceArea() {
                 We may still be able to help! Contact us for projects outside our standard service area.
               </p>
               <a
-                href="#contact"
+                href="/#contact"
                 className="inline-flex items-center text-accent hover:text-accent-dark font-medium"
               >
                 Contact Us
