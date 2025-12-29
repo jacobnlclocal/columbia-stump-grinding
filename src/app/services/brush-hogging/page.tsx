@@ -12,6 +12,35 @@ export const metadata: Metadata = {
     title: 'Brush Hogging Services | Nelson Land & Stump',
     description: 'Professional brush hogging in Upstate SC. Free estimates!',
   },
+  alternates: {
+    canonical: '/services/brush-hogging',
+  },
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Brush Hogging",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Nelson Land & Stump Services",
+    telephone: "+1-864-760-9203",
+  },
+  areaServed: [
+    { "@type": "City", name: "Anderson, SC" },
+    { "@type": "City", name: "Pickens, SC" },
+    { "@type": "City", name: "Greenville, SC" },
+    { "@type": "City", name: "Easley, SC" },
+    { "@type": "City", name: "Clemson, SC" },
+    { "@type": "City", name: "Seneca, SC" },
+  ],
+  description: "Professional brush hogging and brush clearing services in Upstate South Carolina. Clear overgrown fields, fence lines, trails, and property boundaries.",
+  serviceType: "Brush Hogging",
+  offers: {
+    "@type": "Offer",
+    priceRange: "$150-$500/acre",
+    priceCurrency: "USD",
+  },
 };
 
 export default function BrushHoggingPage() {
@@ -49,6 +78,10 @@ export default function BrushHoggingPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

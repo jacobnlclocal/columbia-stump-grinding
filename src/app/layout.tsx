@@ -15,12 +15,16 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nelsonstump.com'),
   viewport: {
     width: 'device-width',
     initialScale: 1,
     maximumScale: 5,
   },
-  title: "Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump",
+  title: {
+    default: "Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump",
+    template: "%s | Nelson Land & Stump",
+  },
   description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Serving Greenville, Anderson, Pickens & Oconee Counties. Free estimates, fully licensed & insured. Call (864) 760-9203.",
   keywords: "stump grinding Greenville SC, land clearing Upstate SC, brush hogging Anderson SC, stump removal near me, brush clearing Easley, land clearing Clemson SC, stump grinding Pickens County, tree stump removal South Carolina",
   authors: [{ name: "Nelson Land & Stump Services" }],
@@ -31,14 +35,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Nelson Land & Stump Services",
+    url: "https://nelsonstump.com",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Nelson Land & Stump - Professional Stump Grinding & Land Clearing in Upstate SC",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Stump Grinding & Land Clearing in Greenville SC",
     description: "Professional stump grinding and land clearing services in Upstate South Carolina. Free estimates!",
+    images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://nelsonstump.com",
+    canonical: "/",
   },
   other: {
     "geo.region": "US-SC",
@@ -224,7 +238,81 @@ const faqSchema = {
         text: "Yes, Nelson Land & Stump Services is fully licensed and insured. We carry liability insurance to protect your property and our team while working on your land.",
       },
     },
+    {
+      "@type": "Question",
+      name: "Who provides stump grinding near me in Upstate SC?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Nelson Land & Stump Services provides professional stump grinding throughout Upstate South Carolina. We serve Greenville, Anderson, Pickens, and Oconee counties. Call (864) 760-9203 for a free estimate.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you remove the roots when stump grinding?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "With stump grinding, we grind the stump 6-8 inches below ground level, but the roots remain in the soil. The roots will naturally decay over 5-10 years and won't cause any problems. This is less invasive and more affordable than complete root removal.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How soon can you come out for an estimate?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We typically schedule free estimates within 1-2 business days. For urgent requests, we often can accommodate same-day or next-day estimates. Call us at (864) 760-9203 to schedule.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What happens to the wood chips after stump grinding?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "After grinding, the wood chips can be left on-site for you to use as mulch, or we can rake them into the hole to help fill it. For an additional fee, we can also haul the chips away if you prefer a completely clean site.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can you grind stumps in tight spaces or backyards?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we have equipment that can access most backyard stumps. We can fit through standard fence gates (36 inches or wider). For very tight spaces, we assess accessibility during our free estimate and discuss options.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does land clearing cost per acre in SC?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Land clearing costs in South Carolina typically range from $1,500 to $3,000+ per acre for light clearing, and $3,000 to $6,000+ per acre for heavy clearing with large trees. The exact cost depends on terrain, tree density, and debris removal needs. We provide free on-site estimates.",
+      },
+    },
   ],
+};
+
+// Organization Schema
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Nelson Land & Stump Services",
+  url: "https://nelsonstump.com",
+  logo: "https://nelsonstump.com/icon.png",
+  description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "230 Lewis Road",
+    addressLocality: "Williamston",
+    addressRegion: "SC",
+    postalCode: "29697",
+    addressCountry: "US",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+1-864-760-9203",
+    contactType: "customer service",
+    areaServed: "US-SC",
+    availableLanguage: "English",
+  },
+  sameAs: [],
 };
 
 export default function RootLayout({
@@ -246,6 +334,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body

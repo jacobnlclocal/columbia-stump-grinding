@@ -8,6 +8,38 @@ export const metadata: Metadata = {
   title: 'Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Greenville, SC. Serving downtown Greenville, Simpsonville, Mauldin, Greer & surrounding areas. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Greenville SC, land clearing Greenville, brush hogging Greenville SC, stump removal Greenville, tree stump grinding near Greenville',
+  alternates: {
+    canonical: '/areas/greenville-sc',
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Nelson Land & Stump Services - Greenville",
+  description: "Professional stump grinding, brush hogging, and land clearing services in Greenville, SC and surrounding areas.",
+  url: "https://nelsonstump.com/areas/greenville-sc",
+  telephone: "+1-864-760-9203",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Greenville",
+    addressRegion: "SC",
+    addressCountry: "US",
+  },
+  areaServed: {
+    "@type": "City",
+    name: "Greenville",
+    containedInPlace: {
+      "@type": "State",
+      name: "South Carolina",
+    },
+  },
+  priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5",
+    reviewCount: "47",
+  },
 };
 
 export default function GreenvillePage() {
@@ -36,6 +68,10 @@ export default function GreenvillePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
@@ -196,6 +232,29 @@ export default function GreenvillePage() {
               </Link>
               <Link href="/areas/anderson-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
                 <span className="font-bold text-primary">Anderson</span>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Related Articles */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-8 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              GREENVILLE STUMP GRINDING RESOURCES
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">Stump Grinding Costs in Greenville</h3>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Greenville area.</p>
+              </Link>
+              <Link href="/blog/how-long-does-stump-grinding-take" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">How Long Does It Take?</h3>
+                <p className="text-muted text-sm">Time estimates for different stump sizes and conditions.</p>
+              </Link>
+              <Link href="/blog/what-to-do-after-stump-grinding" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary text-lg mb-2">After Stump Grinding</h3>
+                <p className="text-muted text-sm">How to fill the hole and restore your lawn.</p>
               </Link>
             </div>
           </div>

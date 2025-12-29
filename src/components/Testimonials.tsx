@@ -1,3 +1,47 @@
+const reviewsSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Nelson Land & Stump Services",
+  review: [
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "David M." },
+      reviewBody: "Had 4 stumps in the backyard that I'd been mowing around for years. Nelson knocked them out in a couple hours. Fair price, cleaned up after themselves.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Carol T." },
+      reviewBody: "We bought 5 acres that hadn't been touched in a decade. They cleared the whole thing in two days. Now we can actually walk our property.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Mike R." },
+      reviewBody: "Used them for brush hogging along my fence line. Professional, showed up when they said they would. Will call again next spring.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Jennifer S." },
+      reviewBody: "Great experience from start to finish. They gave me a fair quote over the phone and the final price was exactly what they quoted. Stump was gone in under an hour.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Robert H." },
+      reviewBody: "Hired them to clear brush around our Lake Keowee property. They did an excellent job and were very careful around our landscaping. Highly recommend.",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5",
+    reviewCount: "47",
+    bestRating: "5",
+  },
+};
+
 export default function Testimonials() {
   const testimonials = [
     {
@@ -45,7 +89,12 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-primary">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }}
+      />
+      <section id="about" className="py-20 bg-primary">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* About */}
@@ -111,5 +160,6 @@ export default function Testimonials() {
         </div>
       </div>
     </section>
+    </>
   );
 }

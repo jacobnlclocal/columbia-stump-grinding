@@ -12,6 +12,35 @@ export const metadata: Metadata = {
     title: 'Land Clearing Services | Nelson Land & Stump',
     description: 'Professional land clearing in Upstate SC. Free estimates!',
   },
+  alternates: {
+    canonical: '/services/land-clearing',
+  },
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Land Clearing",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Nelson Land & Stump Services",
+    telephone: "+1-864-760-9203",
+  },
+  areaServed: [
+    { "@type": "City", name: "Clemson, SC" },
+    { "@type": "City", name: "Seneca, SC" },
+    { "@type": "City", name: "Anderson, SC" },
+    { "@type": "City", name: "Greenville, SC" },
+    { "@type": "City", name: "Easley, SC" },
+    { "@type": "City", name: "Pickens, SC" },
+  ],
+  description: "Professional land clearing services in Upstate South Carolina. Full lot clearing for new construction, driveways, and property development.",
+  serviceType: "Land Clearing",
+  offers: {
+    "@type": "Offer",
+    priceRange: "$1500-$6000/acre",
+    priceCurrency: "USD",
+  },
 };
 
 export default function LandClearingPage() {
@@ -72,6 +101,10 @@ export default function LandClearingPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

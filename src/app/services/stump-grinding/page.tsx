@@ -12,6 +12,44 @@ export const metadata: Metadata = {
     title: 'Stump Grinding Services | Nelson Land & Stump',
     description: 'Professional stump grinding in Upstate SC. Free estimates!',
   },
+  alternates: {
+    canonical: '/services/stump-grinding',
+  },
+};
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Stump Grinding",
+  provider: {
+    "@type": "LocalBusiness",
+    name: "Nelson Land & Stump Services",
+    telephone: "+1-864-760-9203",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "230 Lewis Road",
+      addressLocality: "Williamston",
+      addressRegion: "SC",
+      postalCode: "29697",
+    },
+  },
+  areaServed: [
+    { "@type": "City", name: "Greenville, SC" },
+    { "@type": "City", name: "Anderson, SC" },
+    { "@type": "City", name: "Easley, SC" },
+    { "@type": "City", name: "Clemson, SC" },
+    { "@type": "City", name: "Seneca, SC" },
+    { "@type": "City", name: "Simpsonville, SC" },
+    { "@type": "City", name: "Greer, SC" },
+    { "@type": "City", name: "Mauldin, SC" },
+  ],
+  description: "Professional stump grinding services in Upstate South Carolina. We grind stumps 6-8 inches below ground level for complete removal. Fast, affordable, and fully insured.",
+  serviceType: "Stump Grinding",
+  offers: {
+    "@type": "Offer",
+    priceRange: "$75-$400",
+    priceCurrency: "USD",
+  },
 };
 
 export default function StumpGrindingPage() {
@@ -41,6 +79,10 @@ export default function StumpGrindingPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
