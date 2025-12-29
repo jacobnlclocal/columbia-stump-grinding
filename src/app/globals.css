@@ -48,10 +48,11 @@ html {
     overflow-x: hidden;
   }
 
-  /* Better tap targets */
-  a, button {
+  /* Better tap targets for buttons and CTA links only */
+  button,
+  a[class*="bg-"],
+  a[class*="border-"] {
     min-height: 44px;
-    min-width: 44px;
   }
 }
 
