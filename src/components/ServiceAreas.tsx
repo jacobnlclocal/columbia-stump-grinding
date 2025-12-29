@@ -3,14 +3,34 @@ import Link from 'next/link';
 export default function ServiceAreas() {
   // Cities with dedicated area pages
   const areaPages: Record<string, string> = {
+    // Greenville County
     'Greenville': '/areas/greenville-sc',
-    'Anderson': '/areas/anderson-sc',
-    'Easley': '/areas/easley-sc',
-    'Clemson': '/areas/clemson-sc',
-    'Seneca': '/areas/seneca-sc',
-    'Pickens': '/areas/pickens-sc',
     'Simpsonville': '/areas/simpsonville-sc',
     'Greer': '/areas/greer-sc',
+    'Mauldin': '/areas/mauldin-sc',
+    'Travelers Rest': '/areas/travelers-rest-sc',
+    'Fountain Inn': '/areas/fountain-inn-sc',
+    // Anderson County
+    'Anderson': '/areas/anderson-sc',
+    'Pendleton': '/areas/pendleton-sc',
+    'Williamston': '/areas/williamston-sc',
+    'Belton': '/areas/belton-sc',
+    'Honea Path': '/areas/honea-path-sc',
+    'Iva': '/areas/iva-sc',
+    // Pickens County
+    'Easley': '/areas/easley-sc',
+    'Clemson': '/areas/clemson-sc',
+    'Pickens': '/areas/pickens-sc',
+    'Liberty': '/areas/liberty-sc',
+    'Central': '/areas/central-sc',
+    'Norris': '/areas/norris-sc',
+    // Oconee County
+    'Seneca': '/areas/seneca-sc',
+    'Walhalla': '/areas/walhalla-sc',
+    'Westminster': '/areas/westminster-sc',
+    'Salem': '/areas/salem-sc',
+    'West Union': '/areas/west-union-sc',
+    'Fair Play': '/areas/fair-play-sc',
   };
 
   const counties = [
