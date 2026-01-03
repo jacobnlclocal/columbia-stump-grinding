@@ -65,19 +65,19 @@ export const cities: CityData[] = [
     slug: 'greenville-sc',
     name: 'Greenville',
     county: 'Greenville County',
-    neighborhoods: ['Downtown Greenville', 'Simpsonville', 'Mauldin', 'Greer', 'Travelers Rest', 'Fountain Inn', 'Five Forks', 'Woodruff', 'Taylors', 'Berea'],
+    neighborhoods: ['Downtown Greenville', 'West End', 'North Main', 'Augusta Road', 'Alta Vista', 'Overbrook', 'Pleasantburg', 'Verdae', 'Sans Souci', 'Cleveland Park', 'Taylors', 'Berea', 'Wade Hampton', 'Eastside', 'Woodruff Road'],
     nearbyAreas: [
       { name: 'Simpsonville', slug: 'simpsonville-sc' },
       { name: 'Greer', slug: 'greer-sc' },
       { name: 'Easley', slug: 'easley-sc' },
-      { name: 'Anderson', slug: 'anderson-sc' },
+      { name: 'Mauldin', slug: 'mauldin-sc' },
     ],
   },
   {
     slug: 'simpsonville-sc',
     name: 'Simpsonville',
     county: 'Greenville County',
-    neighborhoods: ['Five Forks', 'Fairview Road', 'Woodruff Road', 'Standing Springs', 'Harrison Bridge'],
+    neighborhoods: ['Five Forks', 'Five Forks Plantation', 'River Walk', 'Kilgore Farms', 'Windsor Forest', 'Cobblestone', 'Asheton Lakes', 'Heritage Lakes', 'Holly Tree Plantation', 'Fairview Road', 'Standing Springs', 'Harrison Bridge'],
     nearbyAreas: [
       { name: 'Greenville', slug: 'greenville-sc' },
       { name: 'Mauldin', slug: 'mauldin-sc' },
@@ -89,7 +89,7 @@ export const cities: CityData[] = [
     slug: 'greer-sc',
     name: 'Greer',
     county: 'Greenville County',
-    neighborhoods: ['Downtown Greer', 'Riverside', 'Lake Robinson', 'Tyger River', 'Blue Ridge'],
+    neighborhoods: ['Downtown Greer', 'Silverleaf', 'Sugar Creek', 'Sugar Mill', 'Pelham Falls', 'Lake Robinson', 'Riverside', 'Tyger River', 'Blue Ridge', 'Silver Ridge Farms', 'Brushy Meadows'],
     nearbyAreas: [
       { name: 'Greenville', slug: 'greenville-sc' },
       { name: 'Simpsonville', slug: 'simpsonville-sc' },
@@ -101,7 +101,7 @@ export const cities: CityData[] = [
     slug: 'mauldin-sc',
     name: 'Mauldin',
     county: 'Greenville County',
-    neighborhoods: ['Downtown Mauldin', 'Bridgeway Station', 'Butler Road', 'Forrester Drive'],
+    neighborhoods: ['Downtown Mauldin', 'Bridgeway Station', 'Butler Road', 'Planters Row', 'Montclaire', 'Crescentwood Village', 'Holly Springs', 'Brookside', 'Eastdale', 'Greenbrier'],
     nearbyAreas: [
       { name: 'Greenville', slug: 'greenville-sc' },
       { name: 'Simpsonville', slug: 'simpsonville-sc' },
@@ -113,7 +113,7 @@ export const cities: CityData[] = [
     slug: 'travelers-rest-sc',
     name: 'Travelers Rest',
     county: 'Greenville County',
-    neighborhoods: ['Downtown TR', 'Swamp Rabbit Trail', 'Tigerville', 'Marietta'],
+    neighborhoods: ['Downtown Travelers Rest', 'Swamp Rabbit Trail Area', 'Tigerville', 'Marietta', 'North Greenville', 'Paris Mountain', 'Table Rock'],
     nearbyAreas: [
       { name: 'Greenville', slug: 'greenville-sc' },
       { name: 'Greer', slug: 'greer-sc' },
@@ -125,7 +125,7 @@ export const cities: CityData[] = [
     slug: 'fountain-inn-sc',
     name: 'Fountain Inn',
     county: 'Greenville County',
-    neighborhoods: ['Downtown Fountain Inn', 'Woodside', 'Fairview Church Road'],
+    neighborhoods: ['Downtown Fountain Inn', 'Woodside', 'Fairview Church Road', 'Laurel Creek', 'Gray Fox Run', 'Fork Shoals'],
     nearbyAreas: [
       { name: 'Simpsonville', slug: 'simpsonville-sc' },
       { name: 'Mauldin', slug: 'mauldin-sc' },
@@ -138,7 +138,7 @@ export const cities: CityData[] = [
     slug: 'anderson-sc',
     name: 'Anderson',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Anderson', 'North Anderson', 'South Anderson', 'Boulevard', 'Homeland Park'],
+    neighborhoods: ['Downtown Anderson', 'Northlake', 'Ashley Downs', 'Homeland Park', 'West Anderson', 'Centerville', 'Boulevard', 'North Anderson', 'South Anderson', 'Lake Hartwell Area', 'Anderson Mall Area'],
     nearbyAreas: [
       { name: 'Pendleton', slug: 'pendleton-sc' },
       { name: 'Clemson', slug: 'clemson-sc' },
@@ -150,7 +150,7 @@ export const cities: CityData[] = [
     slug: 'pendleton-sc',
     name: 'Pendleton',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Pendleton', 'Cherry Street', 'Clemson Boulevard'],
+    neighborhoods: ['Downtown Pendleton', 'Historic District', 'Clemson Boulevard', 'Cherry Street', 'Pendleton Place', 'Town Square Area'],
     nearbyAreas: [
       { name: 'Anderson', slug: 'anderson-sc' },
       { name: 'Clemson', slug: 'clemson-sc' },
@@ -162,7 +162,7 @@ export const cities: CityData[] = [
     slug: 'williamston-sc',
     name: 'Williamston',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Williamston', 'West Main', 'Mill Street'],
+    neighborhoods: ['Downtown Williamston', 'West Main', 'Mill Street', 'Pelzer Highway', 'Anderson Road Area', 'Mineral Spring Park'],
     nearbyAreas: [
       { name: 'Anderson', slug: 'anderson-sc' },
       { name: 'Belton', slug: 'belton-sc' },
@@ -174,7 +174,7 @@ export const cities: CityData[] = [
     slug: 'belton-sc',
     name: 'Belton',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Belton', 'Anderson Highway', 'Brown Avenue'],
+    neighborhoods: ['Downtown Belton', 'Anderson Highway', 'Brown Avenue', 'Belton City Park Area', 'Calhoun Road', 'Honea Path Highway'],
     nearbyAreas: [
       { name: 'Anderson', slug: 'anderson-sc' },
       { name: 'Williamston', slug: 'williamston-sc' },
@@ -186,7 +186,7 @@ export const cities: CityData[] = [
     slug: 'honea-path-sc',
     name: 'Honea Path',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Honea Path', 'Main Street', 'Shirley Street'],
+    neighborhoods: ['Downtown Honea Path', 'Main Street', 'Shirley Street', 'Chiquola Mill Area', 'Donalds Highway'],
     nearbyAreas: [
       { name: 'Belton', slug: 'belton-sc' },
       { name: 'Anderson', slug: 'anderson-sc' },
@@ -198,7 +198,7 @@ export const cities: CityData[] = [
     slug: 'iva-sc',
     name: 'Iva',
     county: 'Anderson County',
-    neighborhoods: ['Downtown Iva', 'Front Street', 'Railroad Avenue'],
+    neighborhoods: ['Downtown Iva', 'Front Street', 'Railroad Avenue', 'Starr Highway', 'Lake Secession Area'],
     nearbyAreas: [
       { name: 'Anderson', slug: 'anderson-sc' },
       { name: 'Honea Path', slug: 'honea-path-sc' },
@@ -211,7 +211,7 @@ export const cities: CityData[] = [
     slug: 'easley-sc',
     name: 'Easley',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Easley', 'Powdersville', 'Dacusville', 'Saluda Dam', 'Cateechee'],
+    neighborhoods: ['Downtown Easley', 'Powdersville', 'Dacusville', 'Saluda Dam', 'Cateechee', 'Glenwood', 'Arial', 'Doodle Trail Area', 'McKissick', 'Brushy Creek'],
     nearbyAreas: [
       { name: 'Greenville', slug: 'greenville-sc' },
       { name: 'Pickens', slug: 'pickens-sc' },
@@ -223,7 +223,7 @@ export const cities: CityData[] = [
     slug: 'pickens-sc',
     name: 'Pickens',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Pickens', 'Cedar Rock', 'Glassy Mountain'],
+    neighborhoods: ['Downtown Pickens', 'Cedar Rock', 'Glassy Mountain', 'Doodle Trail Area', 'Table Rock', 'Pumpkintown', 'Rocky Bottom', 'Hagood'],
     nearbyAreas: [
       { name: 'Easley', slug: 'easley-sc' },
       { name: 'Liberty', slug: 'liberty-sc' },
@@ -235,7 +235,7 @@ export const cities: CityData[] = [
     slug: 'clemson-sc',
     name: 'Clemson',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Clemson', 'Patrick Square', 'Issaqueena Trail', 'Central-Clemson'],
+    neighborhoods: ['Downtown Clemson', 'Patrick Square', 'Issaqueena Trail', 'Central-Clemson', 'Tiger Boulevard', 'Clemson University Area', 'Lake Hartwell Shore', 'Calhoun'],
     nearbyAreas: [
       { name: 'Pendleton', slug: 'pendleton-sc' },
       { name: 'Central', slug: 'central-sc' },
@@ -247,7 +247,7 @@ export const cities: CityData[] = [
     slug: 'liberty-sc',
     name: 'Liberty',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Liberty', 'Main Street', 'Depot Street'],
+    neighborhoods: ['Downtown Liberty', 'Main Street', 'Depot Street', 'East Main', 'West Main', 'Stewart Gin Road'],
     nearbyAreas: [
       { name: 'Easley', slug: 'easley-sc' },
       { name: 'Pickens', slug: 'pickens-sc' },
@@ -259,7 +259,7 @@ export const cities: CityData[] = [
     slug: 'central-sc',
     name: 'Central',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Central', 'Church Street', 'Main Street'],
+    neighborhoods: ['Downtown Central', 'Church Street', 'Main Street', 'Southern Wesleyan Area', 'Clemson Boulevard', 'Six Mile'],
     nearbyAreas: [
       { name: 'Clemson', slug: 'clemson-sc' },
       { name: 'Pickens', slug: 'pickens-sc' },
@@ -271,7 +271,7 @@ export const cities: CityData[] = [
     slug: 'norris-sc',
     name: 'Norris',
     county: 'Pickens County',
-    neighborhoods: ['Downtown Norris', 'Cedar Lane', 'Mill Street'],
+    neighborhoods: ['Downtown Norris', 'Cedar Lane', 'Mill Street', 'Twelve Mile', 'Cateechee'],
     nearbyAreas: [
       { name: 'Liberty', slug: 'liberty-sc' },
       { name: 'Pickens', slug: 'pickens-sc' },
@@ -284,7 +284,7 @@ export const cities: CityData[] = [
     slug: 'seneca-sc',
     name: 'Seneca',
     county: 'Oconee County',
-    neighborhoods: ['Downtown Seneca', 'Shiloh', 'Newry', 'Lake Keowee', 'Keowee Key'],
+    neighborhoods: ['Downtown Seneca', 'Lake Keowee', 'Keowee Key', 'Keowee Subdivision', 'Waterside Crossing', 'Richland', 'Shiloh', 'Newry', 'Southwind Bay', 'Crestview', 'Hidden Harbor'],
     nearbyAreas: [
       { name: 'Clemson', slug: 'clemson-sc' },
       { name: 'Walhalla', slug: 'walhalla-sc' },
@@ -296,7 +296,7 @@ export const cities: CityData[] = [
     slug: 'walhalla-sc',
     name: 'Walhalla',
     county: 'Oconee County',
-    neighborhoods: ['Downtown Walhalla', 'Main Street', 'College Street', 'Stumphouse'],
+    neighborhoods: ['Downtown Walhalla', 'Main Street', 'College Street', 'Stumphouse', 'Oconee Station', 'Blue Ridge Railroad', 'Mountain Rest'],
     nearbyAreas: [
       { name: 'Seneca', slug: 'seneca-sc' },
       { name: 'Westminster', slug: 'westminster-sc' },
@@ -308,7 +308,7 @@ export const cities: CityData[] = [
     slug: 'westminster-sc',
     name: 'Westminster',
     county: 'Oconee County',
-    neighborhoods: ['Downtown Westminster', 'East Main', 'West Main'],
+    neighborhoods: ['Downtown Westminster', 'East Main', 'West Main', 'Long Creek', 'Oakway', 'Chau Ram Falls Area'],
     nearbyAreas: [
       { name: 'Seneca', slug: 'seneca-sc' },
       { name: 'Walhalla', slug: 'walhalla-sc' },
@@ -320,7 +320,7 @@ export const cities: CityData[] = [
     slug: 'salem-sc',
     name: 'Salem',
     county: 'Oconee County',
-    neighborhoods: ['Downtown Salem', 'Lake Jocassee', 'Keowee-Toxaway'],
+    neighborhoods: ['Downtown Salem', 'Lake Jocassee', 'Keowee-Toxaway', 'Devils Fork State Park Area', 'Jocassee Gorges', 'Whitewater Falls Area'],
     nearbyAreas: [
       { name: 'Walhalla', slug: 'walhalla-sc' },
       { name: 'Seneca', slug: 'seneca-sc' },
@@ -332,7 +332,7 @@ export const cities: CityData[] = [
     slug: 'west-union-sc',
     name: 'West Union',
     county: 'Oconee County',
-    neighborhoods: ['Downtown West Union', 'Main Street'],
+    neighborhoods: ['Downtown West Union', 'Main Street', 'Oconee County Airport Area', 'Richland Road'],
     nearbyAreas: [
       { name: 'Walhalla', slug: 'walhalla-sc' },
       { name: 'Seneca', slug: 'seneca-sc' },
@@ -344,7 +344,7 @@ export const cities: CityData[] = [
     slug: 'fair-play-sc',
     name: 'Fair Play',
     county: 'Oconee County',
-    neighborhoods: ['Downtown Fair Play', 'Lake Hartwell', 'Tugaloo'],
+    neighborhoods: ['Downtown Fair Play', 'Lake Hartwell', 'Tugaloo', 'South Union', 'Townville', 'Portman Shoals'],
     nearbyAreas: [
       { name: 'Westminster', slug: 'westminster-sc' },
       { name: 'Seneca', slug: 'seneca-sc' },

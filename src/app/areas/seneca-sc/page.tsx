@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function SenecaPage() {
   const neighborhoods = [
-    'Seneca', 'Lake Keowee', 'Walhalla', 'Westminster', 'West Union',
-    'Salem', 'Fair Play', 'Townville', 'Long Creek', 'Mountain Rest',
+    'Downtown Seneca', 'Lake Keowee', 'Keowee Key', 'Keowee Subdivision', 'Waterside Crossing', 'Richland', 'Shiloh', 'Newry', 'Southwind Bay',
   ];
 
   const services = [

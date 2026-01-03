@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function PickensPage() {
   const neighborhoods = [
-    'Pickens', 'Liberty', 'Norris', 'Six Mile', 'Dacusville',
-    'Central', 'Sunset', 'Rocky Bottom', 'Table Rock', 'Pumpkintown',
+    'Downtown Pickens', 'Cedar Rock', 'Glassy Mountain', 'Doodle Trail Area', 'Table Rock', 'Pumpkintown', 'Rocky Bottom', 'Hagood',
   ];
 
   const services = [

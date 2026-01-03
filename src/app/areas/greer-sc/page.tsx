@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function GreerPage() {
   const neighborhoods = [
-    'Greer', 'Taylors', 'Blue Ridge', 'Lyman', 'Wellford',
-    'Duncan', 'Reidville', 'Lake Robinson', 'Suber Mill', 'Victor',
+    'Downtown Greer', 'Silverleaf', 'Sugar Creek', 'Sugar Mill', 'Pelham Falls', 'Lake Robinson', 'Riverside', 'Tyger River', 'Blue Ridge', 'Silver Ridge Farms',
   ];
 
   const services = [

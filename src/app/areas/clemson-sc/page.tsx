@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function ClemsonPage() {
   const neighborhoods = [
-    'Clemson', 'Seneca', 'Central', 'Pendleton', 'Walhalla',
-    'Westminster', 'West Union', 'Salem', 'Fair Play', 'Six Mile',
+    'Downtown Clemson', 'Patrick Square', 'Issaqueena Trail', 'Tiger Boulevard', 'Clemson University Area', 'Lake Hartwell Shore', 'Calhoun',
   ];
 
   const services = [

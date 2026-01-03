@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function EasleyPage() {
   const neighborhoods = [
-    'Easley', 'Pickens', 'Liberty', 'Central', 'Norris',
-    'Six Mile', 'Dacusville', 'Powdersville', 'Cateechee', 'Arial',
+    'Downtown Easley', 'Powdersville', 'Dacusville', 'Saluda Dam', 'Cateechee', 'Glenwood', 'Arial', 'Doodle Trail Area', 'McKissick', 'Brushy Creek',
   ];
 
   const services = [

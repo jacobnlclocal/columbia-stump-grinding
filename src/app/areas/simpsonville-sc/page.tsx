@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function SimplsonvillePage() {
   const neighborhoods = [
-    'Simpsonville', 'Five Forks', 'Mauldin', 'Fountain Inn', 'Woodruff',
-    'Fork Shoals', 'Pelham', 'Golden Strip', 'Fairview', 'Neely Ferry',
+    'Five Forks', 'Five Forks Plantation', 'River Walk', 'Kilgore Farms', 'Windsor Forest', 'Cobblestone', 'Asheton Lakes', 'Heritage Lakes', 'Holly Tree Plantation', 'Standing Springs',
   ];
 
   const services = [

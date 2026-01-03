@@ -12,8 +12,7 @@ export const metadata: Metadata = {
 
 export default function AndersonPage() {
   const neighborhoods = [
-    'Anderson', 'Pendleton', 'Belton', 'Williamston', 'Honea Path',
-    'Iva', 'Starr', 'Pelzer', 'Piedmont', 'Sandy Springs',
+    'Downtown Anderson', 'Northlake', 'Ashley Downs', 'Homeland Park', 'West Anderson', 'Centerville', 'Boulevard', 'Lake Hartwell Area', 'Anderson Mall Area',
   ];
 
   const services = [

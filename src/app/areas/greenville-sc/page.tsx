@@ -44,8 +44,7 @@ const localBusinessSchema = {
 
 export default function GreenvillePage() {
   const neighborhoods = [
-    'Downtown Greenville', 'Simpsonville', 'Mauldin', 'Greer', 'Travelers Rest',
-    'Fountain Inn', 'Five Forks', 'Woodruff', 'Taylors', 'Berea',
+    'Downtown Greenville', 'West End', 'North Main', 'Augusta Road', 'Alta Vista', 'Overbrook', 'Pleasantburg', 'Verdae', 'Sans Souci', 'Cleveland Park', 'Taylors', 'Berea',
   ];
 
   const services = [
