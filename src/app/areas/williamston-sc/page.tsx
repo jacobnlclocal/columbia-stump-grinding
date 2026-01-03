@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function WilliamstonPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Fast, reliable stump removal for Williamston homeowners.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lots and rural properties.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for residential and commercial projects.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Fast, reliable stump removal for Williamston homeowners.', href: '/areas/williamston-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lots and rural properties.', href: '/areas/williamston-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for residential and commercial projects.', href: '/areas/williamston-sc/land-clearing' },
   ];
 
   return (

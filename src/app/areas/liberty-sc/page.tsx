@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function LibertyPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Liberty properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown fields and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for homes and farms.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Liberty properties.', href: '/areas/liberty-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown fields and rural land.', href: '/areas/liberty-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for homes and farms.', href: '/areas/liberty-sc/land-clearing' },
   ];
 
   return (

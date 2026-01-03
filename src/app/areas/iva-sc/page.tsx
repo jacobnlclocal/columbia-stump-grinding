@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function IvaPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Iva properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation near Lake Hartwell.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Iva properties.', href: '/areas/iva-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and rural land.', href: '/areas/iva-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation near Lake Hartwell.', href: '/areas/iva-sc/land-clearing' },
   ];
 
   return (

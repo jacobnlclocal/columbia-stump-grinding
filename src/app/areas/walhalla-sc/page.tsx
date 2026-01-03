@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function WalhallaPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Walhalla properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown mountain properties and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation in the Blue Ridge foothills.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Walhalla properties.', href: '/areas/walhalla-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown mountain properties and rural land.', href: '/areas/walhalla-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation in the Blue Ridge foothills.', href: '/areas/walhalla-sc/land-clearing' },
   ];
 
   return (

@@ -20,17 +20,17 @@ export default function ClemsonPage() {
     {
       name: 'Stump Grinding',
       description: 'Professional stump removal for Clemson area homeowners and landlords. Quick turnaround for rental properties.',
-      href: '/services/stump-grinding',
+      href: '/areas/clemson-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown land throughout the Clemson and Seneca areas. Perfect for lakefront properties.',
-      href: '/services/brush-hogging',
+      href: '/areas/clemson-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Site preparation for new construction in the growing Clemson/Lake Keowee corridor.',
-      href: '/services/land-clearing',
+      href: '/areas/clemson-sc/land-clearing',
     },
   ];
 

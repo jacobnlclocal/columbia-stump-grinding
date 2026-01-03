@@ -20,17 +20,17 @@ export default function GreerPage() {
     {
       name: 'Stump Grinding',
       description: 'Professional stump removal for Greer and Taylors homeowners. Fast, affordable service for residential and commercial properties.',
-      href: '/services/stump-grinding',
+      href: '/areas/greer-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown fields, pastures, and fence lines throughout the Greer area. Perfect for horse properties and rural land.',
-      href: '/services/brush-hogging',
+      href: '/areas/greer-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Complete site preparation for new construction in the fast-growing Greer corridor.',
-      href: '/services/land-clearing',
+      href: '/areas/greer-sc/land-clearing',
     },
   ];
 

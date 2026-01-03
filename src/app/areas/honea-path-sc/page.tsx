@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function HoneaPathPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Honea Path properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown pastures and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for farms and homes.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Honea Path properties.', href: '/areas/honea-path-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown pastures and rural land.', href: '/areas/honea-path-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for farms and homes.', href: '/areas/honea-path-sc/land-clearing' },
   ];
 
   return (

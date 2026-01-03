@@ -31,6 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'fair-play-sc',
   ];
 
+  // Services for service+city combo pages
+  const servicePages = ['stump-grinding', 'brush-hogging', 'land-clearing'];
+
   // Blog posts with their slugs and dates
   const blogPosts = [
     { slug: 'how-much-does-stump-grinding-cost-greenville-sc', date: '2025-01-15' },
@@ -92,6 +95,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     })),
+    // Service + City combo pages (72 pages)
+    ...areaPages.flatMap((areaSlug) =>
+      servicePages.map((serviceSlug) => ({
+        url: `${baseUrl}/areas/${areaSlug}/${serviceSlug}`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+      }))
+    ),
     // Blog index
     {
       url: `${baseUrl}/blog`,

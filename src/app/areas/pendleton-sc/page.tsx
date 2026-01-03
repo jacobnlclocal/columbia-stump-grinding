@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function PendletonPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Pendleton properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown fields and historic properties.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for new construction near Clemson.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Pendleton properties.', href: '/areas/pendleton-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown fields and historic properties.', href: '/areas/pendleton-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for new construction near Clemson.', href: '/areas/pendleton-sc/land-clearing' },
   ];
 
   return (

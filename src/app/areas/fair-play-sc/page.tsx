@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function FairPlayPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Fair Play properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation near Lake Hartwell.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Fair Play properties.', href: '/areas/fair-play-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and rural land.', href: '/areas/fair-play-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation near Lake Hartwell.', href: '/areas/fair-play-sc/land-clearing' },
   ];
 
   return (

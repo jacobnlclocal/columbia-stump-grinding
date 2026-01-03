@@ -20,17 +20,17 @@ export default function EasleyPage() {
     {
       name: 'Stump Grinding',
       description: 'Fast, affordable stump removal for Easley homes and businesses. Professional equipment for any size stump.',
-      href: '/services/stump-grinding',
+      href: '/areas/easley-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown lots, fields, and trails in Easley and throughout Pickens County.',
-      href: '/services/brush-hogging',
+      href: '/areas/easley-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Full property clearing for construction, landscaping, or reclaiming unused land.',
-      href: '/services/land-clearing',
+      href: '/areas/easley-sc/land-clearing',
     },
   ];
 

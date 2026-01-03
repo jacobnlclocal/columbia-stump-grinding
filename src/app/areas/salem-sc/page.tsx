@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function SalemPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Salem properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and mountain land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation near Lake Keowee.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Salem properties.', href: '/areas/salem-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lakefront and mountain land.', href: '/areas/salem-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation near Lake Keowee.', href: '/areas/salem-sc/land-clearing' },
   ];
 
   return (

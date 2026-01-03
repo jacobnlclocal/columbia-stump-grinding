@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function BeltonPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Affordable stump removal for Belton homeowners.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown fields and fence lines.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for new construction in Belton.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Affordable stump removal for Belton homeowners.', href: '/areas/belton-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown fields and fence lines.', href: '/areas/belton-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for new construction in Belton.', href: '/areas/belton-sc/land-clearing' },
   ];
 
   return (

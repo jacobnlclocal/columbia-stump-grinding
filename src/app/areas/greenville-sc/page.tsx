@@ -52,17 +52,17 @@ export default function GreenvillePage() {
     {
       name: 'Stump Grinding',
       description: 'Remove unsightly stumps from your Greenville property. We grind stumps 6-8 inches below ground level.',
-      href: '/services/stump-grinding',
+      href: '/areas/greenville-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown fields, fence lines, and trails on your Greenville County property.',
-      href: '/services/brush-hogging',
+      href: '/areas/greenville-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Full lot clearing for new construction or property development in the Greenville area.',
-      href: '/services/land-clearing',
+      href: '/areas/greenville-sc/land-clearing',
     },
   ];
 

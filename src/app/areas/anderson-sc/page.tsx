@@ -20,17 +20,17 @@ export default function AndersonPage() {
     {
       name: 'Stump Grinding',
       description: 'Professional stump removal for Anderson homeowners. We grind stumps below ground level for a clean finish.',
-      href: '/services/stump-grinding',
+      href: '/areas/anderson-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown pastures, fields, and fence lines throughout Anderson County.',
-      href: '/services/brush-hogging',
+      href: '/areas/anderson-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Prepare your Anderson property for building, farming, or landscaping projects.',
-      href: '/services/land-clearing',
+      href: '/areas/anderson-sc/land-clearing',
     },
   ];
 

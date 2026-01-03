@@ -20,17 +20,17 @@ export default function SenecaPage() {
     {
       name: 'Stump Grinding',
       description: 'Professional stump removal for Seneca and Lake Keowee properties. Perfect for lakefront homes and vacation properties.',
-      href: '/services/stump-grinding',
+      href: '/areas/seneca-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown lakefront land, access roads, and wooded lots throughout the Seneca area.',
-      href: '/services/brush-hogging',
+      href: '/areas/seneca-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Full site preparation for new construction around Lake Keowee and Oconee County.',
-      href: '/services/land-clearing',
+      href: '/areas/seneca-sc/land-clearing',
     },
   ];
 

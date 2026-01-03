@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function WestUnionPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for West Union properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown rural land and pastures.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for rural properties.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for West Union properties.', href: '/areas/west-union-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown rural land and pastures.', href: '/areas/west-union-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for rural properties.', href: '/areas/west-union-sc/land-clearing' },
   ];
 
   return (

@@ -20,17 +20,17 @@ export default function SimplsonvillePage() {
     {
       name: 'Stump Grinding',
       description: 'Fast, professional stump removal for Simpsonville and Five Forks homeowners. Same-week scheduling available.',
-      href: '/services/stump-grinding',
+      href: '/areas/simpsonville-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown lots and fields throughout the Simpsonville area. Perfect for new developments and established properties.',
-      href: '/services/brush-hogging',
+      href: '/areas/simpsonville-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Complete site preparation for the rapidly growing Simpsonville and Five Forks areas.',
-      href: '/services/land-clearing',
+      href: '/areas/simpsonville-sc/land-clearing',
     },
   ];
 

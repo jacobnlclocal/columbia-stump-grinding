@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function CentralPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Central properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lots and fence lines.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation near Clemson University.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Central properties.', href: '/areas/central-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lots and fence lines.', href: '/areas/central-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation near Clemson University.', href: '/areas/central-sc/land-clearing' },
   ];
 
   return (

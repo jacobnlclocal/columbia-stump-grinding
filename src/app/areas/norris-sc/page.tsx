@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function NorrisPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Norris properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown pastures and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for rural properties.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Norris properties.', href: '/areas/norris-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown pastures and rural land.', href: '/areas/norris-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for rural properties.', href: '/areas/norris-sc/land-clearing' },
   ];
 
   return (

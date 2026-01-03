@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function MauldinPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Fast, affordable stump removal for Mauldin homeowners.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown lots and fence lines throughout Mauldin.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for new construction in the Golden Strip.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Fast, affordable stump removal for Mauldin homeowners.', href: '/areas/mauldin-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown lots and fence lines throughout Mauldin.', href: '/areas/mauldin-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for new construction in the Golden Strip.', href: '/areas/mauldin-sc/land-clearing' },
   ];
 
   return (

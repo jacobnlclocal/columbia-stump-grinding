@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function FountainInnPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Fast stump removal for Fountain Inn homeowners.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown fields and rural properties.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for new construction.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Fast stump removal for Fountain Inn homeowners.', href: '/areas/fountain-inn-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown fields and rural properties.', href: '/areas/fountain-inn-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for new construction.', href: '/areas/fountain-inn-sc/land-clearing' },
   ];
 
   return (

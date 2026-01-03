@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function TravelersRestPage() {
   const services = [
-    { name: 'Stump Grinding', description: 'Professional stump removal for Travelers Rest properties.', href: '/services/stump-grinding' },
-    { name: 'Brush Hogging', description: 'Clear overgrown mountain properties and rural land.', href: '/services/brush-hogging' },
-    { name: 'Land Clearing', description: 'Site preparation for homes in the beautiful TR area.', href: '/services/land-clearing' },
+    { name: 'Stump Grinding', description: 'Professional stump removal for Travelers Rest properties.', href: '/areas/travelers-rest-sc/stump-grinding' },
+    { name: 'Brush Hogging', description: 'Clear overgrown mountain properties and rural land.', href: '/areas/travelers-rest-sc/brush-hogging' },
+    { name: 'Land Clearing', description: 'Site preparation for homes in the beautiful TR area.', href: '/areas/travelers-rest-sc/land-clearing' },
   ];
 
   return (

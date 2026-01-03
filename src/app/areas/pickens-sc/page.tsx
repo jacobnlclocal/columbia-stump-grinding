@@ -20,17 +20,17 @@ export default function PickensPage() {
     {
       name: 'Stump Grinding',
       description: 'Professional stump removal for Pickens homeowners. Quick, efficient service for properties of all sizes.',
-      href: '/services/stump-grinding',
+      href: '/areas/pickens-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
       description: 'Clear overgrown fields, fence lines, and wooded areas throughout Pickens and the surrounding foothills.',
-      href: '/services/brush-hogging',
+      href: '/areas/pickens-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
       description: 'Complete site preparation for new construction, gardens, and property improvements in Pickens County.',
-      href: '/services/land-clearing',
+      href: '/areas/pickens-sc/land-clearing',
     },
   ];
 
