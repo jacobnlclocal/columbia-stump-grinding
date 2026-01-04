@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump',
+  title: 'Stump Grinding Greenville SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Greenville, SC. Serving downtown Greenville, Simpsonville, Mauldin, Greer & surrounding areas. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Greenville SC, land clearing Greenville, brush hogging Greenville SC, stump removal Greenville, tree stump grinding near Greenville',
   alternates: {
@@ -22,8 +22,10 @@ const localBusinessSchema = {
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Greenville",
+    streetAddress: "230 Lewis Road",
+    addressLocality: "Williamston",
     addressRegion: "SC",
+    postalCode: "29697",
     addressCountry: "US",
   },
   areaServed: {

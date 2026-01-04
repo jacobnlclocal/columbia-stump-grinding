@@ -1,0 +1,41 @@
+# LLMs.txt for Nelson Land & Stump Services
+# https://nelsonstump.com
+
+> Nelson Land & Stump provides professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina.
+
+## About
+
+Nelson Land & Stump is a family-owned land clearing business based in Williamston, SC. We serve Greenville, Anderson, Pickens, and Oconee Counties with professional stump grinding, brush hogging, and land clearing services.
+
+Contact: (864) 760-9203
+Email: tigernelson@gmail.com
+Address: 230 Lewis Road, Williamston, SC 29697
+
+## Services
+
+- **Stump Grinding**: Professional stump removal, grinding stumps 6-8 inches below ground level. Pricing: $75-$400 per stump.
+- **Brush Hogging**: Heavy-duty field mowing and brush clearing for overgrown properties. Pricing: $75-$150 per acre.
+- **Land Clearing**: Complete lot clearing for construction, development, or property improvement. Pricing: $1,500-$5,000+ per acre.
+
+## Service Areas
+
+We serve 24 cities across 4 counties in Upstate South Carolina:
+
+**Greenville County**: Greenville, Simpsonville, Greer, Mauldin, Travelers Rest, Fountain Inn
+**Anderson County**: Anderson, Pendleton, Williamston, Belton, Honea Path, Iva
+**Pickens County**: Easley, Pickens, Clemson, Liberty, Central, Norris
+**Oconee County**: Seneca, Walhalla, Westminster, Salem, West Union, Fair Play
+
+## Key Pages
+
+- Homepage: https://nelsonstump.com/
+- Services: https://nelsonstump.com/services/
+- Stump Grinding: https://nelsonstump.com/services/stump-grinding/
+- Brush Hogging: https://nelsonstump.com/services/brush-hogging/
+- Land Clearing: https://nelsonstump.com/services/land-clearing/
+- Pricing: https://nelsonstump.com/pricing/
+- Blog: https://nelsonstump.com/blog/
+
+## Sitemap
+
+https://nelsonstump.com/sitemap.xml

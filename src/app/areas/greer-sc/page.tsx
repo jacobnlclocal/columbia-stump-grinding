@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Greer SC | Nelson Land & Stump',
+  title: 'Stump Grinding Greer SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Greer, SC. Serving Taylors, Blue Ridge & northern Greenville County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Greer SC, land clearing Greer, brush hogging Taylors SC, stump removal Blue Ridge, land clearing northern Greenville County',
 };

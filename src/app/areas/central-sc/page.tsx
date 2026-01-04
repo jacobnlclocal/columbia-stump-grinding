@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Central SC | Nelson Land & Stump',
+  title: 'Stump Grinding Central SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Central, SC. Serving Pickens County near Clemson. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Central SC, land clearing Central, brush hogging near Clemson, stump removal Central South Carolina',
 };

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Fair Play SC | Nelson Land & Stump',
+  title: 'Stump Grinding Fair Play SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Fair Play, SC. Serving Oconee County near Lake Hartwell. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Fair Play SC, land clearing Fair Play, brush hogging Lake Hartwell, stump removal Fair Play South Carolina',
 };

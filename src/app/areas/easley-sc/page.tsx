@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Easley SC | Nelson Land & Stump',
+  title: 'Stump Grinding Easley SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Easley, SC. Serving Easley, Pickens, Liberty, Central & Pickens County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Easley SC, land clearing Easley, brush hogging Pickens County, stump removal Easley, tree stump grinding Easley SC',
 };

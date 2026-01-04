@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in West Union SC | Nelson Land & Stump',
+  title: 'Stump Grinding West Union SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in West Union, SC. Serving Oconee County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding West Union SC, land clearing West Union, brush hogging Oconee County, stump removal West Union South Carolina',
 };

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Walhalla SC | Nelson Land & Stump',
+  title: 'Stump Grinding Walhalla SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Walhalla, SC. Serving Oconee County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Walhalla SC, land clearing Walhalla, brush hogging Oconee County, stump removal Walhalla South Carolina',
 };

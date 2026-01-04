@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Anderson SC | Nelson Land & Stump',
+  title: 'Stump Grinding Anderson SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Anderson, SC. Serving Anderson County including Pendleton, Belton, Williamston & Honea Path. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Anderson SC, land clearing Anderson County, brush hogging Anderson SC, stump removal Anderson, land clearing near Anderson',
 };

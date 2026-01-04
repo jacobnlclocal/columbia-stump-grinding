@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Honea Path SC | Nelson Land & Stump',
+  title: 'Stump Grinding Honea Path SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Honea Path, SC. Serving Anderson County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Honea Path SC, land clearing Honea Path, brush hogging Anderson County, stump removal Honea Path South Carolina',
 };

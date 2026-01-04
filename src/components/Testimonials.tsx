@@ -136,8 +136,6 @@ export default function Testimonials() {
                 <div
                   key={index}
                   className="bg-white rounded-lg p-5"
-                  itemScope
-                  itemType="https://schema.org/Review"
                 >
                   <div className="flex items-center gap-1 mb-2">
                     {[...Array(5)].map((_, i) => (
@@ -146,9 +144,9 @@ export default function Testimonials() {
                       </svg>
                     ))}
                   </div>
-                  <p className="text-muted text-sm mb-3" itemProp="reviewBody">&ldquo;{testimonial.text}&rdquo;</p>
+                  <p className="text-muted text-sm mb-3">&ldquo;{testimonial.text}&rdquo;</p>
                   <div className="flex items-center justify-between">
-                    <p className="font-bold text-primary text-sm" itemProp="author">
+                    <p className="font-bold text-primary text-sm">
                       {testimonial.name} <span className="font-normal text-muted">— {testimonial.location}</span>
                     </p>
                     <span className="text-xs text-accent">{testimonial.service}</span>

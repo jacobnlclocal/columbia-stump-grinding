@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Simpsonville SC | Nelson Land & Stump',
+  title: 'Stump Grinding Simpsonville SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Simpsonville, SC. Serving Five Forks, Mauldin & southern Greenville County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Simpsonville SC, land clearing Five Forks, brush hogging Simpsonville, stump removal Mauldin SC, tree stump grinding Simpsonville',
 };

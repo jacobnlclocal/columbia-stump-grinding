@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Fountain Inn SC | Nelson Land & Stump',
+  title: 'Stump Grinding Fountain Inn SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Fountain Inn, SC. Serving southern Greenville County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Fountain Inn SC, land clearing Fountain Inn, brush hogging southern Greenville, stump removal Fountain Inn',
 };

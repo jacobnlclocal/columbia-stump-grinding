@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Williamston SC | Nelson Land & Stump',
+  title: 'Stump Grinding Williamston SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Williamston, SC. Local Anderson County experts. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Williamston SC, land clearing Williamston, brush hogging Anderson County, stump removal Williamston South Carolina',
 };

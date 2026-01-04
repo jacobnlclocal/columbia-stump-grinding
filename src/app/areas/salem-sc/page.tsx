@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Salem SC | Nelson Land & Stump',
+  title: 'Stump Grinding Salem SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Salem, SC. Serving Oconee County near Lake Keowee. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Salem SC, land clearing Salem, brush hogging Lake Keowee, stump removal Salem South Carolina',
 };

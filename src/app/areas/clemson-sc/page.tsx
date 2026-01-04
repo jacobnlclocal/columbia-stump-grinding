@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Clemson SC | Nelson Land & Stump',
+  title: 'Stump Grinding Clemson SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Clemson, SC. Serving Clemson, Seneca, Central, Pendleton & Oconee County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Clemson SC, land clearing Clemson, brush hogging Oconee County, stump removal Seneca SC, land clearing near Clemson University',
 };

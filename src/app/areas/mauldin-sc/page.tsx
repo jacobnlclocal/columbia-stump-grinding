@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Mauldin SC | Nelson Land & Stump',
+  title: 'Stump Grinding Mauldin SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Mauldin, SC. Serving Golden Strip area. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Mauldin SC, land clearing Mauldin, brush hogging Golden Strip, stump removal Mauldin South Carolina',
 };

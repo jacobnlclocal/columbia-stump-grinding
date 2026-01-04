@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Liberty SC | Nelson Land & Stump',
+  title: 'Stump Grinding Liberty SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Liberty, SC. Serving Pickens County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Liberty SC, land clearing Liberty, brush hogging Pickens County, stump removal Liberty South Carolina',
 };

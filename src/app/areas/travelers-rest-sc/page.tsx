@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Travelers Rest SC | Nelson Land & Stump',
+  title: 'Stump Grinding Travelers Rest SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Travelers Rest, SC. Serving northern Greenville County. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Travelers Rest SC, land clearing TR, brush hogging northern Greenville, stump removal Travelers Rest',
 };

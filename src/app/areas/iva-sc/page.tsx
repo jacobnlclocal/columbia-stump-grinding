@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing in Iva SC | Nelson Land & Stump',
+  title: 'Stump Grinding Iva SC | Nelson Land & Stump',
   description: 'Professional stump grinding, brush hogging, and land clearing services in Iva, SC. Serving Anderson County near Lake Hartwell. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Iva SC, land clearing Iva, brush hogging Lake Hartwell, stump removal Iva South Carolina',
 };
