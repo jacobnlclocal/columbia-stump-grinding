@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Services in Greenville SC | Nelson Land & Stump',
+  title: 'Stump Grinding Upstate SC | Nelson Land & Stump',
   description: 'Professional stump grinding services in Greenville, Easley, Anderson, and Upstate SC. We grind stumps 6-8 inches below ground. Free estimates, fully insured. Call (864) 760-9203.',
   keywords: 'stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me, stump removal Upstate South Carolina, affordable stump grinding',
   openGraph: {

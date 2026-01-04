@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Do You Need a Permit for Land Clearing in South Carolina? | Nelson Land & Stump',
+  title: 'Land Clearing Permits in SC | Nelson Stump',
   description: 'Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Greenville, Anderson, and Upstate SC regulations explained.',
   keywords: 'land clearing permit SC, tree removal permit South Carolina, land clearing regulations Greenville, do I need permit tree removal SC',
 };

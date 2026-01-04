@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Cost Per Acre in SC (2025 Pricing Guide) | Nelson Land & Stump',
+  title: 'Brush Hogging Cost Per Acre SC (2025) | Nelson Stump',
   description: 'How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Greenville, Anderson, and Upstate SC. Get free estimates.',
   keywords: 'brush hogging cost per acre, brush hogging prices SC, bush hog rates, land mowing cost, brush clearing cost Greenville SC',
 };

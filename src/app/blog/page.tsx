@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Blog | Stump Grinding & Land Clearing Tips | Nelson Land & Stump',
+  title: 'Stump Grinding & Land Clearing Blog | Nelson Stump',
   description: 'Expert tips and guides on stump grinding, brush hogging, and land clearing in Upstate South Carolina. Learn about costs, methods, and when to hire a professional.',
   keywords: 'stump grinding tips, land clearing guide, brush hogging information, tree stump removal advice, Upstate SC landscaping',
 };

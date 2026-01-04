@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding vs Stump Removal: Which is Right for You? | Nelson Land & Stump',
+  title: 'Stump Grinding vs Removal: Which is Best? | Nelson Stump',
   description: 'Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Upstate SC property and budget.',
   keywords: 'stump grinding vs removal, stump removal methods, tree stump options, stump grinding Greenville SC, stump removal Upstate SC',
 };

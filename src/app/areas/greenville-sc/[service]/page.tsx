@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ service: 
   if (!service) return { title: 'Not Found' };
 
   return {
-    title: `${service.name} in ${city.name}, SC | Nelson Land & Stump`,
+    title: `${service.name} ${city.name} SC | Nelson Stump`,
     description: `Professional ${service.name.toLowerCase()} services in ${city.name}, ${city.county}, SC. ${service.description} Free estimates. Call (864) 760-9203.`,
     keywords: `${service.name.toLowerCase()} ${city.name} SC, ${service.name.toLowerCase()} ${city.county}, ${service.name.toLowerCase()} near ${city.name}, ${service.slug.replace('-', ' ')} services ${city.name}`,
     alternates: {

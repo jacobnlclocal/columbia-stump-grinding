@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'What to Do After Stump Grinding: Filling the Hole & Lawn Repair | Nelson Land & Stump',
+  title: 'What to Do After Stump Grinding | Nelson Stump',
   description: 'Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Upstate SC homeowners.',
   keywords: 'after stump grinding, fill stump hole, stump grinding cleanup, grass after stump removal, stump grinding lawn repair',
 };

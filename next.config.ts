@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Disable trailing slashes for consistent URLs (prevents temporary redirects)
+  trailingSlash: false,
   images: {
     // Enable modern image formats - AVIF is even more efficient than WebP
     formats: ['image/avif', 'image/webp'],

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Long Does Stump Grinding Take? Time Estimates | Nelson Land & Stump',
+  title: 'How Long Does Stump Grinding Take? | Nelson Stump',
   description: 'Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Greenville and Upstate SC projects.',
   keywords: 'how long stump grinding take, stump grinding time, stump removal duration, stump grinding estimate, fast stump grinding SC',
 };

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: '5 Signs You Need Professional Land Clearing | Nelson Land & Stump',
+  title: '5 Signs You Need Land Clearing | Nelson Stump',
   description: 'Not sure if you need land clearing services? Here are 5 clear signs it\'s time to call a professional in Greenville, Anderson, Easley, or Upstate SC.',
   keywords: 'land clearing signs, when to clear land, overgrown property, land clearing Greenville SC, brush clearing Upstate SC',
 };

@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Services in Anderson SC | Nelson Land & Stump',
+  title: 'Brush Hogging Upstate SC | Nelson Land & Stump',
   description: 'Professional brush hogging and brush clearing services in Anderson, Pickens, Greenville, and Upstate SC. Clear overgrown fields, fence lines, and trails. Free estimates. Call (864) 760-9203.',
   keywords: 'brush hogging Anderson SC, brush clearing Pickens County, field mowing Greenville SC, brush hog service near me, overgrown land clearing Upstate SC, pasture mowing',
   openGraph: {

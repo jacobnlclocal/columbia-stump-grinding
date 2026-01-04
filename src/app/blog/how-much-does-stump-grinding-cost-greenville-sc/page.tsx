@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Much Does Stump Grinding Cost in Greenville SC? (2025 Prices)',
+  title: 'Stump Grinding Cost Greenville SC (2025) | Nelson Stump',
   description: 'Complete guide to stump grinding costs in Greenville and Upstate SC. Learn what affects pricing, average costs per stump, and how to get the best value. Free estimates available.',
   keywords: 'stump grinding cost Greenville SC, stump removal price, how much stump grinding, stump grinding rates Upstate SC, tree stump removal cost',
 };

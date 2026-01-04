@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Services in Clemson & Seneca SC | Nelson Land & Stump',
+  title: 'Land Clearing Upstate SC | Nelson Land & Stump',
   description: 'Professional land clearing services in Clemson, Seneca, Oconee County, and Upstate SC. Full lot clearing for construction, driveways, and property development. Free estimates. Call (864) 760-9203.',
   keywords: 'land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, site prep Upstate SC, clearing land for construction, property clearing services',
   openGraph: {

@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Best Time of Year for Stump Grinding in South Carolina | Nelson Land & Stump',
+  title: 'Best Time for Stump Grinding in SC | Nelson Stump',
   description: 'When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Greenville and Upstate SC. Year-round availability.',
   keywords: 'best time stump grinding, when to grind stumps, stump grinding season, stump removal timing SC, winter stump grinding',
 };
