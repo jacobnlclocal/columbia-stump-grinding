@@ -23,6 +23,7 @@ const serviceSchema = {
   name: "Stump Grinding",
   provider: {
     "@type": "LocalBusiness",
+    "@id": "https://nelsonstump.com/#business",
     name: "Nelson Land & Stump Services",
     telephone: "+1-864-760-9203",
     address: {
@@ -31,6 +32,7 @@ const serviceSchema = {
       addressLocality: "Williamston",
       addressRegion: "SC",
       postalCode: "29697",
+      addressCountry: "US",
     },
   },
   areaServed: [
@@ -45,11 +47,6 @@ const serviceSchema = {
   ],
   description: "Professional stump grinding services in Upstate South Carolina. We grind stumps 6-8 inches below ground level for complete removal. Fast, affordable, and fully insured.",
   serviceType: "Stump Grinding",
-  offers: {
-    "@type": "Offer",
-    priceRange: "$75-$400",
-    priceCurrency: "USD",
-  },
 };
 
 export default function StumpGrindingPage() {

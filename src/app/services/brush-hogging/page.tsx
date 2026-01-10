@@ -23,6 +23,7 @@ const serviceSchema = {
   name: "Brush Hogging",
   provider: {
     "@type": "LocalBusiness",
+    "@id": "https://nelsonstump.com/#business",
     name: "Nelson Land & Stump Services",
     telephone: "+1-864-760-9203",
   },
@@ -36,11 +37,6 @@ const serviceSchema = {
   ],
   description: "Professional brush hogging and brush clearing services in Upstate South Carolina. Clear overgrown fields, fence lines, trails, and property boundaries.",
   serviceType: "Brush Hogging",
-  offers: {
-    "@type": "Offer",
-    priceRange: "$150-$500/acre",
-    priceCurrency: "USD",
-  },
 };
 
 export default function BrushHoggingPage() {

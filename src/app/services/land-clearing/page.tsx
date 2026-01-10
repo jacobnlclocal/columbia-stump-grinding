@@ -23,6 +23,7 @@ const serviceSchema = {
   name: "Land Clearing",
   provider: {
     "@type": "LocalBusiness",
+    "@id": "https://nelsonstump.com/#business",
     name: "Nelson Land & Stump Services",
     telephone: "+1-864-760-9203",
   },
@@ -36,11 +37,6 @@ const serviceSchema = {
   ],
   description: "Professional land clearing services in Upstate South Carolina. Full lot clearing for new construction, driveways, and property development.",
   serviceType: "Land Clearing",
-  offers: {
-    "@type": "Offer",
-    priceRange: "$1500-$6000/acre",
-    priceCurrency: "USD",
-  },
 };
 
 export default function LandClearingPage() {

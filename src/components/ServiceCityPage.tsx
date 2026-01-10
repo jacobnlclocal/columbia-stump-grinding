@@ -17,9 +17,10 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `Nelson Land & Stump Services - ${service.name} ${city.name}`,
+    "@id": `https://nelsonstump.com/#business`,
+    name: "Nelson Land & Stump Services",
     description: `Professional ${service.name.toLowerCase()} services in ${city.name}, SC and surrounding areas.`,
-    url: `https://nelsonstump.com/areas/${city.slug}/${service.slug}`,
+    url: "https://nelsonstump.com",
     telephone: "+1-864-760-9203",
     address: {
       "@type": "PostalAddress",
@@ -49,18 +50,17 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
     "@context": "https://schema.org",
     "@type": "Service",
     name: `${service.name} in ${city.name}, SC`,
-    provider: localBusinessSchema,
+    provider: {
+      "@type": "LocalBusiness",
+      "@id": "https://nelsonstump.com/#business",
+      name: "Nelson Land & Stump Services",
+    },
     areaServed: {
       "@type": "City",
       name: city.name,
     },
     description: service.description,
     serviceType: service.name,
-    offers: {
-      "@type": "Offer",
-      priceRange: service.priceRange,
-      priceCurrency: "USD",
-    },
   };
 
   return (
