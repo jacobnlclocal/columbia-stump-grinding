@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Oswald, Open_Sans } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -15,13 +15,14 @@ const openSans = Open_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://nelsonstump.com'),
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
   title: {
     default: "Stump Grinding & Land Clearing Greenville SC | Nelson Stump",
     template: "%s | Nelson Stump",
