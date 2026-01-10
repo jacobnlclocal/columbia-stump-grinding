@@ -141,7 +141,7 @@ export default function EasleyPage() {
                   <h3 className="font-bold text-primary text-xl mb-3">{service.name}</h3>
                   <p className="text-muted mb-4">{service.description}</p>
                   <Link href={service.href} className="text-accent hover:text-accent-dark font-medium inline-flex items-center">
-                    Learn More
+                    View {service.name} Details
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>

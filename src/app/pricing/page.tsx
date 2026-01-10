@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Pricing | Stump Grinding & Land Clearing Costs | Nelson Land & Stump',
+  title: 'Stump Grinding & Land Clearing Pricing',
   description: 'Transparent pricing for stump grinding, brush hogging, and land clearing in Greenville, Anderson, Easley & Upstate SC. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding prices, land clearing cost, brush hogging rates, stump removal pricing Greenville SC, land clearing prices Upstate SC',
 };

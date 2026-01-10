@@ -1,35 +1,52 @@
 # Nelson Land & Stump Services
 
-## Summary
+> Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Family-owned business based in Williamston, SC.
 
-Nelson Land & Stump provides professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Family-owned business based in Williamston, SC serving Greenville, Anderson, Pickens, and Oconee Counties.
+## About
 
-## Contact
+Nelson Land & Stump Services provides professional land clearing services throughout Greenville, Anderson, Pickens, and Oconee Counties in South Carolina. We specialize in stump grinding, brush hogging, and complete lot clearing for residential and commercial properties.
 
+## Contact Information
+
+- Business Name: Nelson Land & Stump Services
 - Phone: (864) 760-9203
 - Email: tigernelson@gmail.com
 - Address: 230 Lewis Road, Williamston, SC 29697
+- Hours: Monday-Saturday, 7:00 AM - 6:00 PM
 
 ## Services
 
-- Stump Grinding: Professional stump removal, grinding stumps 6-8 inches below ground level. Pricing $75-$400 per stump.
-- Brush Hogging: Heavy-duty field mowing and brush clearing for overgrown properties. Pricing $75-$150 per acre.
-- Land Clearing: Complete lot clearing for construction, development, or property improvement. Pricing $1,500-$5,000+ per acre.
+### Stump Grinding
+Professional stump removal that grinds stumps 6-8 inches below ground level. Pricing: $75-$400 per stump depending on size.
+
+### Brush Hogging
+Heavy-duty field mowing and brush clearing for overgrown properties, fence lines, and trails. Pricing: $150-$500 per acre.
+
+### Land Clearing
+Complete lot clearing for construction, development, or property improvement including tree removal, stump grinding, and debris removal. Pricing: $1,500-$6,000+ per acre.
 
 ## Service Areas
 
-Greenville County: Greenville, Simpsonville, Greer, Mauldin, Travelers Rest, Fountain Inn
-Anderson County: Anderson, Pendleton, Williamston, Belton, Honea Path, Iva
-Pickens County: Easley, Pickens, Clemson, Liberty, Central, Norris
-Oconee County: Seneca, Walhalla, Westminster, Salem, West Union, Fair Play
+### Greenville County
+Greenville, Simpsonville, Greer, Mauldin, Travelers Rest, Fountain Inn
 
-## URLs
+### Anderson County
+Anderson, Pendleton, Williamston, Belton, Honea Path, Iva
 
-- https://nelsonstump.com
-- https://nelsonstump.com/services
-- https://nelsonstump.com/services/stump-grinding
-- https://nelsonstump.com/services/brush-hogging
-- https://nelsonstump.com/services/land-clearing
-- https://nelsonstump.com/pricing
-- https://nelsonstump.com/blog
-- https://nelsonstump.com/sitemap.xml
+### Pickens County
+Easley, Pickens, Clemson, Liberty, Central, Norris
+
+### Oconee County
+Seneca, Walhalla, Westminster, Salem, West Union, Fair Play
+
+## Important URLs
+
+- Homepage: https://nelsonstump.com
+- Services: https://nelsonstump.com/services
+- Stump Grinding: https://nelsonstump.com/services/stump-grinding
+- Brush Hogging: https://nelsonstump.com/services/brush-hogging
+- Land Clearing: https://nelsonstump.com/services/land-clearing
+- Pricing: https://nelsonstump.com/pricing
+- Blog: https://nelsonstump.com/blog
+- Contact: https://nelsonstump.com/#contact
+- Sitemap: https://nelsonstump.com/sitemap.xml

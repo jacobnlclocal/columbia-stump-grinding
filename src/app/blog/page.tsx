@@ -118,8 +118,9 @@ export default function BlogPage() {
                       <Link
                         href={`/blog/${post.slug}`}
                         className="text-accent hover:text-accent-dark font-medium text-sm inline-flex items-center"
+                        aria-label={`Read article: ${post.title}`}
                       >
-                        Read More
+                        Read Article
                         <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>

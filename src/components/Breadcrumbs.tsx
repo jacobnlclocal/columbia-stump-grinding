@@ -13,12 +13,17 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": items.map((item, index) => ({
-      "@type": "ListItem",
-      "position": index + 1,
-      "name": item.label,
-      "item": item.href ? `https://nelsonstump.com${item.href}` : undefined,
-    })),
+    "itemListElement": items.map((item, index) => {
+      const listItem: Record<string, unknown> = {
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.label,
+      };
+      if (item.href) {
+        listItem.item = `https://nelsonstump.com${item.href}`;
+      }
+      return listItem;
+    }),
   };
 
   return (

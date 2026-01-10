@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     maximumScale: 5,
   },
   title: {
-    default: "Stump Grinding & Land Clearing in Greenville SC | Nelson Land & Stump",
-    template: "%s | Nelson Land & Stump",
+    default: "Stump Grinding & Land Clearing Greenville SC | Nelson Stump",
+    template: "%s | Nelson Stump",
   },
   description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Serving Greenville, Anderson, Pickens & Oconee Counties. Free estimates, fully licensed & insured. Call (864) 760-9203.",
   keywords: "stump grinding Greenville SC, land clearing Upstate SC, brush hogging Anderson SC, stump removal near me, brush clearing Easley, land clearing Clemson SC, stump grinding Pickens County, tree stump removal South Carolina",
