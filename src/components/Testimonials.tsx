@@ -1,7 +1,17 @@
 const reviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": "https://nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
+  telephone: "+1-864-760-9203",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "230 Lewis Road",
+    addressLocality: "Williamston",
+    addressRegion: "SC",
+    postalCode: "29697",
+    addressCountry: "US",
+  },
   review: [
     {
       "@type": "Review",
