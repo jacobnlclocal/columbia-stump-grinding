@@ -94,11 +94,6 @@ export default function LandClearingPage() {
     },
   ];
 
-  const serviceAreas = [
-    'Clemson', 'Seneca', 'Pickens', 'Easley', 'Anderson', 'Pendleton',
-    'Central', 'Liberty', 'Walhalla', 'Westminster', 'Greenville', 'Six Mile',
-  ];
-
   return (
     <>
       <script
@@ -235,24 +230,88 @@ export default function LandClearingPage() {
           </div>
         </section>
 
-        {/* Service Areas */}
+        {/* Service Areas - Linked for SEO */}
         <section className="py-16 bg-muted-light">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               LAND CLEARING SERVICE AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide professional land clearing services throughout Upstate South Carolina, including:
+              We provide professional land clearing and lot clearing services throughout Upstate South Carolina. Click your city for local details:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              {serviceAreas.map((area) => (
-                <div key={area} className="flex items-center text-muted">
-                  <svg className="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  {area}, SC
-                </div>
-              ))}
+              <Link href="/areas/anderson-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Anderson
+              </Link>
+              <Link href="/areas/greenville-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Greenville
+              </Link>
+              <Link href="/areas/clemson-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Clemson
+              </Link>
+              <Link href="/areas/seneca-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Seneca
+              </Link>
+              <Link href="/areas/pickens-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Pickens
+              </Link>
+              <Link href="/areas/easley-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Easley
+              </Link>
+              <Link href="/areas/pendleton-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Pendleton
+              </Link>
+              <Link href="/areas/central-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Central
+              </Link>
+              <Link href="/areas/liberty-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Liberty
+              </Link>
+              <Link href="/areas/walhalla-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Walhalla
+              </Link>
+              <Link href="/areas/westminster-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Westminster
+              </Link>
+              <Link href="/areas/simpsonville-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Land Clearing Simpsonville
+              </Link>
             </div>
             <p className="text-muted">
               Serving Greenville, Anderson, Pickens, and Oconee counties.

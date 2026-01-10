@@ -15,6 +15,12 @@ export interface ServiceData {
   description: string;
   priceRange: string;
   benefits: { title: string; description: string }[];
+  // SEO keyword synonyms for better ranking
+  synonyms: string[];
+  // Different customer types we serve
+  customerTypes: { type: string; description: string }[];
+  // Size variations for the service
+  sizeVariations: { size: string; description: string; priceNote: string }[];
 }
 
 export const services: ServiceData[] = [
@@ -30,6 +36,16 @@ export const services: ServiceData[] = [
       { title: 'Improve Curb Appeal', description: 'Unsightly stumps bring down the look of your property. Removal instantly improves your landscape aesthetics.' },
       { title: 'Stop Regrowth', description: 'Some tree species send up new shoots from old stumps. Grinding below grade prevents unwanted regrowth.' },
     ],
+    synonyms: ['stump removal', 'stump grinder', 'tree stump grinding', 'tree stump removal', 'tree root grinding', 'root removal'],
+    customerTypes: [
+      { type: 'Residential', description: 'Homeowners looking to remove stumps from their yard for landscaping, safety, or aesthetics. We work around your schedule and keep your property clean.' },
+      { type: 'Commercial', description: 'Businesses, property managers, and HOAs needing professional stump removal. We handle multi-stump jobs and offer volume discounts.' },
+    ],
+    sizeVariations: [
+      { size: 'Small Stumps', description: 'Stumps under 12 inches in diameter. Quick removal, usually done in under 30 minutes per stump.', priceNote: '$75-$125' },
+      { size: 'Medium Stumps', description: 'Stumps 12-24 inches in diameter. Most common residential stump size.', priceNote: '$125-$225' },
+      { size: 'Large Stumps', description: 'Stumps over 24 inches in diameter. Includes old-growth oaks, pines, and large hardwoods.', priceNote: '$225-$400+' },
+    ],
   },
   {
     slug: 'brush-hogging',
@@ -43,6 +59,16 @@ export const services: ServiceData[] = [
       { title: 'Property Maintenance', description: 'Keep fence lines, trails, and property borders clear and accessible year-round.' },
       { title: 'Increase Property Value', description: 'Well-maintained land is more attractive to buyers and adds value to your property.' },
     ],
+    synonyms: ['brush clearing', 'field mowing', 'pasture mowing', 'bush hogging', 'overgrown lot clearing', 'field clearing'],
+    customerTypes: [
+      { type: 'Residential', description: 'Homeowners with overgrown back lots, fence lines, or unused portions of their property that need clearing.' },
+      { type: 'Commercial', description: 'Businesses, farms, and property investors with large acreage requiring regular maintenance or one-time clearing.' },
+    ],
+    sizeVariations: [
+      { size: 'Small Area', description: 'Under 1 acre. Perfect for residential fence lines, small fields, or backyard clearing.', priceNote: '$100-$200 minimum' },
+      { size: 'Medium Area', description: '1-5 acres. Common for residential properties and small farms.', priceNote: '$75-$150/acre' },
+      { size: 'Large Area', description: '5+ acres. Multi-acre farms, pastures, and commercial properties. Volume discounts available.', priceNote: '$50-$100/acre' },
+    ],
   },
   {
     slug: 'land-clearing',
@@ -55,6 +81,16 @@ export const services: ServiceData[] = [
       { title: 'Complete Removal', description: 'We handle everything from small saplings to large trees, plus stumps, brush, and debris removal.' },
       { title: 'Proper Disposal', description: 'All cleared material is properly disposed of or can be processed into mulch for your use.' },
       { title: 'Grading Ready', description: 'Leave your property clean and ready for the next phase of your project.' },
+    ],
+    synonyms: ['lot clearing', 'yard clearing', 'site clearing', 'property clearing', 'land clearing services', 'acreage clearing'],
+    customerTypes: [
+      { type: 'Residential', description: 'Homeowners clearing land for new home construction, driveways, gardens, or outdoor living spaces.' },
+      { type: 'Commercial', description: 'Developers, builders, and businesses preparing sites for construction, parking, or expansion.' },
+    ],
+    sizeVariations: [
+      { size: 'Small Lot', description: 'Under 1/2 acre. Typical residential lot for home construction or driveway clearing.', priceNote: '$1,500-$3,000' },
+      { size: 'Medium Lot', description: '1/2 to 2 acres. Larger residential properties or small commercial sites.', priceNote: '$2,500-$6,000' },
+      { size: 'Large Acreage', description: '2+ acres. Farm land, development sites, or commercial properties.', priceNote: '$3,000-$5,000/acre' },
     ],
   },
 ];

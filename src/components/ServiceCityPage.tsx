@@ -119,7 +119,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
                 </h2>
                 <p className="text-muted text-lg mb-4">
                   Looking for reliable {service.name.toLowerCase()} services in {city.name}, SC? Nelson Land & Stump
-                  provides professional {service.name.toLowerCase()} throughout {city.county} and the surrounding Upstate area.
+                  provides professional {service.name.toLowerCase()} (also known as {service.synonyms.slice(0, 2).join(' and ')}) throughout {city.county} and the surrounding Upstate area.
                 </p>
                 <p className="text-muted text-lg mb-4">
                   As a local, family-owned business based in Williamston, we understand the unique needs of {city.name}
@@ -181,6 +181,45 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
           </div>
         </section>
 
+        {/* Residential & Commercial Services */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              RESIDENTIAL & COMMERCIAL {service.name.toUpperCase()} IN {city.name.toUpperCase()}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              {service.customerTypes.map((ct) => (
+                <div key={ct.type} className="bg-muted-light rounded-lg p-6">
+                  <h3 className="font-bold text-primary text-xl mb-3">{ct.type} {service.name}</h3>
+                  <p className="text-muted">{ct.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Size Variations & Pricing */}
+        <section className="py-16 bg-muted-light">
+          <div className="max-w-6xl mx-auto px-6">
+            <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
+              {service.name.toUpperCase()} PRICING IN {city.name.toUpperCase()}
+            </h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              {service.sizeVariations.map((sv) => (
+                <div key={sv.size} className="bg-white rounded-lg p-6 text-center">
+                  <h3 className="font-bold text-primary text-xl mb-2">{sv.size}</h3>
+                  <p className="text-accent font-bold text-lg mb-3">{sv.priceNote}</p>
+                  <p className="text-muted text-sm">{sv.description}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-muted mt-8 text-sm">
+              * Prices are estimates. Actual pricing depends on accessibility, terrain, and specific site conditions.
+              <Link href="/#contact" className="text-accent hover:underline ml-1">Get a free quote</Link> for accurate pricing.
+            </p>
+          </div>
+        </section>
+
         {/* Areas Served */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
@@ -188,7 +227,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
               {service.name.toUpperCase()} AREAS IN {city.name.toUpperCase()}
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide {service.name.toLowerCase()} services throughout {city.name} and the surrounding areas, including:
+              We provide {service.name.toLowerCase()} ({service.synonyms[0]}) services throughout {city.name} and the surrounding areas, including:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {city.neighborhoods.map((area) => (

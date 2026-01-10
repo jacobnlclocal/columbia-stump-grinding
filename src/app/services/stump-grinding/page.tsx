@@ -72,11 +72,6 @@ export default function StumpGrindingPage() {
     },
   ];
 
-  const serviceAreas = [
-    'Greenville', 'Easley', 'Anderson', 'Clemson', 'Seneca', 'Pickens',
-    'Simpsonville', 'Greer', 'Mauldin', 'Pendleton', 'Liberty', 'Central',
-  ];
-
   return (
     <>
       <script
@@ -184,24 +179,88 @@ export default function StumpGrindingPage() {
           </div>
         </section>
 
-        {/* Service Areas */}
+        {/* Service Areas - Linked for SEO */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               STUMP GRINDING SERVICE AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide professional stump grinding services throughout Upstate South Carolina, including:
+              We provide professional stump grinding and stump removal services throughout Upstate South Carolina. Click your city for local pricing and details:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              {serviceAreas.map((area) => (
-                <div key={area} className="flex items-center text-muted">
-                  <svg className="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                  </svg>
-                  {area}, SC
-                </div>
-              ))}
+              <Link href="/areas/greenville-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Greenville
+              </Link>
+              <Link href="/areas/anderson-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Anderson
+              </Link>
+              <Link href="/areas/easley-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Easley
+              </Link>
+              <Link href="/areas/clemson-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Clemson
+              </Link>
+              <Link href="/areas/seneca-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Seneca
+              </Link>
+              <Link href="/areas/pickens-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Pickens
+              </Link>
+              <Link href="/areas/simpsonville-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Simpsonville
+              </Link>
+              <Link href="/areas/greer-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Greer
+              </Link>
+              <Link href="/areas/mauldin-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Mauldin
+              </Link>
+              <Link href="/areas/pendleton-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Pendleton
+              </Link>
+              <Link href="/areas/liberty-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Liberty
+              </Link>
+              <Link href="/areas/central-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Central
+              </Link>
             </div>
             <p className="text-muted">
               Don&apos;t see your town? We serve all of Greenville, Anderson, Pickens, and Oconee counties.
