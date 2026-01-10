@@ -314,7 +314,7 @@ const organizationSchema = {
     areaServed: "US-SC",
     availableLanguage: "English",
   },
-  sameAs: [],
+  sameAs: ["https://facebook.com/nelsonstump"],
 };
 
 export default function RootLayout({
