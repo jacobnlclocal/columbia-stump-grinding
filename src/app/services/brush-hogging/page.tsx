@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging & Brush Removal Upstate SC | Nelson Stump',
-  description: 'Professional brush hogging, bush hogging, and brush removal services in Anderson, Pickens, Greenville, and Upstate SC. Clear overgrown fields, fence lines, and trails. Free estimates. Call (864) 760-9203.',
-  keywords: 'brush hogging Anderson SC, bush hogging, brush clearing Pickens County, field mowing Greenville SC, brush hog service near me, overgrown land clearing Upstate SC, pasture mowing, brush removal',
+  title: 'Brush Hogging Services & Cost Per Acre | Bush Hogging Upstate SC',
+  description: 'Brush hogging services and bush hogging services in Upstate SC. Brush hogging cost per acre $150-$300. Brush clearing services for fields and fence lines. Free estimates. Call (864) 760-9203.',
+  keywords: 'brush hogging services, brush hogging cost per acre, bush hogging services, brush clearing services, brush hogging Anderson SC, bush hogging Greenville SC, field mowing Upstate SC',
   openGraph: {
-    title: 'Brush Hogging Services | Nelson Land & Stump',
-    description: 'Professional brush hogging in Upstate SC. Free estimates!',
+    title: 'Brush Hogging Services & Cost Per Acre | Nelson Stump',
+    description: 'Brush hogging cost per acre in Upstate SC. Bush hogging services. Free estimates!',
   },
   alternates: {
     canonical: '/services/brush-hogging',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Brush Hogging",
+  name: "Brush Hogging Services",
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://nelsonstump.com/#business",
@@ -43,8 +43,8 @@ const serviceSchema = {
     { "@type": "City", name: "Clemson, SC" },
     { "@type": "City", name: "Seneca, SC" },
   ],
-  description: "Professional brush hogging and brush clearing services in Upstate South Carolina. Clear overgrown fields, fence lines, trails, and property boundaries.",
-  serviceType: "Brush Hogging",
+  description: "Professional brush hogging services and bush hogging services in Upstate South Carolina. Brush hogging cost per acre $150-$300. Brush clearing services for overgrown fields, fence lines, and property boundaries.",
+  serviceType: "Brush Hogging Services",
 };
 
 export default function BrushHoggingPage() {
@@ -94,7 +94,7 @@ export default function BrushHoggingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              BRUSH HOGGING & BRUSH REMOVAL IN UPSTATE SC
+              BRUSH HOGGING SERVICES & BRUSH CLEARING IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Professional bush hogging and brush clearing services throughout Anderson, Pickens, Greenville, and Oconee Counties.

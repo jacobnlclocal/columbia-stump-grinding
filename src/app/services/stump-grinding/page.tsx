@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Removal Upstate SC | Nelson Stump',
-  description: 'Professional stump grinding and stump removal services in Greenville, Easley, Anderson, and Upstate SC. We grind stumps 6-8 inches below ground. Free estimates, fully insured. Call (864) 760-9203.',
-  keywords: 'stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me, stump removal Upstate South Carolina, affordable stump grinding, tree stump removal',
+  title: 'Stump Grinding Services & Cost | Tree Stump Removal Upstate SC',
+  description: 'How much does stump grinding cost? Professional stump grinding services in Greenville, Easley, Anderson & Upstate SC. Tree stump removal $75-$300. Free estimates. Call (864) 760-9203.',
+  keywords: 'stump grinding cost, stump grinding services, tree stump removal, how much does stump grinding cost, stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me',
   openGraph: {
-    title: 'Stump Grinding Services | Nelson Land & Stump',
-    description: 'Professional stump grinding in Upstate SC. Free estimates!',
+    title: 'Stump Grinding Services & Cost | Nelson Stump',
+    description: 'How much does stump grinding cost? Tree stump removal services in Upstate SC. Free estimates!',
   },
   alternates: {
     canonical: '/services/stump-grinding',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Stump Grinding & Removal",
+  name: "Stump Grinding Services",
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://nelsonstump.com/#business",
@@ -45,8 +45,8 @@ const serviceSchema = {
     { "@type": "City", name: "Greer, SC" },
     { "@type": "City", name: "Mauldin, SC" },
   ],
-  description: "Professional stump grinding and stump removal services in Upstate South Carolina. We grind stumps 6-8 inches below ground level for complete removal. Fast, affordable, and fully insured.",
-  serviceType: "Stump Grinding & Removal",
+  description: "Professional stump grinding services and tree stump removal in Upstate South Carolina. Stump grinding cost ranges from $75-$300. We grind stumps 6-8 inches below ground level. Fast, affordable, and fully insured.",
+  serviceType: "Stump Grinding Services",
 };
 
 export default function StumpGrindingPage() {

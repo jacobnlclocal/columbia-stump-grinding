@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing & Tree Removal Upstate SC | Nelson Stump',
-  description: 'Professional land clearing, tree removal, and forestry mulching in Clemson, Seneca, Oconee County, and Upstate SC. Lot clearing for construction and driveways. Free estimates. Call (864) 760-9203.',
-  keywords: 'land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, site prep Upstate SC, clearing land for construction, property clearing services, tree removal, forestry mulching, brush removal',
+  title: 'Land Clearing Services & Cost Per Acre | Tree Removal Upstate SC',
+  description: 'Professional land clearing services and tree removal services in Upstate SC. Land clearing cost per acre $1,500-$5,000+. Lot clearing services for construction. Free estimates. Call (864) 760-9203.',
+  keywords: 'land clearing services, tree removal services, lot clearing services, land clearing cost per acre, land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, forestry mulching',
   openGraph: {
-    title: 'Land Clearing Services | Nelson Land & Stump',
-    description: 'Professional land clearing in Upstate SC. Free estimates!',
+    title: 'Land Clearing Services & Cost | Nelson Stump',
+    description: 'Land clearing cost per acre in Upstate SC. Tree removal services. Free estimates!',
   },
   alternates: {
     canonical: '/services/land-clearing',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Land Clearing",
+  name: "Land Clearing Services",
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://nelsonstump.com/#business",
@@ -43,8 +43,8 @@ const serviceSchema = {
     { "@type": "City", name: "Easley, SC" },
     { "@type": "City", name: "Pickens, SC" },
   ],
-  description: "Professional land clearing services in Upstate South Carolina. Full lot clearing for new construction, driveways, and property development.",
-  serviceType: "Land Clearing",
+  description: "Professional land clearing services and tree removal services in Upstate South Carolina. Land clearing cost per acre ranges from $1,500-$5,000+. Lot clearing services for construction and driveways.",
+  serviceType: "Land Clearing Services",
 };
 
 export default function LandClearingPage() {
@@ -117,7 +117,7 @@ export default function LandClearingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              LAND CLEARING & TREE REMOVAL IN UPSTATE SC
+              LAND CLEARING SERVICES & TREE REMOVAL IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Professional tree removal and lot clearing services throughout Clemson, Seneca, Oconee, Pickens, Anderson, and Greenville Counties.

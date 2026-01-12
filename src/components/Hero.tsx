@@ -26,18 +26,18 @@ export default function Hero() {
           }}
         >
           <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
-            STUMP & LAND
+            STUMP GRINDING
           </span>
           <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
-            CLEARING
+            & LAND CLEARING
           </span>
           <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
-            SERVICES
+            UPSTATE SC
           </span>
         </h1>
 
         <p className="text-base sm:text-lg text-gray-300 mb-4 tracking-widest uppercase font-medium">
-          Serving Greenville, Anderson, Pickens & Oconee Counties
+          Stump Grinding, Brush Hogging & Land Clearing in Upstate South Carolina
         </p>
         <p className="text-gray-400 mb-10 max-w-xl">
           Professional tree service for stump grinding and removal, land clearing, and brush hogging.

@@ -49,7 +49,8 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
   const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${service.name} in ${city.name}, SC`,
+    name: `${service.name} Services in ${city.name}, SC`,
+    alternateName: service.synonyms.slice(0, 3).map(s => `${s} ${city.name} SC`),
     provider: {
       "@type": "LocalBusiness",
       "@id": "https://nelsonstump.com/#business",
@@ -68,8 +69,8 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
       "@type": "City",
       name: city.name,
     },
-    description: service.description,
-    serviceType: service.name,
+    description: `${service.description} Also known as ${service.synonyms.slice(0, 2).join(' and ')} in ${city.name}, SC.`,
+    serviceType: `${service.name} Services`,
   };
 
   return (
@@ -95,9 +96,12 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
                 { label: service.name },
               ]}
             />
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
               {service.name.toUpperCase()} IN {city.name.toUpperCase()}, SC
             </h1>
+            <p className="text-xl md:text-2xl text-accent font-semibold mb-6">
+              {service.synonyms[0].split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} & {service.synonyms[1].split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} Services
+            </p>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               {service.description} Our professional tree service serves {city.name} and all of {city.county}. Call today for a free estimate!
             </p>

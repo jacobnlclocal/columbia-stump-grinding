@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://nelsonstump.com'),
   title: {
-    default: "Stump Grinding & Land Clearing Greenville SC | Nelson Stump",
+    default: "Stump Grinding & Land Clearing Upstate SC | Nelson Stump",
     template: "%s | Nelson Stump",
   },
   description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Serving Greenville, Anderson, Pickens & Oconee Counties. Free estimates, fully licensed & insured. Call (864) 760-9203.",
