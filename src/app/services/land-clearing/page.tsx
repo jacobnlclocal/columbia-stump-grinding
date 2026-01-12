@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Upstate SC | Nelson Land & Stump',
-  description: 'Professional land clearing services in Clemson, Seneca, Oconee County, and Upstate SC. Full lot clearing for construction, driveways, and property development. Free estimates. Call (864) 760-9203.',
-  keywords: 'land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, site prep Upstate SC, clearing land for construction, property clearing services',
+  title: 'Land Clearing & Tree Removal Upstate SC | Nelson Stump',
+  description: 'Professional land clearing, tree removal, and forestry mulching in Clemson, Seneca, Oconee County, and Upstate SC. Lot clearing for construction and driveways. Free estimates. Call (864) 760-9203.',
+  keywords: 'land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, site prep Upstate SC, clearing land for construction, property clearing services, tree removal, forestry mulching, brush removal',
   openGraph: {
     title: 'Land Clearing Services | Nelson Land & Stump',
     description: 'Professional land clearing in Upstate SC. Free estimates!',
@@ -117,7 +117,7 @@ export default function LandClearingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              LAND CLEARING SERVICES IN UPSTATE SC
+              LAND CLEARING & TREE REMOVAL IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Professional tree removal and lot clearing services throughout Clemson, Seneca, Oconee, Pickens, Anderson, and Greenville Counties.
@@ -149,9 +149,9 @@ export default function LandClearingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-muted text-lg mb-4">
-                  Land clearing is more than just tree cutting and tree removal. It&apos;s about transforming raw, overgrown property
-                  into usable space for whatever you have planned—building a home, installing a driveway, starting
-                  a garden, or simply reclaiming land that&apos;s been neglected. Improve your curb appeal and property value!
+                  Land clearing is more than just tree cutting and tree removal. Using forestry mulching and brush removal techniques,
+                  we transform raw, overgrown property into usable space for whatever you have planned—building a home, installing a driveway,
+                  starting a garden, or simply reclaiming land that&apos;s been neglected. Improve your curb appeal and property value!
                 </p>
                 <p className="text-muted text-lg mb-4">
                   At Nelson Land & Stump, we handle the full scope of land clearing projects in Upstate South Carolina.

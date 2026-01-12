@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Upstate SC | Nelson Land & Stump',
-  description: 'Professional stump grinding services in Greenville, Easley, Anderson, and Upstate SC. We grind stumps 6-8 inches below ground. Free estimates, fully insured. Call (864) 760-9203.',
-  keywords: 'stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me, stump removal Upstate South Carolina, affordable stump grinding',
+  title: 'Stump Grinding & Removal Upstate SC | Nelson Stump',
+  description: 'Professional stump grinding and stump removal services in Greenville, Easley, Anderson, and Upstate SC. We grind stumps 6-8 inches below ground. Free estimates, fully insured. Call (864) 760-9203.',
+  keywords: 'stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me, stump removal Upstate South Carolina, affordable stump grinding, tree stump removal',
   openGraph: {
     title: 'Stump Grinding Services | Nelson Land & Stump',
     description: 'Professional stump grinding in Upstate SC. Free estimates!',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  name: "Stump Grinding",
+  name: "Stump Grinding & Removal",
   provider: {
     "@type": "LocalBusiness",
     "@id": "https://nelsonstump.com/#business",
@@ -45,8 +45,8 @@ const serviceSchema = {
     { "@type": "City", name: "Greer, SC" },
     { "@type": "City", name: "Mauldin, SC" },
   ],
-  description: "Professional stump grinding services in Upstate South Carolina. We grind stumps 6-8 inches below ground level for complete removal. Fast, affordable, and fully insured.",
-  serviceType: "Stump Grinding",
+  description: "Professional stump grinding and stump removal services in Upstate South Carolina. We grind stumps 6-8 inches below ground level for complete removal. Fast, affordable, and fully insured.",
+  serviceType: "Stump Grinding & Removal",
 };
 
 export default function StumpGrindingPage() {
@@ -88,7 +88,7 @@ export default function StumpGrindingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              STUMP GRINDING SERVICES IN UPSTATE SC
+              STUMP GRINDING & REMOVAL SERVICES IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Professional tree service for stump grinding and removal throughout Greenville, Anderson, Pickens, and Oconee Counties.

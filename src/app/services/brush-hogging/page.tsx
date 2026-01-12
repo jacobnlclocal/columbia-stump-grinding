@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Upstate SC | Nelson Land & Stump',
-  description: 'Professional brush hogging and brush clearing services in Anderson, Pickens, Greenville, and Upstate SC. Clear overgrown fields, fence lines, and trails. Free estimates. Call (864) 760-9203.',
-  keywords: 'brush hogging Anderson SC, brush clearing Pickens County, field mowing Greenville SC, brush hog service near me, overgrown land clearing Upstate SC, pasture mowing',
+  title: 'Brush Hogging & Brush Removal Upstate SC | Nelson Stump',
+  description: 'Professional brush hogging, bush hogging, and brush removal services in Anderson, Pickens, Greenville, and Upstate SC. Clear overgrown fields, fence lines, and trails. Free estimates. Call (864) 760-9203.',
+  keywords: 'brush hogging Anderson SC, bush hogging, brush clearing Pickens County, field mowing Greenville SC, brush hog service near me, overgrown land clearing Upstate SC, pasture mowing, brush removal',
   openGraph: {
     title: 'Brush Hogging Services | Nelson Land & Stump',
     description: 'Professional brush hogging in Upstate SC. Free estimates!',
@@ -94,7 +94,7 @@ export default function BrushHoggingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              BRUSH HOGGING SERVICES IN UPSTATE SC
+              BRUSH HOGGING & BRUSH REMOVAL IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Professional bush hogging and brush clearing services throughout Anderson, Pickens, Greenville, and Oconee Counties.
@@ -126,7 +126,7 @@ export default function BrushHoggingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-muted text-lg mb-4">
-                  Brush hogging (also called bush hogging) is a land clearing method using a heavy-duty rotary cutter
+                  Brush hogging (also called bush hogging) is a professional brush removal method using a heavy-duty rotary cutter
                   attached to a tractor. It&apos;s the fastest and most efficient way to clear overgrown vegetation on
                   larger properties throughout Upstate South Carolina.
                 </p>
