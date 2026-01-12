@@ -120,8 +120,8 @@ export default function LandClearingPage() {
               LAND CLEARING SERVICES IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional lot clearing throughout Clemson, Seneca, Oconee, Pickens, Anderson, and Greenville Counties.
-              We clear land for construction, driveways, and property development.
+              Professional tree removal and lot clearing services throughout Clemson, Seneca, Oconee, Pickens, Anderson, and Greenville Counties.
+              Our tree service handles land clearing for construction, driveways, and property development. Call today for your free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -149,9 +149,9 @@ export default function LandClearingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-muted text-lg mb-4">
-                  Land clearing is more than just cutting down trees. It&apos;s about transforming raw, overgrown property
+                  Land clearing is more than just tree cutting and tree removal. It&apos;s about transforming raw, overgrown property
                   into usable space for whatever you have planned—building a home, installing a driveway, starting
-                  a garden, or simply reclaiming land that&apos;s been neglected.
+                  a garden, or simply reclaiming land that&apos;s been neglected. Improve your curb appeal and property value!
                 </p>
                 <p className="text-muted text-lg mb-4">
                   At Nelson Land & Stump, we handle the full scope of land clearing projects in Upstate South Carolina.
@@ -160,8 +160,8 @@ export default function LandClearingPage() {
                 </p>
                 <p className="text-muted text-lg">
                   We work closely with homeowners, builders, and developers to understand exactly what you need.
-                  Whether you want everything cleared down to bare dirt or prefer to keep certain trees, we customize
-                  our approach to match your vision.
+                  Whether you want everything cleared down to bare dirt or prefer to keep certain trees, our professional tree service
+                  customizes the approach to match your vision. Customer satisfaction is our top priority.
                 </p>
               </div>
               <div className="bg-accent text-white rounded-lg p-8">

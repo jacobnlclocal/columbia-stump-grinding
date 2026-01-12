@@ -91,8 +91,8 @@ export default function StumpGrindingPage() {
               STUMP GRINDING SERVICES IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional stump grinding throughout Greenville, Anderson, Pickens, and Oconee Counties.
-              We grind stumps 6-8 inches below ground level for complete removal.
+              Professional tree service for stump grinding and removal throughout Greenville, Anderson, Pickens, and Oconee Counties.
+              Our expert team grinds stumps 6-8 inches below ground level for complete root removal. Call today for your free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -120,8 +120,9 @@ export default function StumpGrindingPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-muted text-lg mb-4">
-                  Stump grinding is the process of using a specialized machine to grind a tree stump down below ground level.
-                  Unlike stump removal (which pulls out the entire root ball), grinding is less invasive, faster, and more affordable.
+                  Stump grinding is a professional tree service that uses specialized equipment to grind tree stumps below ground level.
+                  Unlike full stump removal (which pulls out the entire root ball), grinding is less invasive, faster, and more affordable.
+                  Our customers consistently report high satisfaction with our stump grinding and removal services.
                 </p>
                 <p className="text-muted text-lg mb-4">
                   Our commercial-grade stump grinder chews through stumps of any size, grinding them 6-8 inches below the surface.
@@ -325,8 +326,8 @@ export default function StumpGrindingPage() {
               READY TO REMOVE THAT STUMP?
             </h2>
             <p className="text-muted text-lg mb-8">
-              Contact Nelson Land & Stump today for a free, no-obligation quote on stump grinding services
-              in Greenville, Easley, Anderson, Clemson, Seneca, and throughout Upstate South Carolina.
+              Contact Nelson Land & Stump today for a free, no-obligation quote on professional stump grinding and tree stump removal services
+              in Greenville, Easley, Anderson, Clemson, Seneca, and throughout Upstate South Carolina. Customer satisfaction guaranteed!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -97,8 +97,8 @@ export default function BrushHoggingPage() {
               BRUSH HOGGING SERVICES IN UPSTATE SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional brush clearing throughout Anderson, Pickens, Greenville, and Oconee Counties.
-              We handle overgrown fields, fence lines, and everything in between.
+              Professional bush hogging and brush clearing services throughout Anderson, Pickens, Greenville, and Oconee Counties.
+              Our tree service handles overgrown fields, fence lines, and everything in between. Call today for a free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -136,9 +136,9 @@ export default function BrushHoggingPage() {
                   50+ acre farms in Anderson County.
                 </p>
                 <p className="text-muted text-lg">
-                  Unlike mowing, brush hogging is designed for rough terrain and heavy vegetation that a
+                  Unlike mowing, bush hogging is designed for rough terrain and heavy vegetation that a
                   standard lawn mower can&apos;t handle. It&apos;s the go-to solution for reclaiming land that&apos;s been
-                  neglected for months or even years.
+                  neglected for months or even years. Our professional tree service ensures customer satisfaction on every job.
                 </p>
               </div>
               <div className="bg-muted-light rounded-lg p-8">

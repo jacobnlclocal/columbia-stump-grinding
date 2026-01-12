@@ -99,7 +99,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
               {service.name.toUpperCase()} IN {city.name.toUpperCase()}, SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              {service.description} Serving {city.name} and all of {city.county}.
+              {service.description} Our professional tree service serves {city.name} and all of {city.county}. Call today for a free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -132,8 +132,8 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
                 </p>
                 <p className="text-muted text-lg mb-4">
                   As a local, family-owned business based in Williamston, we understand the unique needs of {city.name}
-                  property owners. Whether you have a residential lot or commercial property, we have the equipment
-                  and expertise to get the job done right.
+                  property owners. Whether you have a residential lot or commercial property, our removal services
+                  will improve your curb appeal. Customer satisfaction is our top priority.
                 </p>
                 <p className="text-muted text-lg">
                   We offer free on-site estimates for all {service.name.toLowerCase()} projects in {city.name}.

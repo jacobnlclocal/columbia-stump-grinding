@@ -36,8 +36,12 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-base sm:text-lg text-gray-300 mb-10 tracking-widest uppercase font-medium">
+        <p className="text-base sm:text-lg text-gray-300 mb-4 tracking-widest uppercase font-medium">
           Serving Greenville, Anderson, Pickens & Oconee Counties
+        </p>
+        <p className="text-gray-400 mb-10 max-w-xl">
+          Professional tree service for stump grinding and removal, land clearing, and brush hogging.
+          Improve your curb appeal and property value. Call today for a free estimate!
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

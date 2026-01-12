@@ -5,7 +5,7 @@ export default function Services() {
     {
       title: 'STUMP GRINDING',
       subtitle: 'Greenville, Easley & Beyond',
-      description: 'We grind stumps 6-8 inches below ground level so you can plant grass, build, or stop mowing around that eyesore. Professional stump removal across Upstate SC.',
+      description: 'Professional stump grinding and removal services. We grind stumps 6-8 inches below ground for complete root removal. Improve your curb appeal and reclaim your yard.',
       href: '/services/stump-grinding',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -16,7 +16,7 @@ export default function Services() {
     {
       title: 'BRUSH HOGGING',
       subtitle: 'Anderson & Pickens Counties',
-      description: 'Overgrown fields, fence lines, and trails cleared fast. We handle tall grass, thick brush, and saplings up to 3 inches throughout the Upstate.',
+      description: 'Bush hogging and brush clearing for overgrown fields, fence lines, and trails. Our professional tree service handles tall grass, thick brush, and saplings up to 3 inches.',
       href: '/services/brush-hogging',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ export default function Services() {
     {
       title: 'LAND CLEARING',
       subtitle: 'Clemson, Seneca & Oconee',
-      description: 'Full lot clearing for new construction, driveways, or opening up your property. Trees, brush, and debris removed throughout Upstate South Carolina.',
+      description: 'Complete land clearing and tree removal services for new construction, driveways, or property development. Professional tree cutting and debris removal throughout Upstate SC.',
       href: '/services/land-clearing',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
