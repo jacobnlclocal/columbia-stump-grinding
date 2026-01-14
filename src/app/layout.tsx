@@ -327,6 +327,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Preconnect to Google Analytics for faster loading */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -349,9 +353,9 @@ export default function RootLayout({
       >
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BMZVK54H3P"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
