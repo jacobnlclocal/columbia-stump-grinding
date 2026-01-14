@@ -6,12 +6,13 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center pt-16">
       {/* Background Image with Next.js Image for better performance */}
       <Image
-        src="/hero.png"
+        src="/hero.jpg"
         alt="Professional stump grinding equipment in Upstate South Carolina - Nelson Land & Stump Services"
         fill
         className="object-cover object-center"
         priority
         sizes="100vw"
+        quality={75}
       />
 
       {/* Dark Blue Overlay */}
