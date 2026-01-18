@@ -88,6 +88,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    // Free estimate page
+    {
+      url: `${baseUrl}/free-estimate`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
     // Area pages
     ...areaPages.map((slug) => ({
       url: `${baseUrl}/areas/${slug}`,

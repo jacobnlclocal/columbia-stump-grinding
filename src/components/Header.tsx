@@ -102,7 +102,7 @@ export default function Header() {
               <span className="font-bold text-sm" style={{ fontFamily: 'var(--font-oswald)' }}>(864) 760-9203</span>
             </a>
             <Link
-              href="/#contact"
+              href="/free-estimate"
               className="bg-accent hover:bg-accent-dark text-white px-6 py-3 rounded-md font-bold text-sm transition-all hover:shadow-lg hover:scale-105"
               style={{ fontFamily: 'var(--font-oswald)' }}
             >
@@ -167,7 +167,7 @@ export default function Header() {
                 Mon-Sat: 7AM - 6PM
               </div>
               <Link
-                href="/#contact"
+                href="/free-estimate"
                 className="block text-center bg-accent hover:bg-accent-dark text-white px-5 py-4 rounded-md font-bold transition-colors"
                 style={{ fontFamily: 'var(--font-oswald)' }}
                 onClick={() => setIsMenuOpen(false)}

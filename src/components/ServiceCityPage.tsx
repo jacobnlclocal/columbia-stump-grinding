@@ -107,7 +107,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/#contact"
+                href="/free-estimate"
                 className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
               >
                 Get a Free Quote
@@ -228,7 +228,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
             </div>
             <p className="text-center text-muted mt-8 text-sm">
               * Prices are estimates. Actual pricing depends on accessibility, terrain, and specific site conditions.
-              <Link href="/#contact" className="text-accent hover:underline ml-1">Get a free quote</Link> for accurate pricing.
+              <Link href="/free-estimate" className="text-accent hover:underline ml-1">Get a free quote</Link> for accurate pricing.
             </p>
           </div>
         </section>
@@ -266,7 +266,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
               depending on the size, location, and accessibility. We offer free on-site estimates so you know exactly what to expect.
             </p>
             <Link
-              href="/#contact"
+              href="/free-estimate"
               className="inline-block bg-accent hover:bg-accent-dark text-white px-10 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
             >
               Get Your Free Estimate
@@ -330,7 +330,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/#contact"
+                href="/free-estimate"
                 className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
               >
                 Request a Quote

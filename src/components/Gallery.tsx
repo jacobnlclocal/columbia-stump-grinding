@@ -81,7 +81,7 @@ export default function Gallery() {
 
         <div className="text-center mt-10">
           <a
-            href="/#contact"
+            href="/free-estimate"
             className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
           >
             Get Your Free Quote

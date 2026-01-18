@@ -47,7 +47,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href="/#contact"
+            href="/free-estimate"
             className="inline-block bg-accent hover:bg-accent-dark text-white px-10 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors shadow-lg text-center"
           >
             Get a Free Quote
