@@ -13,36 +13,6 @@ export const metadata: Metadata = {
   },
 };
 
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: "Nelson Land & Stump Services - Iva",
-  description: "Professional stump grinding, brush hogging, and land clearing services in Iva, SC and surrounding areas.",
-  url: "https://www.nelsonstump.com/areas/iva-sc",
-  telephone: "+1-864-760-9203",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "230 Lewis Road",
-    addressLocality: "Williamston",
-    addressRegion: "SC",
-    postalCode: "29697",
-    addressCountry: "US",
-  },
-  areaServed: {
-    "@type": "City",
-    name: "Iva",
-    containedInPlace: {
-      "@type": "State",
-      name: "South Carolina",
-    },
-  },
-  priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5",
-    reviewCount: "47",
-  },
-};
 
 export default function IvaPage() {
   const neighborhoods = [
@@ -69,10 +39,6 @@ export default function IvaPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

@@ -64,16 +64,15 @@ export const metadata: Metadata = {
   },
 };
 
-// LocalBusiness Schema Markup
+// LocalBusiness Schema Markup (simplified for better text-to-HTML ratio)
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://www.nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
-  description: "Professional stump grinding, brush hogging, and land clearing services serving Upstate South Carolina. Family-owned business with 5+ years experience.",
+  description: "Professional stump grinding, brush hogging, and land clearing in Upstate SC.",
   url: "https://www.nelsonstump.com",
   telephone: "+1-864-760-9203",
-  email: "tigernelson@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "230 Lewis Road",
@@ -82,99 +81,13 @@ const localBusinessSchema = {
     postalCode: "29697",
     addressCountry: "US",
   },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 34.6182,
-    longitude: -82.4079,
-  },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Greenville County, SC" },
-    { "@type": "AdministrativeArea", name: "Anderson County, SC" },
-    { "@type": "AdministrativeArea", name: "Pickens County, SC" },
-    { "@type": "AdministrativeArea", name: "Oconee County, SC" },
-    { "@type": "City", name: "Greenville, SC" },
-    { "@type": "City", name: "Anderson, SC" },
-    { "@type": "City", name: "Easley, SC" },
-    { "@type": "City", name: "Clemson, SC" },
-    { "@type": "City", name: "Seneca, SC" },
-    { "@type": "City", name: "Pickens, SC" },
-    { "@type": "City", name: "Simpsonville, SC" },
-    { "@type": "City", name: "Greer, SC" },
-    { "@type": "City", name: "Mauldin, SC" },
-    { "@type": "City", name: "Pendleton, SC" },
-    { "@type": "City", name: "Liberty, SC" },
-    { "@type": "City", name: "Central, SC" },
-  ],
+  areaServed: "Upstate South Carolina",
   priceRange: "$$",
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "07:00",
-      closes: "18:00",
-    },
-  ],
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Land Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Stump Grinding",
-          description: "Professional stump grinding services. We grind stumps 6-8 inches below ground level for complete removal.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Brush Hogging",
-          description: "Brush hogging and brush clearing services for overgrown fields, fence lines, and trails.",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Land Clearing",
-          description: "Full lot clearing for new construction, driveways, or property development. Trees, brush, and debris removed.",
-        },
-      },
-    ],
-  },
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
     reviewCount: "47",
   },
-};
-
-// Organization Schema
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Nelson Land & Stump Services",
-  url: "https://www.nelsonstump.com",
-  logo: "https://www.nelsonstump.com/icon.png",
-  description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "230 Lewis Road",
-    addressLocality: "Williamston",
-    addressRegion: "SC",
-    postalCode: "29697",
-    addressCountry: "US",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+1-864-760-9203",
-    contactType: "customer service",
-    areaServed: "US-SC",
-    availableLanguage: "English",
-  },
-  sameAs: ["https://facebook.com/nelsonstump"],
 };
 
 export default function RootLayout({
@@ -192,10 +105,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body

@@ -14,75 +14,8 @@ interface ServiceCityPageProps {
 export default function ServiceCityPage({ city, service }: ServiceCityPageProps) {
   const otherServices = services.filter(s => s.slug !== service.slug);
 
-  const localBusinessSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `https://www.nelsonstump.com/#business`,
-    name: "Nelson Land & Stump Services",
-    description: `Professional ${service.name.toLowerCase()} services in ${city.name}, SC and surrounding areas.`,
-    url: "https://www.nelsonstump.com",
-    telephone: "+1-864-760-9203",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "230 Lewis Road",
-      addressLocality: "Williamston",
-      addressRegion: "SC",
-      postalCode: "29697",
-      addressCountry: "US",
-    },
-    areaServed: {
-      "@type": "City",
-      name: city.name,
-      containedInPlace: {
-        "@type": "State",
-        name: "South Carolina",
-      },
-    },
-    priceRange: "$$",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5",
-      reviewCount: "47",
-    },
-  };
-
-  const serviceSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: `${service.name} Services in ${city.name}, SC`,
-    alternateName: service.synonyms.slice(0, 3).map(s => `${s} ${city.name} SC`),
-    provider: {
-      "@type": "LocalBusiness",
-      "@id": "https://www.nelsonstump.com/#business",
-      name: "Nelson Land & Stump Services",
-      telephone: "+1-864-760-9203",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "230 Lewis Road",
-        addressLocality: "Williamston",
-        addressRegion: "SC",
-        postalCode: "29697",
-        addressCountry: "US",
-      },
-    },
-    areaServed: {
-      "@type": "City",
-      name: city.name,
-    },
-    description: `${service.description} Also known as ${service.synonyms.slice(0, 2).join(' and ')} in ${city.name}, SC.`,
-    serviceType: `${service.name} Services`,
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
