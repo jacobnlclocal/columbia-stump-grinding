@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Free Stump Grinding Estimate | Nelson Stump',
     description: 'Get a free, no-obligation estimate for stump grinding, brush hogging, or land clearing in Upstate SC.',
-    url: 'https://nelsonstump.com/free-estimate',
+    url: 'https://www.nelsonstump.com/free-estimate',
   },
   alternates: {
     canonical: '/free-estimate',
@@ -25,7 +25,7 @@ const estimateSchema = {
   name: "Free Stump Grinding Estimate",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://nelsonstump.com/#business",
+    "@id": "https://www.nelsonstump.com/#business",
     name: "Nelson Land & Stump Services",
     telephone: "+1-864-760-9203",
     address: {
