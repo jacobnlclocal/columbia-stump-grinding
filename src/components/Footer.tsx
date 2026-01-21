@@ -16,8 +16,11 @@ export default function Footer() {
                 <span className="text-accent text-xs font-bold tracking-wider">LAND & STUMP</span>
               </div>
             </div>
-            <p className="text-gray-400 text-sm max-w-xs">
-              Professional land clearing and stump grinding services in Upstate South Carolina.
+            <p className="text-gray-400 text-sm max-w-md mb-3">
+              Nelson Land and Stump Services is a family-owned land clearing company serving Upstate South Carolina. We specialize in professional stump grinding, brush hogging, and complete lot clearing for residential and commercial properties throughout Greenville, Anderson, Pickens, and Oconee Counties.
+            </p>
+            <p className="text-gray-400 text-sm max-w-md">
+              With over five years of experience and hundreds of satisfied customers, we deliver quality workmanship at competitive prices. Our team uses professional-grade equipment to handle jobs of any size, from single stump removal to multi-acre land clearing projects. We are fully licensed and insured for your protection.
             </p>
           </div>
 

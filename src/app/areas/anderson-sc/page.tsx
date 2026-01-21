@@ -159,8 +159,11 @@ export default function AndersonPage() {
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               ANDERSON COUNTY AREAS WE SERVE
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               We provide stump grinding, brush hogging, and land clearing services throughout Anderson County, including:
+            </p>
+            <p className="text-muted text-base mb-8">
+              Our Anderson County service area covers all neighborhoods from downtown to the rural outskirts along Lake Hartwell and beyond. Whether you have a small residential lot or a large agricultural property, our team has the equipment and expertise to handle your project. We offer free on-site estimates and can typically schedule appointments within one to two business days. Our service extends throughout all of Anderson County, including Pendleton, Belton, Williamston, Honea Path, Iva, and surrounding communities.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {neighborhoods.map((area) => (
@@ -181,8 +184,11 @@ export default function AndersonPage() {
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               ALSO SERVING NEARBY AREAS
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               In addition to Anderson, we provide services throughout Upstate South Carolina:
+            </p>
+            <p className="text-muted text-base mb-8">
+              Our service area extends approximately 45 minutes from our base in Williamston, covering all of Anderson County and the surrounding Upstate region. We travel to Greenville, Easley, Clemson, Seneca, and many other communities in the area. If you are located outside Anderson but still within the Upstate, contact us to confirm service availability for your location and schedule a free on-site estimate.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Link href="/areas/easley-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">

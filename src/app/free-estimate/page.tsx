@@ -80,8 +80,11 @@ export default function FreeEstimatePage() {
               Request a free, no-obligation quote for stump grinding, brush hogging, or land clearing
               services anywhere in Upstate South Carolina.
             </p>
-            <p className="text-lg text-accent font-semibold">
+            <p className="text-lg text-accent font-semibold mb-4">
               Most estimates scheduled within 1-2 business days
+            </p>
+            <p className="text-gray-400 max-w-3xl">
+              Nelson Land and Stump Services has been providing professional land clearing services in Upstate South Carolina for over five years. Our team visits your property to assess the scope of work, discuss your specific needs, and provide an accurate quote. We handle projects of all sizes, from single stump removal to multi-acre land clearing. Every estimate includes a detailed breakdown so you know exactly what to expect with no hidden fees or surprises.
             </p>
           </div>
         </section>

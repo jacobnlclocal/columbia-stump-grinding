@@ -35,8 +35,11 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
             <p className="text-xl md:text-2xl text-accent font-semibold mb-6">
               {service.synonyms[0].split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} & {service.synonyms[1].split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')} Services
             </p>
-            <p className="text-xl text-gray-300 max-w-3xl mb-8">
+            <p className="text-xl text-gray-300 max-w-3xl mb-4">
               {service.description} Our professional tree service serves {city.name} and all of {city.county}. Call today for a free estimate!
+            </p>
+            <p className="text-gray-400 max-w-3xl mb-8">
+              Nelson Land and Stump Services is a locally owned and operated company based in Williamston, South Carolina. We have been providing professional {service.name.toLowerCase()} services to homeowners and businesses in {city.name} and {city.county} for over five years. Our team uses professional-grade equipment to deliver quality results at competitive prices. We are fully licensed and insured for your protection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -172,8 +175,11 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               {service.name.toUpperCase()} AREAS IN {city.name.toUpperCase()}
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               We provide {service.name.toLowerCase()} ({service.synonyms[0]}) services throughout {city.name} and the surrounding areas, including:
+            </p>
+            <p className="text-muted text-base mb-8">
+              Our {service.name.toLowerCase()} services in {city.name} cover all residential neighborhoods, commercial districts, and rural properties. Whether you own a home in a subdivision, manage a commercial property, or have land outside the city limits, we can help with your {service.name.toLowerCase()} needs. We offer free on-site estimates and can typically schedule appointments within one to two business days. Contact us today to discuss your project and get a quote.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {city.neighborhoods.map((area) => (

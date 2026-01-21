@@ -59,8 +59,11 @@ export default function ServiceAreas() {
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
             SERVICE AREAS
           </h2>
-          <p className="text-muted text-lg max-w-2xl mx-auto">
+          <p className="text-muted text-lg max-w-2xl mx-auto mb-4">
             Professional stump grinding, brush hogging, and land clearing services throughout Upstate South Carolina
+          </p>
+          <p className="text-muted text-base max-w-3xl mx-auto">
+            Based in Williamston, we travel throughout the Upstate region to serve our customers. Our service area covers approximately a 45-minute radius from Greenville, including all major cities and rural communities in Greenville County, Anderson County, Pickens County, and Oconee County. We offer free on-site estimates for all projects in our service area, and we can typically schedule estimates within one to two business days.
           </p>
         </div>
 

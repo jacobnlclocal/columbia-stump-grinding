@@ -162,8 +162,11 @@ export default function GreenvillePage() {
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               GREENVILLE AREAS WE SERVE
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               We provide stump grinding, brush hogging, and land clearing services throughout Greenville County, including:
+            </p>
+            <p className="text-muted text-base mb-8">
+              Our Greenville service area covers all neighborhoods from downtown to the outskirts, including both residential and commercial properties. Whether you have a small backyard stump in a historic West End home or need extensive land clearing for new development near the Verdae area, our team has the equipment and expertise to handle your project efficiently and professionally.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {neighborhoods.map((area) => (
@@ -184,8 +187,11 @@ export default function GreenvillePage() {
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
               ALSO SERVING NEARBY AREAS
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               In addition to Greenville, we provide services throughout Upstate South Carolina:
+            </p>
+            <p className="text-muted text-base mb-8">
+              Our service area extends approximately 45 minutes from our base in Williamston, covering all of Greenville County and the surrounding Upstate region. If you are located outside of Greenville proper but still within the Upstate area, we can likely serve you as well. Contact us to confirm service availability for your specific location and to schedule a free on-site estimate.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Link href="/areas/simpsonville-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">

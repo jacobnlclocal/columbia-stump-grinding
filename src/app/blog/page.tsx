@@ -87,8 +87,11 @@ export default function BlogPage() {
             <h1 className="text-4xl md:text-5xl font-black text-white mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
               LAND CLEARING TIPS & GUIDES
             </h1>
-            <p className="text-xl text-gray-300 max-w-2xl">
+            <p className="text-xl text-gray-300 max-w-2xl mb-4">
               Expert advice on stump grinding, brush hogging, and land clearing from the pros at Nelson Land & Stump.
+            </p>
+            <p className="text-gray-400 max-w-3xl">
+              Our blog provides helpful information for property owners throughout Upstate South Carolina. Whether you are wondering about stump grinding costs, trying to decide between stump grinding and complete stump removal, or need to know if you require a permit for land clearing in South Carolina, we have articles that cover the topics that matter most to our customers. We share our expertise from over five years of experience in the land clearing industry to help you make informed decisions about your property.
             </p>
           </div>
         </section>
@@ -139,9 +142,12 @@ export default function BlogPage() {
             <h2 className="text-3xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
               HAVE QUESTIONS ABOUT YOUR PROJECT?
             </h2>
-            <p className="text-muted text-lg mb-8">
+            <p className="text-muted text-lg mb-4">
               We&apos;re happy to answer any questions about stump grinding, brush hogging, or land clearing.
               Contact us for a free consultation.
+            </p>
+            <p className="text-muted text-base mb-8 max-w-2xl mx-auto">
+              Nelson Land and Stump Services provides free on-site estimates throughout Greenville, Anderson, Pickens, and Oconee Counties. Our team will assess your property, discuss your goals, and provide an accurate quote with no obligation. We can typically schedule estimates within one to two business days and are available Monday through Saturday from 7 AM to 6 PM. Call us today or fill out our online form to get started on your project.
             </p>
             <Link
               href="/#contact"
