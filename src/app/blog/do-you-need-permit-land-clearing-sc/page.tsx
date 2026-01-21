@@ -22,20 +22,20 @@ export default function LandClearingPermitPost() {
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
-      "url": "https://nelsonstump.com"
+      "url": "https://www.nelsonstump.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
-      "url": "https://nelsonstump.com",
+      "url": "https://www.nelsonstump.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://nelsonstump.com/icon.png"
+        "url": "https://www.nelsonstump.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://nelsonstump.com/blog/do-you-need-permit-land-clearing-sc"
+      "@id": "https://www.nelsonstump.com/blog/do-you-need-permit-land-clearing-sc"
     }
   };
 

@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - West Union",
   description: "Professional stump grinding, brush hogging, and land clearing services in West Union, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/west-union-sc",
+  url: "https://www.nelsonstump.com/areas/west-union-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Salem",
   description: "Professional stump grinding, brush hogging, and land clearing services in Salem, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/salem-sc",
+  url: "https://www.nelsonstump.com/areas/salem-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

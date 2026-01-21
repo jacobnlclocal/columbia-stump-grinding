@@ -24,7 +24,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nelsonstump.com'),
+  metadataBase: new URL('https://www.nelsonstump.com'),
   title: {
     default: "Stump Grinding & Land Clearing Upstate SC | Nelson Stump",
     template: "%s | Nelson Stump",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Nelson Land & Stump Services",
-    url: "https://nelsonstump.com",
+    url: "https://www.nelsonstump.com",
     images: [
       {
         url: "/og-image.jpg",
@@ -68,10 +68,10 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://nelsonstump.com/#business",
+  "@id": "https://www.nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
   description: "Professional stump grinding, brush hogging, and land clearing services serving Upstate South Carolina. Family-owned business with 5+ years experience.",
-  url: "https://nelsonstump.com",
+  url: "https://www.nelsonstump.com",
   telephone: "+1-864-760-9203",
   email: "tigernelson@gmail.com",
   address: {
@@ -298,8 +298,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Nelson Land & Stump Services",
-  url: "https://nelsonstump.com",
-  logo: "https://nelsonstump.com/icon.png",
+  url: "https://www.nelsonstump.com",
+  logo: "https://www.nelsonstump.com/icon.png",
   description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina.",
   address: {
     "@type": "PostalAddress",

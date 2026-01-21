@@ -17,10 +17,10 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://nelsonstump.com/#business`,
+    "@id": `https://www.nelsonstump.com/#business`,
     name: "Nelson Land & Stump Services",
     description: `Professional ${service.name.toLowerCase()} services in ${city.name}, SC and surrounding areas.`,
-    url: "https://nelsonstump.com",
+    url: "https://www.nelsonstump.com",
     telephone: "+1-864-760-9203",
     address: {
       "@type": "PostalAddress",
@@ -53,7 +53,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
     alternateName: service.synonyms.slice(0, 3).map(s => `${s} ${city.name} SC`),
     provider: {
       "@type": "LocalBusiness",
-      "@id": "https://nelsonstump.com/#business",
+      "@id": "https://www.nelsonstump.com/#business",
       name: "Nelson Land & Stump Services",
       telephone: "+1-864-760-9203",
       address: {

@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Travelers Rest",
   description: "Professional stump grinding, brush hogging, and land clearing services in Travelers Rest, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/travelers-rest-sc",
+  url: "https://www.nelsonstump.com/areas/travelers-rest-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

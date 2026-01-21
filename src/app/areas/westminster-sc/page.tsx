@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Westminster",
   description: "Professional stump grinding, brush hogging, and land clearing services in Westminster, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/westminster-sc",
+  url: "https://www.nelsonstump.com/areas/westminster-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

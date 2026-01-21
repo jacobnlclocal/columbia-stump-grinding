@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Fair Play",
   description: "Professional stump grinding, brush hogging, and land clearing services in Fair Play, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/fair-play-sc",
+  url: "https://www.nelsonstump.com/areas/fair-play-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

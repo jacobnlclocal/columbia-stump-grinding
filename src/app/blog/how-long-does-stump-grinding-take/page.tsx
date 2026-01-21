@@ -22,20 +22,20 @@ export default function HowLongStumpGrindingPost() {
     "author": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
-      "url": "https://nelsonstump.com"
+      "url": "https://www.nelsonstump.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Nelson Land & Stump",
-      "url": "https://nelsonstump.com",
+      "url": "https://www.nelsonstump.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://nelsonstump.com/icon.png"
+        "url": "https://www.nelsonstump.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://nelsonstump.com/blog/how-long-does-stump-grinding-take"
+      "@id": "https://www.nelsonstump.com/blog/how-long-does-stump-grinding-take"
     }
   };
 

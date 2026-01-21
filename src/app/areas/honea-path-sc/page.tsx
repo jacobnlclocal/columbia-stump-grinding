@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Honea Path",
   description: "Professional stump grinding, brush hogging, and land clearing services in Honea Path, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/honea-path-sc",
+  url: "https://www.nelsonstump.com/areas/honea-path-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

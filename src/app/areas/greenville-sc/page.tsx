@@ -18,7 +18,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   name: "Nelson Land & Stump Services - Greenville",
   description: "Professional stump grinding, brush hogging, and land clearing services in Greenville, SC and surrounding areas.",
-  url: "https://nelsonstump.com/areas/greenville-sc",
+  url: "https://www.nelsonstump.com/areas/greenville-sc",
   telephone: "+1-864-760-9203",
   address: {
     "@type": "PostalAddress",

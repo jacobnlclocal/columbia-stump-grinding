@@ -1,7 +1,7 @@
 const reviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://nelsonstump.com/#business",
+  "@id": "https://www.nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
   telephone: "+1-864-760-9203",
   address: {

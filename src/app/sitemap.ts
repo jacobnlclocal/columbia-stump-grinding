@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://nelsonstump.com';
+  const baseUrl = 'https://www.nelsonstump.com';
 
   // Area pages with their slugs
   const areaPages = [

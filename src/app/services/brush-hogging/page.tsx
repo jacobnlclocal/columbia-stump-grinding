@@ -23,7 +23,7 @@ const serviceSchema = {
   name: "Brush Hogging Services",
   provider: {
     "@type": "LocalBusiness",
-    "@id": "https://nelsonstump.com/#business",
+    "@id": "https://www.nelsonstump.com/#business",
     name: "Nelson Land & Stump Services",
     telephone: "+1-864-760-9203",
     address: {

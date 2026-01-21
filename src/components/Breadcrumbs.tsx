@@ -20,7 +20,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
         "name": item.label,
       };
       if (item.href) {
-        listItem.item = `https://nelsonstump.com${item.href}`;
+        listItem.item = `https://www.nelsonstump.com${item.href}`;
       }
       return listItem;
     }),
