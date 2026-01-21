@@ -19,38 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-const estimateSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Free Stump Grinding Estimate",
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://www.nelsonstump.com/#business",
-    name: "Nelson Land & Stump Services",
-    telephone: "+1-864-760-9203",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "230 Lewis Road",
-      addressLocality: "Williamston",
-      addressRegion: "SC",
-      postalCode: "29697",
-      addressCountry: "US",
-    },
-  },
-  areaServed: [
-    { "@type": "AdministrativeArea", name: "Greenville County, SC" },
-    { "@type": "AdministrativeArea", name: "Anderson County, SC" },
-    { "@type": "AdministrativeArea", name: "Pickens County, SC" },
-    { "@type": "AdministrativeArea", name: "Oconee County, SC" },
-  ],
-  description: "Free, no-obligation estimates for stump grinding, brush hogging, and land clearing services in Upstate South Carolina.",
-  offers: {
-    "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD",
-    description: "Free on-site estimate",
-  },
-};
 
 export default function FreeEstimatePage() {
   const benefits = [
@@ -94,10 +62,6 @@ export default function FreeEstimatePage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(estimateSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

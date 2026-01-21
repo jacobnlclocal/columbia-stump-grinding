@@ -2,77 +2,6 @@
 
 import { useState } from 'react';
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "How much does stump grinding cost in Greenville SC?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Stump grinding costs in Greenville SC typically range from $75-$300 per stump depending on size, location, and accessibility. We offer free on-site estimates to give you an accurate quote for your specific situation.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What areas do you serve in Upstate South Carolina?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We serve all of Upstate South Carolina including Greenville, Anderson, Pickens, and Oconee Counties. This includes cities like Greenville, Anderson, Easley, Clemson, Seneca, Pickens, Simpsonville, Greer, Mauldin, Pendleton, Liberty, and Central.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the difference between stump grinding and stump removal?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Stump grinding uses a machine to grind the stump 6-8 inches below ground level, leaving the roots to decay naturally. Stump removal pulls the entire stump and root ball out of the ground, which is more invasive and expensive. For most homeowners, stump grinding is the preferred method.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How long does brush hogging take?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Brush hogging time depends on the size and condition of the property. A typical residential lot (1-2 acres) can be cleared in a few hours. Larger properties or heavily overgrown areas may take a full day or more. We provide time estimates during our free consultation.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Are you licensed and insured?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, Nelson Land & Stump Services is fully licensed and insured. We carry liability insurance to protect your property and our team while working on your land.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Do you offer free estimates?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes! We offer free on-site estimates for all our services including stump grinding, brush hogging, and land clearing throughout the Upstate SC area. Just give us a call at (864) 760-9203 or fill out our contact form.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What happens to the wood chips after stump grinding?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "After grinding, the wood chips can be left on-site for you to use as mulch, or we can rake them into the hole to help fill it. For an additional fee, we can also haul the chips away if you prefer a completely clean site.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How soon can you schedule my job?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We typically can schedule jobs within 1-2 weeks, depending on current demand and weather conditions. For urgent situations, we do our best to accommodate same-week appointments. Call us at (864) 760-9203 to check availability.",
-      },
-    },
-  ],
-};
-
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
@@ -112,12 +41,7 @@ export default function FAQ() {
   ];
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <section id="faq" className="py-20 bg-white">
+    <section id="faq" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
@@ -170,6 +94,5 @@ export default function FAQ() {
         </div>
       </div>
     </section>
-    </>
   );
 }

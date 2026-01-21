@@ -64,32 +64,6 @@ export const metadata: Metadata = {
   },
 };
 
-// LocalBusiness Schema Markup (simplified for better text-to-HTML ratio)
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "@id": "https://www.nelsonstump.com/#business",
-  name: "Nelson Land & Stump Services",
-  description: "Professional stump grinding, brush hogging, and land clearing in Upstate SC.",
-  url: "https://www.nelsonstump.com",
-  telephone: "+1-864-760-9203",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "230 Lewis Road",
-    addressLocality: "Williamston",
-    addressRegion: "SC",
-    postalCode: "29697",
-    addressCountry: "US",
-  },
-  areaServed: "Upstate South Carolina",
-  priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5",
-    reviewCount: "47",
-  },
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -98,14 +72,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Preconnect to Google Analytics for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-        />
       </head>
       <body
         className={`${oswald.variable} ${openSans.variable} antialiased`}

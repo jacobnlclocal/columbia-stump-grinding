@@ -17,35 +17,6 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Brush Hogging Services",
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://www.nelsonstump.com/#business",
-    name: "Nelson Land & Stump Services",
-    telephone: "+1-864-760-9203",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "230 Lewis Road",
-      addressLocality: "Williamston",
-      addressRegion: "SC",
-      postalCode: "29697",
-      addressCountry: "US",
-    },
-  },
-  areaServed: [
-    { "@type": "City", name: "Anderson, SC" },
-    { "@type": "City", name: "Pickens, SC" },
-    { "@type": "City", name: "Greenville, SC" },
-    { "@type": "City", name: "Easley, SC" },
-    { "@type": "City", name: "Clemson, SC" },
-    { "@type": "City", name: "Seneca, SC" },
-  ],
-  description: "Professional brush hogging services and bush hogging services in Upstate South Carolina. Brush hogging cost per acre $150-$300. Brush clearing services for overgrown fields, fence lines, and property boundaries.",
-  serviceType: "Brush Hogging Services",
-};
 
 export default function BrushHoggingPage() {
   const applications = [
@@ -77,10 +48,6 @@ export default function BrushHoggingPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

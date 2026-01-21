@@ -17,37 +17,6 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Stump Grinding Services",
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://www.nelsonstump.com/#business",
-    name: "Nelson Land & Stump Services",
-    telephone: "+1-864-760-9203",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "230 Lewis Road",
-      addressLocality: "Williamston",
-      addressRegion: "SC",
-      postalCode: "29697",
-      addressCountry: "US",
-    },
-  },
-  areaServed: [
-    { "@type": "City", name: "Greenville, SC" },
-    { "@type": "City", name: "Anderson, SC" },
-    { "@type": "City", name: "Easley, SC" },
-    { "@type": "City", name: "Clemson, SC" },
-    { "@type": "City", name: "Seneca, SC" },
-    { "@type": "City", name: "Simpsonville, SC" },
-    { "@type": "City", name: "Greer, SC" },
-    { "@type": "City", name: "Mauldin, SC" },
-  ],
-  description: "Professional stump grinding services and tree stump removal in Upstate South Carolina. Stump grinding cost ranges from $75-$300. We grind stumps 6-8 inches below ground level. Fast, affordable, and fully insured.",
-  serviceType: "Stump Grinding Services",
-};
 
 export default function StumpGrindingPage() {
   const benefits = [
@@ -71,10 +40,6 @@ export default function StumpGrindingPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}

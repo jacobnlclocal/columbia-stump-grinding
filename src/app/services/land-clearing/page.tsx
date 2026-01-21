@@ -17,35 +17,6 @@ export const metadata: Metadata = {
   },
 };
 
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Land Clearing Services",
-  provider: {
-    "@type": "LocalBusiness",
-    "@id": "https://www.nelsonstump.com/#business",
-    name: "Nelson Land & Stump Services",
-    telephone: "+1-864-760-9203",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "230 Lewis Road",
-      addressLocality: "Williamston",
-      addressRegion: "SC",
-      postalCode: "29697",
-      addressCountry: "US",
-    },
-  },
-  areaServed: [
-    { "@type": "City", name: "Clemson, SC" },
-    { "@type": "City", name: "Seneca, SC" },
-    { "@type": "City", name: "Anderson, SC" },
-    { "@type": "City", name: "Greenville, SC" },
-    { "@type": "City", name: "Easley, SC" },
-    { "@type": "City", name: "Pickens, SC" },
-  ],
-  description: "Professional land clearing services and tree removal services in Upstate South Carolina. Land clearing cost per acre ranges from $1,500-$5,000+. Lot clearing services for construction and driveways.",
-  serviceType: "Land Clearing Services",
-};
 
 export default function LandClearingPage() {
   const services = [
@@ -100,10 +71,6 @@ export default function LandClearingPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
-      />
       <Header />
       <main className="pt-16 lg:pt-[104px]">
         {/* Hero */}
