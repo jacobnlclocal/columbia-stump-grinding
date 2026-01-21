@@ -1,69 +1,58 @@
+const businessAddress = {
+  "@type": "PostalAddress",
+  streetAddress: "230 Lewis Road",
+  addressLocality: "Williamston",
+  addressRegion: "SC",
+  postalCode: "29697",
+  addressCountry: "US",
+};
+
+const itemReviewedBusiness = {
+  "@type": "LocalBusiness",
+  "@id": "https://www.nelsonstump.com/#business",
+  name: "Nelson Land & Stump Services",
+  address: businessAddress,
+};
+
 const reviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://www.nelsonstump.com/#business",
   name: "Nelson Land & Stump Services",
   telephone: "+1-864-760-9203",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "230 Lewis Road",
-    addressLocality: "Williamston",
-    addressRegion: "SC",
-    postalCode: "29697",
-    addressCountry: "US",
-  },
+  address: businessAddress,
   review: [
     {
       "@type": "Review",
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nelsonstump.com/#business",
-        name: "Nelson Land & Stump Services",
-      },
+      itemReviewed: itemReviewedBusiness,
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "David M." },
       reviewBody: "Had 4 stumps in the backyard that I'd been mowing around for years. Nelson knocked them out in a couple hours. Fair price, cleaned up after themselves.",
     },
     {
       "@type": "Review",
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nelsonstump.com/#business",
-        name: "Nelson Land & Stump Services",
-      },
+      itemReviewed: itemReviewedBusiness,
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Carol T." },
       reviewBody: "We bought 5 acres that hadn't been touched in a decade. They cleared the whole thing in two days. Now we can actually walk our property.",
     },
     {
       "@type": "Review",
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nelsonstump.com/#business",
-        name: "Nelson Land & Stump Services",
-      },
+      itemReviewed: itemReviewedBusiness,
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Mike R." },
       reviewBody: "Used them for brush hogging along my fence line. Professional, showed up when they said they would. Will call again next spring.",
     },
     {
       "@type": "Review",
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nelsonstump.com/#business",
-        name: "Nelson Land & Stump Services",
-      },
+      itemReviewed: itemReviewedBusiness,
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Jennifer S." },
       reviewBody: "Great experience from start to finish. They gave me a fair quote over the phone and the final price was exactly what they quoted. Stump was gone in under an hour.",
     },
     {
       "@type": "Review",
-      itemReviewed: {
-        "@type": "LocalBusiness",
-        "@id": "https://www.nelsonstump.com/#business",
-        name: "Nelson Land & Stump Services",
-      },
+      itemReviewed: itemReviewedBusiness,
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Robert H." },
       reviewBody: "Hired them to clear brush around our Lake Keowee property. They did an excellent job and were very careful around our landscaping. Highly recommend.",
