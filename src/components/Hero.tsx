@@ -2,19 +2,25 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-16 bg-primary">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-left">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-primary via-primary to-[#0a1628]">
+      {/* Subtle geometric accent */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-1/2 -right-1/4 w-[800px] h-[800px] bg-accent/5 rounded-full blur-3xl" />
+        <div className="absolute -bottom-1/4 -left-1/4 w-[600px] h-[600px] bg-white/5 rounded-full blur-3xl" />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-left pt-32 lg:pt-40 pb-20">
         <h1
           className="text-white mb-8"
           style={{ fontFamily: 'var(--font-oswald)' }}
         >
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight">
             STUMP GRINDING
           </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight">
             & LAND CLEARING
           </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight text-accent">
             UPSTATE SC
           </span>
         </h1>
@@ -22,12 +28,12 @@ export default function Hero() {
         <p className="text-base sm:text-lg text-gray-300 mb-4 tracking-widest uppercase font-medium">
           Professional Stump Grinding Services Near Me | Stump Removal Contractors
         </p>
-        <p className="text-gray-400 mb-6 max-w-xl">
+        <p className="text-gray-300 mb-6 max-w-xl text-lg">
           Looking for stump grinding companies near me? Nelson Land & Stump provides professional stump removal
           services and land clearing throughout Upstate South Carolina. Our stump grinder services deliver fast,
           affordable results. Call today for a free estimate!
         </p>
-        <p className="text-gray-400 mb-10 max-w-xl text-sm">
+        <p className="text-gray-400 mb-10 max-w-xl">
           Nelson Land and Stump Services is a family-owned stump grinder company based in Williamston, SC. As professional stump removal contractors, we provide reliable stump grinding services in your area throughout Greenville, Anderson, Pickens, Spartanburg, and Oconee Counties. With over five years of experience and hundreds of satisfied customers, we deliver quality workmanship using professional-grade equipment. We are fully licensed and insured for your protection.
         </p>
 
