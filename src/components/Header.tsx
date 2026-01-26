@@ -1,19 +1,10 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const navLinks = [
     { href: '/#services', label: 'Services' },
@@ -25,9 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-primary shadow-lg' : 'bg-primary/95'
-    }`}>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary shadow-lg">
       {/* Top Bar - Hidden on mobile */}
       <div className="hidden lg:block bg-primary-dark border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-2">
@@ -137,10 +126,8 @@ export default function Header() {
         </div>
 
         {/* Mobile Navigation */}
-        <div className={`lg:hidden overflow-hidden transition-all duration-300 ${
-          isMenuOpen ? 'max-h-[500px] pb-6' : 'max-h-0'
-        }`}>
-          <nav className="border-t border-white/10 pt-4">
+        {isMenuOpen && (
+          <nav className="lg:hidden border-t border-white/10 pt-4 pb-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -176,7 +163,7 @@ export default function Header() {
               </Link>
             </div>
           </nav>
-        </div>
+        )}
       </div>
     </header>
   );
