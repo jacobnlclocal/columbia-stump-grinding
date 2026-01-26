@@ -11,42 +11,35 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-left pt-32 lg:pt-40 pb-20">
         <h1
-          className="text-white mb-8"
+          className="text-white mb-6"
           style={{ fontFamily: 'var(--font-oswald)' }}
         >
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight">
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight">
             STUMP GRINDING
           </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight">
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight">
             & LAND CLEARING
           </span>
-          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.9] tracking-tight text-accent">
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight text-accent">
             UPSTATE SC
           </span>
         </h1>
 
-        <p className="text-base sm:text-lg text-gray-300 mb-4 tracking-widest uppercase font-medium">
-          Professional Stump Grinding Services Near Me | Stump Removal Contractors
-        </p>
-        <p className="text-gray-300 mb-6 max-w-xl text-lg">
-          Looking for stump grinding companies near me? Nelson Land & Stump provides professional stump removal
-          services and land clearing throughout Upstate South Carolina. Our stump grinder services deliver fast,
-          affordable results. Call today for a free estimate!
-        </p>
-        <p className="text-gray-400 mb-10 max-w-xl">
-          Nelson Land and Stump Services is a family-owned stump grinder company based in Williamston, SC. As professional stump removal contractors, we provide reliable stump grinding services in your area throughout Greenville, Anderson, Pickens, Spartanburg, and Oconee Counties. With over five years of experience and hundreds of satisfied customers, we deliver quality workmanship using professional-grade equipment. We are fully licensed and insured for your protection.
+        <p className="text-gray-300 mb-8 max-w-lg text-lg md:text-xl">
+          Professional stump grinding, brush hogging, and land clearing services
+          in Greenville, Anderson, Pickens & Oconee Counties.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
             href="/free-estimate"
-            className="inline-block bg-accent hover:bg-accent-dark text-white px-10 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors shadow-lg text-center"
+            className="inline-block bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors shadow-lg text-center"
           >
             Get a Free Quote
           </Link>
           <a
             href="tel:8647609203"
-            className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-10 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors text-center"
+            className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold text-lg uppercase tracking-wide transition-colors text-center"
           >
             (864) 760-9203
           </a>
