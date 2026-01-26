@@ -14,18 +14,18 @@ export default function Hero() {
           className="text-white mb-6"
           style={{ fontFamily: 'var(--font-oswald)' }}
         >
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.95] tracking-tight">
             STUMP GRINDING
           </span>
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.95] tracking-tight">
             & LAND CLEARING
           </span>
-          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[0.95] tracking-tight text-accent">
+          <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.95] tracking-tight text-accent">
             UPSTATE SC
           </span>
         </h1>
 
-        <p className="text-gray-300 mb-8 max-w-lg text-lg md:text-xl">
+        <p className="text-gray-300 mb-8 max-w-lg text-xl md:text-2xl">
           Professional stump grinding, brush hogging, and land clearing services
           in Greenville, Anderson, Pickens & Oconee Counties.
         </p>
