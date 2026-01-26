@@ -5,6 +5,11 @@ export default function ServiceAreas() {
   const areaPages: Record<string, string> = {
     // Spartanburg County
     'Spartanburg': '/areas/spartanburg-sc',
+    'Boiling Springs': '/areas/boiling-springs-sc',
+    'Duncan': '/areas/duncan-sc',
+    'Inman': '/areas/inman-sc',
+    'Lyman': '/areas/lyman-sc',
+    'Woodruff': '/areas/woodruff-sc',
     // Greenville County
     'Greenville': '/areas/greenville-sc',
     'Simpsonville': '/areas/simpsonville-sc',

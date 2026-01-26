@@ -6,6 +6,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Area pages with their slugs
   const areaPages = [
     'spartanburg-sc',
+    'boiling-springs-sc',
+    'duncan-sc',
+    'inman-sc',
+    'lyman-sc',
+    'woodruff-sc',
     'greenville-sc',
     'anderson-sc',
     'easley-sc',
