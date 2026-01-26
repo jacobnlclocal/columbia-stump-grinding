@@ -108,7 +108,7 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm text-muted uppercase tracking-wide mb-2">Service Area</p>
-              <p className="text-primary">Greenville, Anderson, Pickens & Oconee Counties</p>
+              <p className="text-primary">Greenville, Spartanburg, Anderson, Pickens & Oconee Counties</p>
             </div>
           </div>
 

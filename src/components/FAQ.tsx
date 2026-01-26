@@ -12,7 +12,7 @@ export default function FAQ() {
     },
     {
       question: 'What areas do you serve in Upstate South Carolina?',
-      answer: 'We serve all of Upstate South Carolina including Greenville, Anderson, Pickens, and Oconee Counties. This includes Greenville, Anderson, Easley, Clemson, Seneca, Pickens, Simpsonville, Greer, Mauldin, Pendleton, Liberty, Central, Six Mile, and surrounding communities.',
+      answer: 'We serve all of Upstate South Carolina including Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. This includes Greenville, Anderson, Easley, Clemson, Seneca, Pickens, Simpsonville, Greer, Mauldin, Pendleton, Liberty, Central, Six Mile, and surrounding communities.',
     },
     {
       question: 'What is the difference between stump grinding and stump removal?',

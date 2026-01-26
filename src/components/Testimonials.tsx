@@ -55,7 +55,7 @@ export default function Testimonials() {
             </h2>
             <div className="space-y-4 text-gray-300 text-lg">
               <p>
-                Nelson Land & Stump is a family operation based in the Upstate, serving Greenville, Anderson, Pickens, and Oconee counties for over 5 years.
+                Nelson Land & Stump is a family operation based in the Upstate, serving Greenville, Spartanburg, Anderson, Pickens, and Oconee counties for over 5 years.
               </p>
               <p>
                 No big crews, no salespeople — when you call, you talk to us. We show up on time, give honest quotes, and don&apos;t leave until the job&apos;s done right.

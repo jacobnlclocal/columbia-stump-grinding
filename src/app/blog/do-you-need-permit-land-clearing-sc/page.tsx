@@ -114,7 +114,7 @@ export default function LandClearingPermitPost() {
               </ul>
               <p className="text-muted mb-6">
                 These activities are considered normal property maintenance and typically don&apos;t trigger
-                permit requirements in unincorporated areas of Greenville, Anderson, Pickens, or Oconee counties.
+                permit requirements in unincorporated areas of Greenville, Spartanburg, Anderson, Pickens, or Oconee counties.
               </p>
 
               <h2 className="text-2xl font-black text-primary mt-10 mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>

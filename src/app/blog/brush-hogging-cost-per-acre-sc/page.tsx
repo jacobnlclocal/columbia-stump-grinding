@@ -217,7 +217,7 @@ export default function BrushHoggingCostPost() {
                 <h3 className="font-bold text-primary text-lg mb-2">Get a Free Brush Hogging Quote</h3>
                 <p className="text-muted mb-4">
                   Nelson Land & Stump provides free, no-obligation estimates for brush hogging throughout
-                  Greenville, Anderson, Pickens, and Oconee counties. We&apos;ll assess your property and give
+                  Greenville, Spartanburg, Anderson, Pickens, and Oconee counties. We&apos;ll assess your property and give
                   you an honest, all-inclusive price.
                 </p>
                 <Link

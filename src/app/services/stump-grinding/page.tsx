@@ -233,7 +233,7 @@ export default function StumpGrindingPage() {
               </Link>
             </div>
             <p className="text-muted">
-              Don&apos;t see your town? We serve all of Greenville, Anderson, Pickens, and Oconee counties.
+              Don&apos;t see your town? We serve all of Greenville, Spartanburg, Anderson, Pickens, and Oconee counties.
               Call us at <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> to confirm service in your area.
             </p>
           </div>

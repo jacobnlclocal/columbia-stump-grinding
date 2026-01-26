@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Free Stump Grinding Estimate | Get a Quote in Upstate SC',
-  description: 'Get a free stump grinding, brush hogging, or land clearing estimate in Greenville, Anderson, Pickens & Oconee Counties. No obligation quotes. Call (864) 760-9203 or fill out our form.',
+  description: 'Get a free stump grinding, brush hogging, or land clearing estimate in Greenville, Spartanburg, Anderson, Pickens & Oconee Counties. No obligation quotes. Call (864) 760-9203 or fill out our form.',
   keywords: 'free stump grinding estimate, stump grinding quote, land clearing estimate, brush hogging quote, free estimate Greenville SC, stump removal quote near me, land clearing quote Anderson SC',
   openGraph: {
     title: 'Free Stump Grinding Estimate | Nelson Stump',
@@ -145,12 +145,12 @@ export default function FreeEstimatePage() {
               FREE ESTIMATES THROUGHOUT UPSTATE SC
             </h2>
             <p className="text-muted text-lg text-center mb-10 max-w-2xl mx-auto">
-              We provide free on-site estimates in Greenville, Anderson, Pickens, and Oconee Counties, including:
+              We provide free on-site estimates in Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties, including:
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
-                'Greenville', 'Anderson', 'Easley', 'Clemson', 'Seneca', 'Pickens',
-                'Simpsonville', 'Greer', 'Mauldin', 'Pendleton', 'Liberty', 'Central',
+                'Greenville', 'Spartanburg', 'Anderson', 'Easley', 'Clemson', 'Seneca',
+                'Pickens', 'Simpsonville', 'Greer', 'Mauldin', 'Pendleton', 'Liberty',
               ].map((city) => (
                 <div key={city} className="bg-white rounded-lg p-3 text-center">
                   <span className="font-medium text-primary">{city}</span>

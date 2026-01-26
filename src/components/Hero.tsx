@@ -27,7 +27,7 @@ export default function Hero() {
 
         <p className="text-gray-300 mb-8 max-w-lg text-xl md:text-2xl">
           Professional stump grinding, brush hogging, and land clearing services
-          in Greenville, Anderson, Pickens & Oconee Counties.
+          in Greenville, Spartanburg, Anderson, Pickens & Oconee Counties.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

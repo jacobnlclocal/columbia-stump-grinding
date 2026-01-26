@@ -171,7 +171,7 @@ export default function BlogPage() {
               Contact us for a free consultation.
             </p>
             <p className="text-muted text-base mb-8 max-w-2xl mx-auto">
-              Nelson Land and Stump Services provides free on-site estimates throughout Greenville, Anderson, Pickens, and Oconee Counties. Our team will assess your property, discuss your goals, and provide an accurate quote with no obligation. We can typically schedule estimates within one to two business days and are available Monday through Saturday from 7 AM to 6 PM. Call us today or fill out our online form to get started on your project.
+              Nelson Land and Stump Services provides free on-site estimates throughout Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. Our team will assess your property, discuss your goals, and provide an accurate quote with no obligation. We can typically schedule estimates within one to two business days and are available Monday through Saturday from 7 AM to 6 PM. Call us today or fill out our online form to get started on your project.
             </p>
             <Link
               href="/#contact"

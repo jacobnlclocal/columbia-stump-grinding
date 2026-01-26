@@ -285,7 +285,7 @@ export default function LandClearingPage() {
               </Link>
             </div>
             <p className="text-muted">
-              Serving Greenville, Anderson, Pickens, and Oconee counties.
+              Serving Greenville, Spartanburg, Anderson, Pickens, and Oconee counties.
               Call <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> for a free consultation.
             </p>
           </div>

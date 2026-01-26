@@ -317,7 +317,7 @@ export default function DIYVsProfessionalStumpGrindingPost() {
                 <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> for
                 a free estimate, or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a quote online</Link>.
-                We serve Greenville, Anderson, Pickens, and Oconee Counties in Upstate South Carolina.
+                We serve Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties in Upstate South Carolina.
               </p>
             </div>
           </div>

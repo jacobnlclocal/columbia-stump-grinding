@@ -231,7 +231,7 @@ export default function FastestWayRemoveTreeStumpPost() {
                 <h3 className="font-bold text-primary text-lg mb-2">Need Fast Stump Removal in Upstate SC?</h3>
                 <p className="text-muted mb-4">
                   Nelson Land & Stump offers same-day and next-day stump grinding services throughout
-                  Greenville, Anderson, Pickens, and Oconee Counties. Most stumps are removed in under
+                  Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. Most stumps are removed in under
                   an hour. Call us for a free estimate!
                 </p>
                 <Link
