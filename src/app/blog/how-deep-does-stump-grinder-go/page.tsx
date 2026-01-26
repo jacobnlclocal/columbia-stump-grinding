@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Deep Does a Stump Grinder Go? | Stump Grinding Depth Guide',
+  title: 'How Deep Does a Stump Grinder Go? | Nelson Stump',
   description: 'How deep does a stump grinder go? Learn about standard grinding depths (6-12 inches), when you need deeper grinding, and what happens to the roots left behind.',
   keywords: 'how deep does stump grinder go, stump grinding depth, how deep to grind stump, stump grinder depth, tree stump grinding depth',
 };
@@ -72,7 +72,7 @@ export default function HowDeepStumpGrinderGoPost() {
         {/* Featured Image */}
         <div className="relative h-64 md:h-96 w-full">
           <Image
-            src="/gallery-stump-2.jpg"
+            src="/gallery-1.jpg"
             alt="Professional stump grinder showing grinding depth below ground level"
             fill
             className="object-cover"

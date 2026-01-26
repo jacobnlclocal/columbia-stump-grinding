@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Fastest Way to Remove a Tree Stump | Quick Stump Removal Guide',
+  title: 'Fastest Way to Remove a Tree Stump | Nelson Stump',
   description: 'What is the fastest way to remove a tree stump? Learn about fast tree stump removal methods including professional stump grinding, DIY options, and which method works best for quick results.',
   keywords: 'fastest way to remove tree stump, fast tree stump removal, remove tree stump fast, quick stump removal, how to remove a stump fast, fast stump removal, remove tree stumps quickly',
 };
@@ -72,7 +72,7 @@ export default function FastestWayRemoveTreeStumpPost() {
         {/* Featured Image */}
         <div className="relative h-64 md:h-96 w-full">
           <Image
-            src="/gallery-stump-1.jpg"
+            src="/gallery-4.jpg"
             alt="Fast tree stump removal using professional stump grinding equipment"
             fill
             className="object-cover"

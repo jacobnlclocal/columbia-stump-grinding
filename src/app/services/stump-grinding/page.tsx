@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Professional Stump Grinding Services | Stump Grinder Company Upstate SC',
+  title: 'Stump Grinding Services Upstate SC | Nelson Stump',
   description: 'Professional stump grinding services from a trusted stump grinder company in Upstate SC. Professional stump removal services in Greenville, Easley, Anderson, Spartanburg. Tree stump removal $75-$300. Free estimates. Call (864) 760-9203.',
   keywords: 'professional stump grinding services, stump grinder company, professional stump removal, stump grinding services, stump removal contractors, tree stump removal, stump grinding Greenville SC, stump grinding near me, stump grinder services near me',
   openGraph: {

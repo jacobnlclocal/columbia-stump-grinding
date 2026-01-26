@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Services & Cost Per Acre | Bush Hogging Upstate SC',
+  title: 'Brush Hogging Services Upstate SC | Nelson Stump',
   description: 'Brush hogging services and bush hogging services in Upstate SC. Brush hogging cost per acre $150-$300. Brush clearing services for fields and fence lines. Free estimates. Call (864) 760-9203.',
   keywords: 'brush hogging services, brush hogging cost per acre, bush hogging services, brush clearing services, brush hogging Anderson SC, bush hogging Greenville SC, field mowing Upstate SC',
   openGraph: {

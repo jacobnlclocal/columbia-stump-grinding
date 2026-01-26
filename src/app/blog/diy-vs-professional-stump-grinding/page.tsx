@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'DIY vs Professional Stump Grinding: Which Should You Choose?',
+  title: 'DIY vs Professional Stump Grinding | Nelson Stump',
   description: 'Should you rent a stump grinder or hire a professional? Compare DIY stump grinding costs, safety risks, and results vs hiring a pro. Plus alternatives to grinding.',
   keywords: 'do it yourself stump grinding, DIY stump grinding, rent stump grinder, getting rid of stumps without grinding, stump grinding rental, professional stump grinding',
 };
@@ -72,7 +72,7 @@ export default function DIYVsProfessionalStumpGrindingPost() {
         {/* Featured Image */}
         <div className="relative h-64 md:h-96 w-full">
           <Image
-            src="/gallery-stump-3.jpg"
+            src="/gallery-6.jpg"
             alt="DIY stump grinding vs professional stump grinding comparison"
             fill
             className="object-cover"

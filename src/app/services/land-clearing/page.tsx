@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Services & Cost Per Acre | Tree Removal Upstate SC',
+  title: 'Land Clearing Services Upstate SC | Nelson Stump',
   description: 'Professional land clearing services and tree removal services in Upstate SC. Land clearing cost per acre $1,500-$5,000+. Lot clearing services for construction. Free estimates. Call (864) 760-9203.',
   keywords: 'land clearing services, tree removal services, lot clearing services, land clearing cost per acre, land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, forestry mulching',
   openGraph: {

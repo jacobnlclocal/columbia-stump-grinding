@@ -130,7 +130,7 @@ export const cities: CityData[] = [
       { name: 'Spartanburg', slug: 'spartanburg-sc' },
       { name: 'Lyman', slug: 'lyman-sc' },
       { name: 'Greer', slug: 'greer-sc' },
-      { name: 'Wellford', slug: 'wellford-sc' },
+      { name: 'Boiling Springs', slug: 'boiling-springs-sc' },
     ],
   },
   {
@@ -141,8 +141,8 @@ export const cities: CityData[] = [
     nearbyAreas: [
       { name: 'Spartanburg', slug: 'spartanburg-sc' },
       { name: 'Boiling Springs', slug: 'boiling-springs-sc' },
-      { name: 'Campobello', slug: 'campobello-sc' },
-      { name: 'Landrum', slug: 'landrum-sc' },
+      { name: 'Greer', slug: 'greer-sc' },
+      { name: 'Duncan', slug: 'duncan-sc' },
     ],
   },
   {
@@ -152,7 +152,7 @@ export const cities: CityData[] = [
     neighborhoods: ['Downtown Lyman', 'Groce Road', 'Lyman Mill', 'Pacific Mills'],
     nearbyAreas: [
       { name: 'Duncan', slug: 'duncan-sc' },
-      { name: 'Wellford', slug: 'wellford-sc' },
+      { name: 'Inman', slug: 'inman-sc' },
       { name: 'Greer', slug: 'greer-sc' },
       { name: 'Spartanburg', slug: 'spartanburg-sc' },
     ],
@@ -166,7 +166,7 @@ export const cities: CityData[] = [
       { name: 'Spartanburg', slug: 'spartanburg-sc' },
       { name: 'Fountain Inn', slug: 'fountain-inn-sc' },
       { name: 'Simpsonville', slug: 'simpsonville-sc' },
-      { name: 'Laurens', slug: 'laurens-sc' },
+      { name: 'Greer', slug: 'greer-sc' },
     ],
   },
   // Greenville County

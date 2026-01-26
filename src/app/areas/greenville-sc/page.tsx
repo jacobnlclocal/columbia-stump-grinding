@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Greenville SC | Professional Stump Removal Services',
+  title: 'Stump Grinding Greenville SC | Nelson Stump',
   description: 'Looking for stump grinding Greenville SC? Professional stump removal services in Greenville, SC. Stump grinding companies near me serving downtown Greenville, Simpsonville, Mauldin, Greer. Free estimates. Call (864) 760-9203.',
   keywords: 'stump grinding Greenville SC, stump removal Greenville SC, stump grinding companies near me, professional stump removal, stump grinder services near me, land clearing Greenville, brush hogging Greenville SC, tree stump grinding Greenville',
   alternates: {
