@@ -1,30 +1,12 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-16">
-      {/* Background Image with Next.js Image for better performance */}
-      <Image
-        src="/hero.jpg"
-        alt="Professional stump grinding equipment in Upstate South Carolina - Nelson Land & Stump Services"
-        fill
-        className="object-cover object-center"
-        priority
-        sizes="100vw"
-        quality={75}
-      />
-
-      {/* Dark Blue Overlay */}
-      <div className="absolute inset-0 bg-primary/70" />
-
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-left">
+    <section className="relative min-h-screen flex items-center pt-16 bg-primary">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-left">
         <h1
           className="text-white mb-8"
-          style={{
-            fontFamily: 'var(--font-oswald)',
-            textShadow: '2px 4px 6px rgba(0,0,0,0.3)'
-          }}
+          style={{ fontFamily: 'var(--font-oswald)' }}
         >
           <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold leading-[0.85] tracking-tight">
             STUMP GRINDING
