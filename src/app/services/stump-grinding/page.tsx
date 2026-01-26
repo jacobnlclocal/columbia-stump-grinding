@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Services & Cost | Tree Stump Removal Upstate SC',
-  description: 'How much does stump grinding cost? Professional stump grinding services in Greenville, Easley, Anderson & Upstate SC. Tree stump removal $75-$300. Free estimates. Call (864) 760-9203.',
-  keywords: 'stump grinding cost, stump grinding services, tree stump removal, how much does stump grinding cost, stump grinding Greenville SC, stump removal Easley, tree stump grinding Anderson SC, stump grinding near me',
+  title: 'Professional Stump Grinding Services | Stump Grinder Company Upstate SC',
+  description: 'Professional stump grinding services from a trusted stump grinder company in Upstate SC. Professional stump removal services in Greenville, Easley, Anderson, Spartanburg. Tree stump removal $75-$300. Free estimates. Call (864) 760-9203.',
+  keywords: 'professional stump grinding services, stump grinder company, professional stump removal, stump grinding services, stump removal contractors, tree stump removal, stump grinding Greenville SC, stump grinding near me, stump grinder services near me',
   openGraph: {
-    title: 'Stump Grinding Services & Cost | Nelson Stump',
-    description: 'How much does stump grinding cost? Tree stump removal services in Upstate SC. Free estimates!',
+    title: 'Professional Stump Grinding Services | Nelson Stump',
+    description: 'Professional stump removal services from a trusted stump grinder company. Free estimates!',
   },
   alternates: {
     canonical: '/services/stump-grinding',
@@ -53,11 +53,12 @@ export default function StumpGrindingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              STUMP GRINDING & REMOVAL SERVICES IN UPSTATE SC
+              PROFESSIONAL STUMP GRINDING SERVICES | STUMP GRINDER COMPANY
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional tree service for stump grinding and removal throughout Greenville, Anderson, Pickens, and Oconee Counties.
-              Our expert team grinds stumps 6-8 inches below ground level for complete root removal. Call today for your free estimate!
+              Looking for professional stump removal services? Nelson Land & Stump is a trusted stump grinder company serving
+              Greenville, Anderson, Pickens, Spartanburg, and Oconee Counties. Our professional stump grinding services include
+              grinding stumps 6-8 inches below ground level. As experienced stump removal contractors, we get the job done right. Call today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -80,14 +81,14 @@ export default function StumpGrindingPage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              WHAT IS STUMP GRINDING?
+              WHAT IS PROFESSIONAL STUMP GRINDING?
             </h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-muted text-lg mb-4">
-                  Stump grinding is a professional tree service that uses specialized equipment to grind tree stumps below ground level.
-                  Unlike full stump removal (which pulls out the entire root ball), grinding is less invasive, faster, and more affordable.
-                  Our customers consistently report high satisfaction with our stump grinding and removal services.
+                  Professional stump grinding is a specialized service that uses commercial equipment to grind tree stumps below ground level.
+                  As an experienced stump grinder company, we offer professional stump removal that is less invasive, faster, and more affordable
+                  than full extraction. Our customers consistently report high satisfaction with our professional stump grinding services.
                 </p>
                 <p className="text-muted text-lg mb-4">
                   Our commercial-grade stump grinder chews through stumps of any size, grinding them 6-8 inches below the surface.
@@ -199,6 +200,12 @@ export default function StumpGrindingPage() {
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
                 Stump Grinding Greer
+              </Link>
+              <Link href="/areas/spartanburg-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                Stump Grinding Spartanburg
               </Link>
               <Link href="/areas/mauldin-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">

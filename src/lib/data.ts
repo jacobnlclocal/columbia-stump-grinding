@@ -96,6 +96,19 @@ export const services: ServiceData[] = [
 ];
 
 export const cities: CityData[] = [
+  // Spartanburg County
+  {
+    slug: 'spartanburg-sc',
+    name: 'Spartanburg',
+    county: 'Spartanburg County',
+    neighborhoods: ['Downtown Spartanburg', 'Westgate', 'Hillbrook Forest', 'Pine Street', 'Converse Heights', 'Hampton Heights', 'Forest Park', 'Woodland Heights', 'Duncan Park', 'Country Club', 'Beaumont', 'Saxon', 'Whitney', 'Arkwright', 'Una'],
+    nearbyAreas: [
+      { name: 'Greenville', slug: 'greenville-sc' },
+      { name: 'Greer', slug: 'greer-sc' },
+      { name: 'Simpsonville', slug: 'simpsonville-sc' },
+      { name: 'Mauldin', slug: 'mauldin-sc' },
+    ],
+  },
   // Greenville County
   {
     slug: 'greenville-sc',

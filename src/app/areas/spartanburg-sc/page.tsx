@@ -5,35 +5,35 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Greenville SC | Professional Stump Removal Services',
-  description: 'Looking for stump grinding Greenville SC? Professional stump removal services in Greenville, SC. Stump grinding companies near me serving downtown Greenville, Simpsonville, Mauldin, Greer. Free estimates. Call (864) 760-9203.',
-  keywords: 'stump grinding Greenville SC, stump removal Greenville SC, stump grinding companies near me, professional stump removal, stump grinder services near me, land clearing Greenville, brush hogging Greenville SC, tree stump grinding Greenville',
+  title: 'Stump Grinding Spartanburg SC | Nelson Land & Stump',
+  description: 'Professional stump grinding, brush hogging, and land clearing services in Spartanburg, SC. Serving downtown Spartanburg, Westgate, Hillbrook Forest & surrounding areas. Free estimates. Call (864) 760-9203.',
+  keywords: 'stump grinding Spartanburg SC, stump grinding Spartanburg, land clearing Spartanburg, brush hogging Spartanburg SC, stump removal Spartanburg, tree stump grinding Spartanburg',
   alternates: {
-    canonical: '/areas/greenville-sc',
+    canonical: '/areas/spartanburg-sc',
   },
 };
 
 
-export default function GreenvillePage() {
+export default function SpartanburgPage() {
   const neighborhoods = [
-    'Downtown Greenville', 'West End', 'North Main', 'Augusta Road', 'Alta Vista', 'Overbrook', 'Pleasantburg', 'Verdae', 'Sans Souci', 'Cleveland Park', 'Taylors', 'Berea',
+    'Downtown Spartanburg', 'Westgate', 'Hillbrook Forest', 'Pine Street', 'Converse Heights', 'Hampton Heights', 'Forest Park', 'Woodland Heights', 'Duncan Park', 'Country Club', 'Beaumont', 'Saxon',
   ];
 
   const services = [
     {
       name: 'Stump Grinding',
-      description: 'Remove unsightly stumps from your Greenville property. We grind stumps 6-8 inches below ground level.',
-      href: '/areas/greenville-sc/stump-grinding',
+      description: 'Remove unsightly stumps from your Spartanburg property. We grind stumps 6-8 inches below ground level.',
+      href: '/areas/spartanburg-sc/stump-grinding',
     },
     {
       name: 'Brush Hogging',
-      description: 'Clear overgrown fields, fence lines, and trails on your Greenville County property.',
-      href: '/areas/greenville-sc/brush-hogging',
+      description: 'Clear overgrown fields, fence lines, and trails on your Spartanburg County property.',
+      href: '/areas/spartanburg-sc/brush-hogging',
     },
     {
       name: 'Land Clearing',
-      description: 'Full lot clearing for new construction or property development in the Greenville area.',
-      href: '/areas/greenville-sc/land-clearing',
+      description: 'Full lot clearing for new construction or property development in the Spartanburg area.',
+      href: '/areas/spartanburg-sc/land-clearing',
     },
   ];
 
@@ -48,16 +48,16 @@ export default function GreenvillePage() {
               items={[
                 { label: 'Home', href: '/' },
                 { label: 'Service Areas', href: '/#service-areas' },
-                { label: 'Greenville, SC' },
+                { label: 'Spartanburg, SC' },
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              STUMP GRINDING GREENVILLE SC | PROFESSIONAL STUMP REMOVAL
+              STUMP GRINDING & LAND CLEARING IN SPARTANBURG, SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Looking for stump grinding in Greenville SC? Nelson Land & Stump provides professional stump removal
-              services, brush hogging, and land clearing throughout Greenville and Greenville County. As one of the
-              top stump grinding companies near you, we have the equipment and experience to handle your project.
+              Nelson Land & Stump provides professional stump grinding, brush hogging, and land clearing services
+              throughout Spartanburg and Spartanburg County. From downtown properties to rural acreage,
+              we&apos;ve got the equipment and experience to handle your project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -76,38 +76,37 @@ export default function GreenvillePage() {
           </div>
         </section>
 
-        {/* About Greenville Service */}
+        {/* About Spartanburg Service */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-                  PROFESSIONAL STUMP REMOVAL SERVICES IN GREENVILLE
+                  YOUR LOCAL SPARTANBURG STUMP GRINDING EXPERTS
                 </h2>
                 <p className="text-muted text-lg mb-4">
-                  Greenville is one of the fastest-growing cities in South Carolina, and with that growth comes
-                  increased demand for professional stump removal and land clearing services. Whether you&apos;re preparing a lot
-                  for new construction in Five Forks or need stump grinding services for your backyard in Simpsonville,
-                  Nelson Land & Stump is here to help. We&apos;re one of the top-rated stump grinding companies in the Greenville area.
+                  Spartanburg is growing, and with new development comes the need for professional stump grinding
+                  and land clearing services. Whether you&apos;re preparing a lot for new construction, removing
+                  old stumps from your backyard, or clearing overgrown property, Nelson Land & Stump is here to help.
                 </p>
                 <p className="text-muted text-lg mb-4">
-                  We understand the unique challenges of working in Greenville County—from navigating tight
+                  We understand the unique challenges of working in Spartanburg County—from navigating tight
                   suburban lots to clearing larger rural properties. Our equipment is sized right for any job,
                   and we always leave your property clean and ready for the next step.
                 </p>
                 <p className="text-muted text-lg">
-                  As a local, family-owned business, we take pride in serving our Greenville neighbors with
-                  honest pricing, reliable service, and results that speak for themselves.
+                  As a local, family-owned business based in Williamston, we take pride in serving our Spartanburg
+                  neighbors with honest pricing, reliable service, and results that speak for themselves.
                 </p>
               </div>
               <div className="bg-muted-light rounded-lg p-8">
-                <h3 className="font-bold text-primary text-xl mb-4">Why Greenville Chooses Us</h3>
+                <h3 className="font-bold text-primary text-xl mb-4">Why Spartanburg Chooses Us</h3>
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>Local Knowledge:</strong> We know Greenville County&apos;s terrain and soil conditions</span>
+                    <span className="text-muted"><strong>Local Knowledge:</strong> We know Spartanburg County&apos;s terrain and soil conditions</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -119,7 +118,7 @@ export default function GreenvillePage() {
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-muted"><strong>Competitive Pricing:</strong> Fair rates for Greenville area projects</span>
+                    <span className="text-muted"><strong>Competitive Pricing:</strong> Fair rates for Spartanburg area projects</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-accent mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -137,7 +136,7 @@ export default function GreenvillePage() {
         <section className="py-16 bg-muted-light">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
-              OUR GREENVILLE SERVICES
+              OUR SPARTANBURG SERVICES
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {services.map((service) => (
@@ -160,13 +159,13 @@ export default function GreenvillePage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              GREENVILLE AREAS WE SERVE
+              SPARTANBURG AREAS WE SERVE
             </h2>
             <p className="text-muted text-lg mb-4">
-              We provide stump grinding, brush hogging, and land clearing services throughout Greenville County, including:
+              We provide stump grinding, brush hogging, and land clearing services throughout Spartanburg County, including:
             </p>
             <p className="text-muted text-base mb-8">
-              Our Greenville service area covers all neighborhoods from downtown to the outskirts, including both residential and commercial properties. Whether you have a small backyard stump in a historic West End home or need extensive land clearing for new development near the Verdae area, our team has the equipment and expertise to handle your project efficiently and professionally.
+              Our Spartanburg service area covers all neighborhoods from downtown to the outskirts, including both residential and commercial properties. Whether you have a small backyard stump in Converse Heights or need extensive land clearing for new development, our team has the equipment and expertise to handle your project efficiently and professionally.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
               {neighborhoods.map((area) => (
@@ -188,23 +187,23 @@ export default function GreenvillePage() {
               ALSO SERVING NEARBY AREAS
             </h2>
             <p className="text-muted text-lg mb-4">
-              In addition to Greenville, we provide services throughout Upstate South Carolina:
+              In addition to Spartanburg, we provide services throughout Upstate South Carolina:
             </p>
             <p className="text-muted text-base mb-8">
-              Our service area extends approximately 45 minutes from our base in Williamston, covering all of Greenville County and the surrounding Upstate region. If you are located outside of Greenville proper but still within the Upstate area, we can likely serve you as well. Contact us to confirm service availability for your specific location and to schedule a free on-site estimate.
+              Our service area extends approximately 45 minutes from our base in Williamston, covering Spartanburg County, Greenville County, and the surrounding Upstate region. If you are located outside of Spartanburg proper but still within the Upstate area, we can likely serve you as well. Contact us to confirm service availability for your specific location and to schedule a free on-site estimate.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/areas/simpsonville-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Simpsonville</span>
+              <Link href="/areas/greenville-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Greenville</span>
               </Link>
               <Link href="/areas/greer-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
                 <span className="font-bold text-primary">Greer</span>
               </Link>
-              <Link href="/areas/easley-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Easley</span>
+              <Link href="/areas/simpsonville-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Simpsonville</span>
               </Link>
-              <Link href="/areas/anderson-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
-                <span className="font-bold text-primary">Anderson</span>
+              <Link href="/areas/mauldin-sc" className="bg-white p-4 rounded-lg text-center hover:shadow-md transition-shadow">
+                <span className="font-bold text-primary">Mauldin</span>
               </Link>
             </div>
           </div>
@@ -214,12 +213,12 @@ export default function GreenvillePage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-8 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
-              GREENVILLE STUMP GRINDING RESOURCES
+              SPARTANBURG STUMP GRINDING RESOURCES
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <h3 className="font-bold text-primary text-lg mb-2">Stump Grinding Costs in Greenville</h3>
-                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Greenville area.</p>
+                <h3 className="font-bold text-primary text-lg mb-2">Stump Grinding Costs in Upstate SC</h3>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Upstate area.</p>
               </Link>
               <Link href="/blog/how-long-does-stump-grinding-take" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary text-lg mb-2">How Long Does It Take?</h3>
@@ -237,11 +236,11 @@ export default function GreenvillePage() {
         <section className="py-16 bg-primary">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              NEED STUMP GRINDING IN GREENVILLE?
+              NEED STUMP GRINDING IN SPARTANBURG?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
               Contact Nelson Land & Stump today for a free, no-obligation quote on stump grinding,
-              brush hogging, or land clearing services in Greenville, SC and surrounding areas.
+              brush hogging, or land clearing services in Spartanburg, SC and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

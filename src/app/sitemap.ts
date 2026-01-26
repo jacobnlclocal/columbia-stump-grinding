@@ -5,6 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Area pages with their slugs
   const areaPages = [
+    'spartanburg-sc',
     'greenville-sc',
     'anderson-sc',
     'easley-sc',
@@ -44,6 +45,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { slug: 'best-time-stump-grinding', date: '2025-07-30' },
     { slug: 'how-long-does-stump-grinding-take', date: '2025-09-05' },
     { slug: 'what-to-do-after-stump-grinding', date: '2025-10-21' },
+    { slug: 'fastest-way-remove-tree-stump', date: '2026-01-26' },
+    { slug: 'how-deep-does-stump-grinder-go', date: '2026-01-26' },
+    { slug: 'diy-vs-professional-stump-grinding', date: '2026-01-26' },
   ];
 
   const currentDate = new Date().toISOString().split('T')[0];

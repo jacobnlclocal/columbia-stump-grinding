@@ -38,14 +38,15 @@ export default function Hero() {
         </h1>
 
         <p className="text-base sm:text-lg text-gray-300 mb-4 tracking-widest uppercase font-medium">
-          Stump Grinding, Brush Hogging & Land Clearing in Upstate South Carolina
+          Professional Stump Grinding Services Near Me | Stump Removal Contractors
         </p>
         <p className="text-gray-400 mb-6 max-w-xl">
-          Professional tree service for stump grinding and removal, land clearing, and brush hogging.
-          Improve your curb appeal and property value. Call today for a free estimate!
+          Looking for stump grinding companies near me? Nelson Land & Stump provides professional stump removal
+          services and land clearing throughout Upstate South Carolina. Our stump grinder services deliver fast,
+          affordable results. Call today for a free estimate!
         </p>
         <p className="text-gray-400 mb-10 max-w-xl text-sm">
-          Nelson Land and Stump Services is a family-owned company based in Williamston, SC. We provide reliable stump grinding, brush hogging, and lot clearing services throughout Greenville, Anderson, Pickens, and Oconee Counties. With over five years of experience and hundreds of satisfied customers, we deliver quality workmanship using professional-grade equipment. We are fully licensed and insured for your protection.
+          Nelson Land and Stump Services is a family-owned stump grinder company based in Williamston, SC. As professional stump removal contractors, we provide reliable stump grinding services in your area throughout Greenville, Anderson, Pickens, Spartanburg, and Oconee Counties. With over five years of experience and hundreds of satisfied customers, we deliver quality workmanship using professional-grade equipment. We are fully licensed and insured for your protection.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

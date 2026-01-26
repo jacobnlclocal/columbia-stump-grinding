@@ -11,6 +11,30 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'fastest-way-remove-tree-stump',
+    title: 'What Is the Fastest Way to Remove a Tree Stump?',
+    excerpt: 'Compare fast tree stump removal methods including professional grinding, DIY options, and chemical removal. Find the quickest solution.',
+    date: 'January 26, 2026',
+    category: 'Guides',
+    readTime: '6 min read',
+  },
+  {
+    slug: 'how-deep-does-stump-grinder-go',
+    title: 'How Deep Does a Stump Grinder Go?',
+    excerpt: 'Learn about standard grinding depths (6-12 inches), when you need deeper grinding, and what happens to roots left behind.',
+    date: 'January 26, 2026',
+    category: 'FAQ',
+    readTime: '5 min read',
+  },
+  {
+    slug: 'diy-vs-professional-stump-grinding',
+    title: 'DIY vs Professional Stump Grinding: Which Should You Choose?',
+    excerpt: 'Should you rent a stump grinder or hire a pro? Compare costs, safety, and results to make the right choice.',
+    date: 'January 26, 2026',
+    category: 'Guides',
+    readTime: '7 min read',
+  },
+  {
     slug: 'what-to-do-after-stump-grinding',
     title: 'What to Do After Stump Grinding: Filling the Hole & Lawn Repair',
     excerpt: 'Learn how to fill the hole, plant grass, and restore your lawn after stump grinding. Step-by-step guide.',

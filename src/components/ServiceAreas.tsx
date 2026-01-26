@@ -3,6 +3,8 @@ import Link from 'next/link';
 export default function ServiceAreas() {
   // Cities with dedicated area pages
   const areaPages: Record<string, string> = {
+    // Spartanburg County
+    'Spartanburg': '/areas/spartanburg-sc',
     // Greenville County
     'Greenville': '/areas/greenville-sc',
     'Simpsonville': '/areas/simpsonville-sc',
@@ -34,6 +36,10 @@ export default function ServiceAreas() {
   };
 
   const counties = [
+    {
+      name: 'Spartanburg County',
+      cities: ['Spartanburg'],
+    },
     {
       name: 'Greenville County',
       cities: ['Greenville', 'Simpsonville', 'Greer', 'Mauldin', 'Travelers Rest', 'Fountain Inn'],
@@ -67,7 +73,7 @@ export default function ServiceAreas() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {counties.map((county) => (
             <div key={county.name} className="bg-white rounded-lg p-6 shadow-sm">
               <h3 className="font-bold text-primary text-lg mb-4 border-b border-accent pb-2">
