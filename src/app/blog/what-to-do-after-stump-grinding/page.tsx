@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'What to Do After Stump Grinding | Nelson Stump',
-  description: 'Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Upstate SC homeowners.',
+  title: 'What to Do After Stump Grinding | Columbia Stump Grinding',
+  description: 'Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Midlands SC homeowners.',
   keywords: 'after stump grinding, fill stump hole, stump grinding cleanup, grass after stump removal, stump grinding lawn repair',
 };
 
@@ -16,26 +16,26 @@ export default function AfterStumpGrindingPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "What to Do After Stump Grinding: Filling the Hole & Lawn Repair",
-    "description": "Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Upstate SC homeowners.",
+    "description": "Learn what to do after stump grinding - how to fill the hole, plant grass, and restore your lawn. Step-by-step guide for Midlands SC homeowners.",
     "datePublished": "2025-10-21",
     "dateModified": "2025-10-21",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/what-to-do-after-stump-grinding"
+      "@id": "https://www.columbiastumpgrinding.com/blog/what-to-do-after-stump-grinding"
     }
   };
 
@@ -189,7 +189,7 @@ export default function AfterStumpGrindingPost() {
                 BEST TIME TO SEED AFTER GRINDING
               </h2>
               <p className="text-muted mb-4">
-                In Upstate South Carolina, timing matters for grass seed:
+                In Midlands SC, timing matters for grass seed:
               </p>
               <div className="bg-muted-light rounded-lg p-6 mb-8">
                 <ul className="space-y-4">
@@ -252,8 +252,8 @@ export default function AfterStumpGrindingPost() {
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
                 <h3 className="font-bold text-primary text-lg mb-2">Need Stump Grinding?</h3>
                 <p className="text-muted mb-4">
-                  Nelson Land & Stump provides professional stump grinding throughout Greenville, Anderson,
-                  and Upstate SC. We include basic cleanup and can advise on restoration options for your
+                  Columbia Stump Grinding provides professional stump grinding throughout Columbia, Lexington,
+                  and Midlands SC. We include basic cleanup and can advise on restoration options for your
                   specific situation.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -264,10 +264,10 @@ export default function AfterStumpGrindingPost() {
                     Get a Free Quote
                   </Link>
                   <a
-                    href="tel:8647609203"
+                    href="tel:8037945833"
                     className="inline-block border-2 border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-md font-bold uppercase tracking-wide transition-colors text-sm text-center"
                   >
-                    Call (864) 760-9203
+                    Call (803) 794-5833
                   </a>
                 </div>
               </div>

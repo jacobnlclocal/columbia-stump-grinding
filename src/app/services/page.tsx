@@ -5,9 +5,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Services in Upstate SC | Nelson Land & Stump',
-  description: 'Professional stump grinding, brush hogging, and land clearing services in Greenville, Anderson, and Upstate South Carolina. Free estimates. Call (864) 760-9203.',
-  keywords: 'land clearing services SC, stump grinding Greenville, brush hogging Anderson, land clearing Upstate SC, tree stump removal',
+  title: 'Land Clearing Services in Columbia SC | Columbia Stump Grinding',
+  description: 'Professional stump grinding, brush hogging, and land clearing services in Columbia, Lexington, and Midlands South Carolina. Free estimates. Call (864) 760-9203.',
+  keywords: 'land clearing services SC, stump grinding Columbia, brush hogging Lexington, land clearing Midlands SC, tree stump removal',
 };
 
 const services = [
@@ -56,8 +56,8 @@ export default function ServicesPage() {
   const servicesSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Nelson Land & Stump Services",
-    "description": "Professional land clearing services in Upstate South Carolina",
+    "name": "Columbia Stump Grinding Services",
+    "description": "Professional land clearing services in Columbia and Midlands South Carolina",
     "itemListElement": services.map((service, index) => ({
       "@type": "ListItem",
       "position": index + 1,
@@ -65,11 +65,11 @@ export default function ServicesPage() {
         "@type": "Service",
         "name": service.title,
         "description": service.description,
-        "url": `https://www.nelsonstump.com/services/${service.slug}`,
+        "url": `https://www.columbiastumpgrinding.com/services/${service.slug}`,
         "provider": {
           "@type": "LocalBusiness",
-          "@id": "https://www.nelsonstump.com/#business",
-          "name": "Nelson Land & Stump Services",
+          "@id": "https://www.columbiastumpgrinding.com/#business",
+          "name": "Columbia Stump Grinding",
           "telephone": "+1-864-760-9203",
           "address": {
             "@type": "PostalAddress",
@@ -101,8 +101,8 @@ export default function ServicesPage() {
               OUR SERVICES
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Nelson Land & Stump provides professional stump grinding, brush hogging, and land clearing
-              services throughout Greenville, Anderson, and Upstate South Carolina. From a single backyard
+              Columbia Stump Grinding provides professional stump grinding, brush hogging, and land clearing
+              services throughout Columbia, Lexington, and Midlands South Carolina. From a single backyard
               stump to multi-acre clearing projects, we have the equipment and experience to handle it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -186,7 +186,7 @@ export default function ServicesPage() {
         <section className="py-16 bg-muted-light">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-10 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
-              WHY CHOOSE NELSON LAND & STUMP?
+              WHY CHOOSE COLUMBIA STUMP GRINDING?
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-white rounded-lg p-6 text-center">
@@ -223,7 +223,7 @@ export default function ServicesPage() {
                   </svg>
                 </div>
                 <h3 className="font-bold text-primary text-lg mb-2">Local & Friendly</h3>
-                <p className="text-muted text-sm">Family-owned and operated. Proud to serve our Upstate SC community.</p>
+                <p className="text-muted text-sm">Family-owned and operated. Proud to serve our Midlands SC community.</p>
               </div>
             </div>
           </div>
@@ -236,32 +236,32 @@ export default function ServicesPage() {
               SERVICE AREAS
             </h2>
             <p className="text-muted text-lg text-center mb-10 max-w-2xl mx-auto">
-              We provide stump grinding, brush hogging, and land clearing services throughout Upstate South Carolina.
+              We provide stump grinding, brush hogging, and land clearing services throughout Columbia and Midlands South Carolina.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
-              <Link href="/areas/greenville-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Greenville</span>
+              <Link href="/areas/columbia-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Columbia</span>
               </Link>
-              <Link href="/areas/anderson-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Anderson</span>
+              <Link href="/areas/lexington-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Lexington</span>
               </Link>
-              <Link href="/areas/easley-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Easley</span>
+              <Link href="/areas/west-columbia-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">West Columbia</span>
               </Link>
-              <Link href="/areas/clemson-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Clemson</span>
+              <Link href="/areas/irmo-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Irmo</span>
               </Link>
-              <Link href="/areas/simpsonville-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Simpsonville</span>
+              <Link href="/areas/chapin-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Chapin</span>
               </Link>
-              <Link href="/areas/greer-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Greer</span>
+              <Link href="/areas/cayce-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Cayce</span>
               </Link>
-              <Link href="/areas/seneca-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Seneca</span>
+              <Link href="/areas/blythewood-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Blythewood</span>
               </Link>
-              <Link href="/areas/pickens-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
-                <span className="font-bold text-primary">Pickens</span>
+              <Link href="/areas/forest-acres-sc" className="text-center p-4 bg-muted-light rounded-lg hover:bg-accent/10 transition-colors">
+                <span className="font-bold text-primary">Forest Acres</span>
               </Link>
             </div>
           </div>

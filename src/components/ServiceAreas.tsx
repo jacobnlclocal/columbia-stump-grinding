@@ -3,63 +3,33 @@ import Link from 'next/link';
 export default function ServiceAreas() {
   // Cities with dedicated area pages
   const areaPages: Record<string, string> = {
-    // Spartanburg County
-    'Spartanburg': '/areas/spartanburg-sc',
-    'Boiling Springs': '/areas/boiling-springs-sc',
-    'Duncan': '/areas/duncan-sc',
-    'Inman': '/areas/inman-sc',
-    'Lyman': '/areas/lyman-sc',
-    'Woodruff': '/areas/woodruff-sc',
-    // Greenville County
-    'Greenville': '/areas/greenville-sc',
-    'Simpsonville': '/areas/simpsonville-sc',
-    'Greer': '/areas/greer-sc',
-    'Mauldin': '/areas/mauldin-sc',
-    'Travelers Rest': '/areas/travelers-rest-sc',
-    'Fountain Inn': '/areas/fountain-inn-sc',
-    // Anderson County
-    'Anderson': '/areas/anderson-sc',
-    'Pendleton': '/areas/pendleton-sc',
-    'Williamston': '/areas/williamston-sc',
-    'Belton': '/areas/belton-sc',
-    'Honea Path': '/areas/honea-path-sc',
-    'Iva': '/areas/iva-sc',
-    // Pickens County
-    'Easley': '/areas/easley-sc',
-    'Clemson': '/areas/clemson-sc',
-    'Pickens': '/areas/pickens-sc',
-    'Liberty': '/areas/liberty-sc',
-    'Central': '/areas/central-sc',
-    'Norris': '/areas/norris-sc',
-    // Oconee County
-    'Seneca': '/areas/seneca-sc',
-    'Walhalla': '/areas/walhalla-sc',
-    'Westminster': '/areas/westminster-sc',
-    'Salem': '/areas/salem-sc',
-    'West Union': '/areas/west-union-sc',
-    'Fair Play': '/areas/fair-play-sc',
+    // Richland County
+    'Columbia': '/areas/columbia-sc',
+    'Blythewood': '/areas/blythewood-sc',
+    'Forest Acres': '/areas/forest-acres-sc',
+    'Hopkins': '/areas/hopkins-sc',
+    // Lexington County
+    'West Columbia': '/areas/west-columbia-sc',
+    'Cayce': '/areas/cayce-sc',
+    'Lexington': '/areas/lexington-sc',
+    'Irmo': '/areas/irmo-sc',
+    'Chapin': '/areas/chapin-sc',
+    'Springdale': '/areas/springdale-sc',
+    'South Congaree': '/areas/south-congaree-sc',
+    'Gaston': '/areas/gaston-sc',
+    'Swansea': '/areas/swansea-sc',
+    'Batesburg-Leesville': '/areas/batesburg-leesville-sc',
+    'Gilbert': '/areas/gilbert-sc',
   };
 
   const counties = [
     {
-      name: 'Spartanburg County',
-      cities: ['Spartanburg', 'Boiling Springs', 'Duncan', 'Inman', 'Lyman', 'Woodruff'],
+      name: 'Richland County',
+      cities: ['Columbia', 'Blythewood', 'Forest Acres', 'Hopkins'],
     },
     {
-      name: 'Greenville County',
-      cities: ['Greenville', 'Simpsonville', 'Greer', 'Mauldin', 'Travelers Rest', 'Fountain Inn'],
-    },
-    {
-      name: 'Anderson County',
-      cities: ['Anderson', 'Pendleton', 'Williamston', 'Belton', 'Honea Path', 'Iva'],
-    },
-    {
-      name: 'Pickens County',
-      cities: ['Easley', 'Clemson', 'Pickens', 'Liberty', 'Central', 'Norris'],
-    },
-    {
-      name: 'Oconee County',
-      cities: ['Seneca', 'Walhalla', 'Westminster', 'Salem', 'West Union', 'Fair Play'],
+      name: 'Lexington County',
+      cities: ['West Columbia', 'Cayce', 'Lexington', 'Irmo', 'Chapin', 'Springdale', 'South Congaree', 'Gaston', 'Swansea', 'Batesburg-Leesville', 'Gilbert'],
     },
   ];
 
@@ -71,14 +41,14 @@ export default function ServiceAreas() {
             SERVICE AREAS
           </h2>
           <p className="text-muted text-lg max-w-2xl mx-auto mb-4">
-            Professional stump grinding, brush hogging, and land clearing services throughout Upstate South Carolina
+            Professional stump grinding, brush hogging, and land clearing services throughout Columbia and Midlands South Carolina
           </p>
           <p className="text-muted text-base max-w-3xl mx-auto">
-            Based in Williamston, we travel throughout the Upstate region to serve our customers. Our service area covers approximately a 45-minute radius from Greenville, including all major cities and rural communities in Spartanburg, Greenville, Anderson, Pickens, and Oconee Counties. We offer free on-site estimates for all projects in our service area, and we can typically schedule estimates within one to two business days.
+            We travel throughout the Midlands region to serve our customers. Our service area covers Richland and Lexington Counties, including all major cities and rural communities. We offer free on-site estimates for all projects in our service area, and we can typically schedule estimates within one to two business days.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {counties.map((county) => (
             <div key={county.name} className="bg-white rounded-lg p-6 shadow-sm">
               <h3 className="font-bold text-primary text-lg mb-4 border-b border-accent pb-2">
@@ -109,7 +79,7 @@ export default function ServiceAreas() {
             Don&apos;t See Your Town Listed?
           </h3>
           <p className="text-gray-300 mb-6 max-w-xl mx-auto">
-            We serve all of Upstate South Carolina. If you&apos;re within 45 minutes of Greenville, Easley, or Anderson, we can help. Give us a call to confirm service in your area.
+            We serve all of Richland and Lexington Counties. If you&apos;re in the Columbia or Midlands SC area, we can help. Give us a call to confirm service in your area.
           </p>
           <a
             href="tel:8647609203"

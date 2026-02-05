@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Services Upstate SC | Nelson Stump',
-  description: 'Professional land clearing services and tree removal services in Upstate SC. Land clearing cost per acre $1,500-$5,000+. Lot clearing services for construction. Free estimates. Call (864) 760-9203.',
-  keywords: 'land clearing services, tree removal services, lot clearing services, land clearing cost per acre, land clearing Clemson SC, lot clearing Seneca, land clearing Oconee County, forestry mulching',
+  title: 'Land Clearing Services Columbia SC | Columbia Stump Grinding',
+  description: 'Professional land clearing services and tree removal services in Columbia and Midlands SC. Land clearing cost per acre $1,500-$5,000+. Lot clearing services for construction. Free estimates. Call (803) 470-0734.',
+  keywords: 'land clearing services, tree removal services, lot clearing services, land clearing cost per acre, land clearing Columbia SC, lot clearing Lexington, land clearing Richland County, forestry mulching',
   openGraph: {
-    title: 'Land Clearing Services & Cost | Nelson Stump',
-    description: 'Land clearing cost per acre in Upstate SC. Tree removal services. Free estimates!',
+    title: 'Land Clearing Services & Cost | Columbia Stump Grinding',
+    description: 'Land clearing cost per acre in Midlands SC. Tree removal services. Free estimates!',
   },
   alternates: {
     canonical: '/services/land-clearing',
@@ -38,7 +38,7 @@ export default function LandClearingPage() {
     },
     {
       title: 'Hunting Land Preparation',
-      description: 'Create food plots, shooting lanes, and access trails for hunting properties throughout Upstate SC.',
+      description: 'Create food plots, shooting lanes, and access trails for hunting properties throughout Midlands SC.',
     },
     {
       title: 'Storm Damage Cleanup',
@@ -84,10 +84,10 @@ export default function LandClearingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              LAND CLEARING SERVICES & TREE REMOVAL IN UPSTATE SC
+              LAND CLEARING SERVICES & TREE REMOVAL IN MIDLANDS SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional tree removal and lot clearing services throughout Clemson, Seneca, Oconee, Pickens, Anderson, and Greenville Counties.
+              Professional tree removal and lot clearing services throughout Columbia, Lexington, Richland & Lexington Counties.
               Our tree service handles land clearing for construction, driveways, and property development. Call today for your free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -98,10 +98,10 @@ export default function LandClearingPage() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
               >
-                (864) 760-9203
+                (803) 470-0734
               </a>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function LandClearingPage() {
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              COMPREHENSIVE LAND CLEARING IN THE UPSTATE
+              COMPREHENSIVE LAND CLEARING IN THE MIDLANDS
             </h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -121,8 +121,8 @@ export default function LandClearingPage() {
                   starting a garden, or simply reclaiming land that&apos;s been neglected. Improve your curb appeal and property value!
                 </p>
                 <p className="text-muted text-lg mb-4">
-                  At Nelson Land & Stump, we handle the full scope of land clearing projects in Upstate South Carolina.
-                  From small residential lots in Clemson to multi-acre properties in Oconee County, we have the
+                  At Columbia Stump Grinding, we handle the full scope of land clearing projects in Columbia and Midlands South Carolina.
+                  From small residential lots in Columbia to multi-acre properties in Richland County, we have the
                   equipment and experience to get your land ready.
                 </p>
                 <p className="text-muted text-lg">
@@ -138,7 +138,7 @@ export default function LandClearingPage() {
                     <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span><strong>Local Experience:</strong> 5+ years clearing land specifically in Upstate SC terrain</span>
+                    <span><strong>Local Experience:</strong> 5+ years clearing land specifically in Midlands SC terrain</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -208,85 +208,85 @@ export default function LandClearingPage() {
               LAND CLEARING SERVICE AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide professional land clearing and lot clearing services throughout Upstate South Carolina. Click your city for local details:
+              We provide professional land clearing and lot clearing services throughout Columbia and Midlands South Carolina. Click your city for local details:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              <Link href="/areas/anderson-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/columbia-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Anderson
+                Land Clearing Columbia
               </Link>
-              <Link href="/areas/greenville-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/west-columbia-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Greenville
+                Land Clearing West Columbia
               </Link>
-              <Link href="/areas/clemson-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lexington-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Clemson
+                Land Clearing Lexington
               </Link>
-              <Link href="/areas/seneca-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/irmo-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Seneca
+                Land Clearing Irmo
               </Link>
-              <Link href="/areas/pickens-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/chapin-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Pickens
+                Land Clearing Chapin
               </Link>
-              <Link href="/areas/easley-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/cayce-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Easley
+                Land Clearing Cayce
               </Link>
-              <Link href="/areas/pendleton-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/blythewood-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Pendleton
+                Land Clearing Blythewood
               </Link>
-              <Link href="/areas/central-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/forest-acres-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Central
+                Land Clearing Forest Acres
               </Link>
-              <Link href="/areas/liberty-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/elgin-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Liberty
+                Land Clearing Elgin
               </Link>
-              <Link href="/areas/walhalla-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lugoff-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Walhalla
+                Land Clearing Lugoff
               </Link>
-              <Link href="/areas/westminster-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/gilbert-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Westminster
+                Land Clearing Gilbert
               </Link>
-              <Link href="/areas/simpsonville-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/batesburg-leesville-sc/land-clearing" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Land Clearing Simpsonville
+                Land Clearing Batesburg-Leesville
               </Link>
             </div>
             <p className="text-muted">
-              Serving Greenville, Spartanburg, Anderson, Pickens, and Oconee counties.
-              Call <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> for a free consultation.
+              Serving Richland & Lexington Counties.
+              Call <a href="tel:8034700734" className="text-accent hover:underline">(803) 470-0734</a> for a free consultation.
             </p>
           </div>
         </section>
@@ -321,8 +321,8 @@ export default function LandClearingPage() {
               READY TO TRANSFORM YOUR PROPERTY?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Contact Nelson Land & Stump today for a free quote on land clearing services in Clemson, Seneca,
-              Anderson, and throughout Upstate South Carolina.
+              Contact Columbia Stump Grinding today for a free quote on land clearing services in Columbia, Lexington,
+              West Columbia, and throughout Columbia and Midlands South Carolina.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -332,10 +332,10 @@ export default function LandClearingPage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
               >
-                Call (864) 760-9203
+                Call (803) 470-0734
               </a>
             </div>
           </div>

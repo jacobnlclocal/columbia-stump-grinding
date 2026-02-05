@@ -6,9 +6,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Land Clearing Permits in SC | Nelson Stump',
-  description: 'Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Greenville, Anderson, and Upstate SC regulations explained.',
-  keywords: 'land clearing permit SC, tree removal permit South Carolina, land clearing regulations Greenville, do I need permit tree removal SC',
+  title: 'Land Clearing Permits in SC | Columbia Stump Grinding',
+  description: 'Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Columbia, Lexington, and Midlands SC regulations explained.',
+  keywords: 'land clearing permit SC, tree removal permit South Carolina, land clearing regulations Columbia, do I need permit tree removal SC',
 };
 
 export default function LandClearingPermitPost() {
@@ -16,26 +16,26 @@ export default function LandClearingPermitPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Do You Need a Permit for Land Clearing in South Carolina?",
-    "description": "Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Greenville, Anderson, and Upstate SC regulations explained.",
+    "description": "Learn when you need permits for land clearing, tree removal, and brush hogging in SC. Columbia, Lexington, and Midlands SC regulations explained.",
     "datePublished": "2025-05-27",
     "dateModified": "2025-05-27",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/do-you-need-permit-land-clearing-sc"
+      "@id": "https://www.columbiastumpgrinding.com/blog/do-you-need-permit-land-clearing-sc"
     }
   };
 
@@ -87,7 +87,7 @@ export default function LandClearingPermitPost() {
               <p className="text-xl text-muted leading-relaxed mb-8">
                 Planning to clear some land on your property? One of the most common questions we get is whether
                 permits are required. The short answer is: it depends. Here&apos;s what you need to know about
-                land clearing regulations in Greenville, Anderson, and Upstate South Carolina.
+                land clearing regulations in Columbia, Lexington, and Midlands SC.
               </p>
 
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
@@ -103,7 +103,7 @@ export default function LandClearingPermitPost() {
                 WHEN YOU TYPICALLY DON&apos;T NEED A PERMIT
               </h2>
               <p className="text-muted mb-4">
-                In most of Upstate South Carolina, you generally don&apos;t need a permit for:
+                In most of Midlands SC, you generally don&apos;t need a permit for:
               </p>
               <ul className="list-disc pl-6 text-muted space-y-2 mb-6">
                 <li><strong>Brush hogging:</strong> Mowing overgrown grass, weeds, and small brush</li>
@@ -114,7 +114,7 @@ export default function LandClearingPermitPost() {
               </ul>
               <p className="text-muted mb-6">
                 These activities are considered normal property maintenance and typically don&apos;t trigger
-                permit requirements in unincorporated areas of Greenville, Spartanburg, Anderson, Pickens, or Oconee counties.
+                permit requirements in unincorporated areas of Richland or Lexington Counties.
               </p>
 
               <h2 className="text-2xl font-black text-primary mt-10 mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
@@ -139,33 +139,36 @@ export default function LandClearingPermitPost() {
               </p>
 
               <div className="bg-muted-light rounded-lg p-6 mb-8">
-                <h3 className="font-bold text-primary text-lg mb-4">City of Greenville</h3>
+                <h3 className="font-bold text-primary text-lg mb-4">City of Columbia</h3>
                 <p className="text-muted mb-4">
-                  The City of Greenville has a tree ordinance that protects certain trees. Permits may be required
+                  The City of Columbia has a tree ordinance that protects certain trees. Permits may be required
                   for removing trees over a certain size (typically 24&quot; diameter or larger). Heritage trees have
                   additional protections.
                 </p>
                 <p className="text-muted text-sm">
-                  Contact: Greenville City Planning at (864) 467-4476
+                  Contact: Columbia Planning Department at (803) 545-3333
                 </p>
               </div>
 
               <div className="bg-muted-light rounded-lg p-6 mb-8">
-                <h3 className="font-bold text-primary text-lg mb-4">Greenville County (Unincorporated)</h3>
+                <h3 className="font-bold text-primary text-lg mb-4">Richland County (Unincorporated)</h3>
                 <p className="text-muted mb-4">
                   Generally more permissive than city limits. No tree removal permits for most residential
                   properties, but land disturbance permits may be needed for grading over certain thresholds.
                 </p>
                 <p className="text-muted text-sm">
-                  Contact: Greenville County Land Development at (864) 467-7270
+                  Contact: Richland County Planning at (803) 576-2140
                 </p>
               </div>
 
               <div className="bg-muted-light rounded-lg p-6 mb-8">
-                <h3 className="font-bold text-primary text-lg mb-4">Anderson, Pickens & Oconee Counties</h3>
+                <h3 className="font-bold text-primary text-lg mb-4">Lexington County</h3>
                 <p className="text-muted mb-4">
-                  These counties generally have fewer restrictions on land clearing for residential properties.
+                  Lexington County generally has fewer restrictions on land clearing for residential properties.
                   However, stormwater and erosion control requirements may apply for larger projects.
+                </p>
+                <p className="text-muted text-sm">
+                  Contact: Lexington County Planning at (803) 785-8121
                 </p>
               </div>
 
@@ -187,7 +190,7 @@ export default function LandClearingPermitPost() {
               </h2>
               <p className="text-muted mb-6">
                 Don&apos;t forget to check your HOA rules and deed restrictions. Many subdivisions in the
-                Greenville and Simpsonville areas have strict rules about tree removal and land clearing,
+                Columbia, Irmo, and Lexington areas have strict rules about tree removal and land clearing,
                 even when no government permits are required. You may need HOA approval before removing
                 trees or clearing vegetation.
               </p>
@@ -215,7 +218,7 @@ export default function LandClearingPermitPost() {
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
                 <h3 className="font-bold text-primary text-lg mb-2">Need Help With Your Land Clearing Project?</h3>
                 <p className="text-muted mb-4">
-                  Nelson Land & Stump handles land clearing projects throughout Upstate SC. We can advise on
+                  Columbia Stump Grinding handles land clearing projects throughout Midlands SC. We can advise on
                   typical permit requirements based on our experience in your area. Give us a call to discuss
                   your project.
                 </p>
@@ -231,14 +234,14 @@ export default function LandClearingPermitPost() {
                 BOTTOM LINE
               </h2>
               <p className="text-muted mb-6">
-                For most residential brush hogging, stump grinding, and minor land clearing in Upstate SC,
+                For most residential brush hogging, stump grinding, and minor land clearing in Midlands SC,
                 you probably don&apos;t need a permit. But for larger projects, development-related clearing,
                 or properties near waterways, always check with your local planning office first. The small
                 investment of time can save you from fines and headaches later.
               </p>
               <p className="text-muted">
                 Have questions about a specific project? Call us at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a>. We&apos;re
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a>. We&apos;re
                 happy to share what we know about regulations in your area.
               </p>
             </div>
@@ -254,7 +257,7 @@ export default function LandClearingPermitPost() {
             <div className="grid md:grid-cols-2 gap-6">
               <Link href="/blog/brush-hogging-cost-per-acre-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Brush Hogging Cost Per Acre</h3>
-                <p className="text-muted text-sm">Complete pricing guide for brush hogging in Upstate SC.</p>
+                <p className="text-muted text-sm">Complete pricing guide for brush hogging in Midlands SC.</p>
               </Link>
               <Link href="/services/land-clearing" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Our Land Clearing Services</h3>

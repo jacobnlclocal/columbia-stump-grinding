@@ -6,9 +6,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: '5 Signs You Need Land Clearing | Nelson Stump',
-  description: 'Not sure if you need land clearing services? Here are 5 clear signs it\'s time to call a professional in Greenville, Anderson, Easley, or Upstate SC.',
-  keywords: 'land clearing signs, when to clear land, overgrown property, land clearing Greenville SC, brush clearing Upstate SC',
+  title: '5 Signs You Need Land Clearing | Columbia Stump Grinding',
+  description: 'Not sure if you need land clearing services? Here are 5 clear signs it\'s time to call a professional in Columbia, Lexington, Irmo, or Midlands SC.',
+  keywords: 'land clearing signs, when to clear land, overgrown property, land clearing Columbia SC, brush clearing Midlands SC',
 };
 
 export default function LandClearingSignsPost() {
@@ -16,26 +16,26 @@ export default function LandClearingSignsPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "5 Signs You Need Professional Land Clearing",
-    "description": "Not sure if you need land clearing services? Here are 5 clear signs it's time to call a professional in Greenville, Anderson, Easley, or Upstate SC.",
+    "description": "Not sure if you need land clearing services? Here are 5 clear signs it's time to call a professional in Columbia, Lexington, Irmo, or Midlands SC.",
     "datePublished": "2025-03-08",
     "dateModified": "2025-03-08",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/5-signs-you-need-land-clearing"
+      "@id": "https://www.columbiastumpgrinding.com/blog/5-signs-you-need-land-clearing"
     }
   };
 
@@ -73,7 +73,7 @@ export default function LandClearingSignsPost() {
         <div className="relative h-64 md:h-96 w-full">
           <Image
             src="/blog-land-clearing-signs.jpg"
-            alt="Overgrown property needing land clearing services in Upstate South Carolina"
+            alt="Overgrown property needing land clearing services in Midlands SC"
             fill
             className="object-cover"
             priority
@@ -116,7 +116,7 @@ export default function LandClearingSignsPost() {
                   areas on your property might be the source.
                 </p>
                 <p className="text-muted">
-                  <strong>Common issues in Upstate SC:</strong> Copperheads and other snakes love overgrown
+                  <strong>Common issues in Midlands SC:</strong> Copperheads and other snakes love overgrown
                   brush piles. Ticks and chiggers breed in tall grass and weeds. Clearing creates a buffer
                   zone that keeps these pests away from your living areas.
                 </p>
@@ -196,7 +196,7 @@ export default function LandClearingSignsPost() {
                 OUR LAND CLEARING SERVICES
               </h2>
               <p className="text-muted mb-4">
-                At Nelson Land & Stump, we offer several services to reclaim your property:
+                At Columbia Stump Grinding, we offer several services to reclaim your property:
               </p>
               <ul className="list-disc pl-6 text-muted space-y-2 mb-6">
                 <li><strong>Brush Hogging:</strong> For overgrown fields, pastures, and large areas</li>
@@ -204,7 +204,7 @@ export default function LandClearingSignsPost() {
                 <li><strong>Stump Grinding:</strong> Remove stumps to restore smooth, usable ground</li>
               </ul>
               <p className="text-muted mb-6">
-                We serve Greenville, Anderson, Easley, Clemson, and all of Upstate South Carolina. From
+                We serve Columbia, West Columbia, Lexington, Irmo, Chapin, Cayce, and all of Midlands SC. From
                 small residential lots to multi-acre properties, we have the equipment to handle it.
               </p>
 
@@ -222,10 +222,10 @@ export default function LandClearingSignsPost() {
                     Get a Free Quote
                   </Link>
                   <a
-                    href="tel:8647609203"
+                    href="tel:8037945833"
                     className="inline-block border-2 border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-md font-bold uppercase tracking-wide transition-colors text-sm text-center"
                   >
-                    Call (864) 760-9203
+                    Call (803) 794-5833
                   </a>
                 </div>
               </div>
@@ -240,9 +240,9 @@ export default function LandClearingSignsPost() {
               RELATED ARTICLES
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">How Much Does Stump Grinding Cost?</h3>
-                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Upstate.</p>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Midlands.</p>
               </Link>
               <Link href="/services/land-clearing" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Our Land Clearing Services</h3>

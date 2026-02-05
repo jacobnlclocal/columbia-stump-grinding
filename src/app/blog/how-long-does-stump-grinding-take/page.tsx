@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Long Does Stump Grinding Take? | Nelson Stump',
-  description: 'Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Greenville and Upstate SC projects.',
+  title: 'How Long Does Stump Grinding Take? | Columbia Stump Grinding',
+  description: 'Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Columbia and Midlands SC projects.',
   keywords: 'how long stump grinding take, stump grinding time, stump removal duration, stump grinding estimate, fast stump grinding SC',
 };
 
@@ -16,26 +16,26 @@ export default function HowLongStumpGrindingPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "How Long Does Stump Grinding Take?",
-    "description": "Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Greenville and Upstate SC projects.",
+    "description": "Find out how long stump grinding takes based on stump size, number of stumps, and conditions. Time estimates for Columbia and Midlands SC projects.",
     "datePublished": "2025-09-05",
     "dateModified": "2025-09-05",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/how-long-does-stump-grinding-take"
+      "@id": "https://www.columbiastumpgrinding.com/blog/how-long-does-stump-grinding-take"
     }
   };
 
@@ -73,7 +73,7 @@ export default function HowLongStumpGrindingPost() {
         <div className="relative h-64 md:h-96 w-full">
           <Image
             src="/blog-how-long.jpg"
-            alt="Professional stump grinding in progress - time estimates for Upstate SC"
+            alt="Professional stump grinding in progress - time estimates for Midlands SC"
             fill
             className="object-cover"
             priority
@@ -242,7 +242,7 @@ export default function HowLongStumpGrindingPost() {
                 <h3 className="font-bold text-primary text-lg mb-2">Get a Time Estimate for Your Project</h3>
                 <p className="text-muted mb-4">
                   Every stump is different. Give us a call or send a photo, and we can give you a realistic
-                  time estimate for your specific situation. Most residential jobs in Greenville and Upstate
+                  time estimate for your specific situation. Most residential jobs in Columbia and Midlands
                   SC are done within an hour.
                 </p>
                 <Link
@@ -259,7 +259,7 @@ export default function HowLongStumpGrindingPost() {
               <p className="text-muted">
                 Most homeowners are surprised how quickly stump grinding goes. That eyesore you&apos;ve been
                 looking at for months or years can be gone in under an hour. Call us at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> to
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> to
                 schedule your stump grinding and reclaim your yard.
               </p>
             </div>
@@ -273,9 +273,9 @@ export default function HowLongStumpGrindingPost() {
               RELATED ARTICLES
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">How Much Does Stump Grinding Cost?</h3>
-                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Upstate.</p>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Midlands.</p>
               </Link>
               <Link href="/blog/stump-grinding-vs-stump-removal" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Stump Grinding vs Stump Removal</h3>

@@ -6,9 +6,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding vs Removal: Which is Best? | Nelson Stump',
-  description: 'Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Upstate SC property and budget.',
-  keywords: 'stump grinding vs removal, stump removal methods, tree stump options, stump grinding Greenville SC, stump removal Upstate SC',
+  title: 'Stump Grinding vs Removal: Which is Best? | Columbia Stump Grinding',
+  description: 'Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Midlands SC property and budget.',
+  keywords: 'stump grinding vs removal, stump removal methods, tree stump options, stump grinding Columbia SC, stump removal Midlands SC',
 };
 
 export default function StumpGrindingVsRemovalPost() {
@@ -16,26 +16,26 @@ export default function StumpGrindingVsRemovalPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Stump Grinding vs Stump Removal: Which is Right for You?",
-    "description": "Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Upstate SC property and budget.",
+    "description": "Learn the key differences between stump grinding and complete stump removal. Find out which method is best for your Midlands SC property and budget.",
     "datePublished": "2025-02-22",
     "dateModified": "2025-02-22",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/stump-grinding-vs-stump-removal"
+      "@id": "https://www.columbiastumpgrinding.com/blog/stump-grinding-vs-stump-removal"
     }
   };
 
@@ -73,7 +73,7 @@ export default function StumpGrindingVsRemovalPost() {
         <div className="relative h-64 md:h-96 w-full">
           <Image
             src="/blog-stump-vs-removal.jpg"
-            alt="Tree stump comparison - stump grinding vs complete stump removal in Upstate SC"
+            alt="Tree stump comparison - stump grinding vs complete stump removal in Midlands SC"
             fill
             className="object-cover"
             priority
@@ -216,7 +216,7 @@ export default function StumpGrindingVsRemovalPost() {
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
                 <h3 className="font-bold text-primary text-lg mb-2">Our Recommendation</h3>
                 <p className="text-muted mb-4">
-                  For 95% of homeowners in the Greenville and Upstate SC area, stump grinding is the best choice.
+                  For 95% of homeowners in the Columbia and Midlands SC area, stump grinding is the best choice.
                   It&apos;s faster, more affordable, and leaves your yard in great shape. We only recommend complete
                   removal when there&apos;s a specific reason the roots need to go.
                 </p>
@@ -232,9 +232,9 @@ export default function StumpGrindingVsRemovalPost() {
                 READY TO REMOVE THAT STUMP?
               </h2>
               <p className="text-muted mb-6">
-                Whether you need grinding or removal, Nelson Land & Stump can help. We serve Greenville,
-                Anderson, Easley, Clemson, and all of Upstate South Carolina. Call us at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> or{' '}
+                Whether you need grinding or removal, Columbia Stump Grinding can help. We serve Columbia,
+                West Columbia, Lexington, Irmo, Chapin, Cayce, and all of Midlands SC. Call us at{' '}
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a free quote online</Link>.
                 We&apos;ll assess your situation and recommend the best approach for your property.
               </p>
@@ -249,9 +249,9 @@ export default function StumpGrindingVsRemovalPost() {
               RELATED ARTICLES
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">How Much Does Stump Grinding Cost?</h3>
-                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Upstate.</p>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Midlands.</p>
               </Link>
               <Link href="/services/stump-grinding" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Our Stump Grinding Services</h3>

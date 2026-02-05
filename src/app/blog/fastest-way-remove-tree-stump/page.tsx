@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Fastest Way to Remove a Tree Stump | Nelson Stump',
+  title: 'Fastest Way to Remove a Tree Stump | Columbia Stump Grinding',
   description: 'What is the fastest way to remove a tree stump? Learn about fast tree stump removal methods including professional stump grinding, DIY options, and which method works best for quick results.',
   keywords: 'fastest way to remove tree stump, fast tree stump removal, remove tree stump fast, quick stump removal, how to remove a stump fast, fast stump removal, remove tree stumps quickly',
 };
@@ -21,21 +21,21 @@ export default function FastestWayRemoveTreeStumpPost() {
     "dateModified": "2026-01-26",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/fastest-way-remove-tree-stump"
+      "@id": "https://www.columbiastumpgrinding.com/blog/fastest-way-remove-tree-stump"
     }
   };
 
@@ -203,7 +203,7 @@ export default function FastestWayRemoveTreeStumpPost() {
               <ul className="list-disc pl-6 text-muted space-y-2 mb-6">
                 <li><strong>Same-day service:</strong> Most stump grinding companies can come out within 1-2 days</li>
                 <li><strong>Minimal yard damage:</strong> Unlike excavation, grinding doesn&apos;t tear up your lawn</li>
-                <li><strong>Affordable:</strong> Typically $75-$300 per stump in Upstate SC</li>
+                <li><strong>Affordable:</strong> Typically $75-$300 per stump in Midlands SC</li>
                 <li><strong>Clean results:</strong> The wood chips can be used as mulch or hauled away</li>
                 <li><strong>No permits needed:</strong> Unlike burning, grinding requires no special permissions</li>
               </ul>
@@ -228,10 +228,10 @@ export default function FastestWayRemoveTreeStumpPost() {
               </p>
 
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
-                <h3 className="font-bold text-primary text-lg mb-2">Need Fast Stump Removal in Upstate SC?</h3>
+                <h3 className="font-bold text-primary text-lg mb-2">Need Fast Stump Removal in Midlands SC?</h3>
                 <p className="text-muted mb-4">
-                  Nelson Land & Stump offers same-day and next-day stump grinding services throughout
-                  Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. Most stumps are removed in under
+                  Columbia Stump Grinding offers same-day and next-day stump grinding services throughout
+                  Richland & Lexington Counties. Most stumps are removed in under
                   an hour. Call us for a free estimate!
                 </p>
                 <Link
@@ -257,10 +257,10 @@ export default function FastestWayRemoveTreeStumpPost() {
                 READY TO REMOVE THAT STUMP FAST?
               </h2>
               <p className="text-muted mb-6">
-                If you&apos;re in Greenville, Anderson, Easley, Clemson, Seneca, or anywhere in Upstate South
-                Carolina, Nelson Land & Stump can help you remove that tree stump quickly. We offer fast
+                If you&apos;re in Columbia, West Columbia, Lexington, Irmo, Chapin, Cayce, or anywhere in Midlands SC,
+                Columbia Stump Grinding can help you remove that tree stump quickly. We offer fast
                 tree stump removal services with professional-grade equipment that gets the job done right.
-                Call us at <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> or{' '}
+                Call us at <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a free quote online</Link>.
               </p>
             </div>

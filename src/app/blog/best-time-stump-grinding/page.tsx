@@ -6,8 +6,8 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Best Time for Stump Grinding in SC | Nelson Stump',
-  description: 'When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Greenville and Upstate SC. Year-round availability.',
+  title: 'Best Time for Stump Grinding in SC | Columbia Stump Grinding',
+  description: 'When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Columbia and Midlands SC. Year-round availability.',
   keywords: 'best time stump grinding, when to grind stumps, stump grinding season, stump removal timing SC, winter stump grinding',
 };
 
@@ -16,26 +16,26 @@ export default function BestTimeStumpGrindingPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Best Time of Year for Stump Grinding in South Carolina",
-    "description": "When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Greenville and Upstate SC.",
+    "description": "When is the best time to grind stumps? Learn about seasonal considerations for stump grinding in Columbia and Midlands SC.",
     "datePublished": "2025-07-12",
     "dateModified": "2025-07-12",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/best-time-stump-grinding"
+      "@id": "https://www.columbiastumpgrinding.com/blog/best-time-stump-grinding"
     }
   };
 
@@ -96,7 +96,7 @@ export default function BestTimeStumpGrindingPost() {
               <p className="text-muted mb-6">
                 Unlike some landscaping tasks, stump grinding doesn&apos;t depend on the season. The tree is already
                 dead (or removed), and the grinding process works the same whether it&apos;s January or July. Here
-                in Greenville and Upstate SC, our climate rarely produces conditions that prevent stump grinding.
+                in Columbia and Midlands SC, our climate rarely produces conditions that prevent stump grinding.
               </p>
               <p className="text-muted mb-6">
                 That said, certain times of year offer some advantages:
@@ -164,7 +164,7 @@ export default function BestTimeStumpGrindingPost() {
               </p>
               <ul className="list-disc pl-6 text-muted space-y-2 mb-6">
                 <li><strong>After heavy rain:</strong> If your yard is saturated, heavy equipment can cause damage. We may reschedule if conditions are too wet.</li>
-                <li><strong>Frozen ground:</strong> Rare in Upstate SC, but if the ground is frozen solid, grinding is more difficult.</li>
+                <li><strong>Frozen ground:</strong> Rare in Midlands SC, but if the ground is frozen solid, grinding is more difficult.</li>
                 <li><strong>Active bee/wasp nests:</strong> If there&apos;s a nest in the stump, we may need to wait or treat it first.</li>
               </ul>
 
@@ -194,8 +194,8 @@ export default function BestTimeStumpGrindingPost() {
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
                 <h3 className="font-bold text-primary text-lg mb-2">Ready to Schedule?</h3>
                 <p className="text-muted mb-4">
-                  Nelson Land & Stump provides stump grinding year-round throughout Greenville, Anderson,
-                  and Upstate SC. Whatever the season, we can usually schedule your job within a week.
+                  Columbia Stump Grinding provides stump grinding year-round throughout Columbia, Lexington,
+                  and Midlands SC. Whatever the season, we can usually schedule your job within a week.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
@@ -205,10 +205,10 @@ export default function BestTimeStumpGrindingPost() {
                     Get a Free Quote
                   </Link>
                   <a
-                    href="tel:8647609203"
+                    href="tel:8037945833"
                     className="inline-block border-2 border-accent text-accent hover:bg-accent hover:text-white px-6 py-3 rounded-md font-bold uppercase tracking-wide transition-colors text-sm text-center"
                   >
-                    Call (864) 760-9203
+                    Call (803) 794-5833
                   </a>
                 </div>
               </div>
@@ -217,7 +217,7 @@ export default function BestTimeStumpGrindingPost() {
                 BOTTOM LINE
               </h2>
               <p className="text-muted">
-                In Upstate South Carolina, any time is a good time for stump grinding. Winter offers faster
+                In Midlands SC, any time is a good time for stump grinding. Winter offers faster
                 scheduling and better access, spring is great if you want to immediately plant grass, and fall
                 is an underrated option for those wanting to seed cool-season lawns. Don&apos;t wait for the
                 &quot;perfect&quot; time—give us a call whenever you&apos;re ready to reclaim that space.
@@ -233,9 +233,9 @@ export default function BestTimeStumpGrindingPost() {
               RELATED ARTICLES
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">How Much Does Stump Grinding Cost?</h3>
-                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Upstate.</p>
+                <p className="text-muted text-sm">Complete pricing guide for stump grinding in the Midlands.</p>
               </Link>
               <Link href="/blog/what-to-do-after-stump-grinding" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">What to Do After Stump Grinding</h3>

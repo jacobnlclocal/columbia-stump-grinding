@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'How Deep Does a Stump Grinder Go? | Nelson Stump',
+  title: 'How Deep Does a Stump Grinder Go? | Columbia Stump Grinding',
   description: 'How deep does a stump grinder go? Learn about standard grinding depths (6-12 inches), when you need deeper grinding, and what happens to the roots left behind.',
   keywords: 'how deep does stump grinder go, stump grinding depth, how deep to grind stump, stump grinder depth, tree stump grinding depth',
 };
@@ -21,21 +21,21 @@ export default function HowDeepStumpGrinderGoPost() {
     "dateModified": "2026-01-26",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/how-deep-does-stump-grinder-go"
+      "@id": "https://www.columbiastumpgrinding.com/blog/how-deep-does-stump-grinder-go"
     }
   };
 
@@ -216,7 +216,7 @@ export default function HowDeepStumpGrinderGoPost() {
               <p className="text-muted mb-6">
                 Yes, grinding deeper than the standard 6-8 inches typically costs more because it requires
                 more time and puts more wear on the equipment. Most stump grinding companies charge an
-                additional fee for deep grinding. At Nelson Land & Stump, we&apos;ll discuss your plans for
+                additional fee for deep grinding. At Columbia Stump Grinding, we&apos;ll discuss your plans for
                 the area during the estimate so we can recommend and price the appropriate depth.
               </p>
 
@@ -224,8 +224,8 @@ export default function HowDeepStumpGrinderGoPost() {
                 <h3 className="font-bold text-primary text-lg mb-2">Not Sure How Deep You Need?</h3>
                 <p className="text-muted mb-4">
                   Tell us what you&apos;re planning to do with the area after the stump is removed, and we&apos;ll
-                  recommend the right grinding depth. We serve Greenville, Anderson, Easley, Clemson,
-                  and all of Upstate South Carolina.
+                  recommend the right grinding depth. We serve Columbia, West Columbia, Lexington, Irmo, Chapin, Cayce,
+                  and all of Midlands SC.
                 </p>
                 <Link
                   href="/#contact"
@@ -254,13 +254,13 @@ export default function HowDeepStumpGrinderGoPost() {
                 GET YOUR STUMP GROUND TO THE RIGHT DEPTH
               </h2>
               <p className="text-muted mb-6">
-                At Nelson Land & Stump, we grind stumps to the appropriate depth for your specific needs.
+                At Columbia Stump Grinding, we grind stumps to the appropriate depth for your specific needs.
                 Whether you&apos;re planting grass, building a patio, or preparing for construction, we have
                 the equipment to get the job done right. Call us at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> or{' '}
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a free quote</Link>{' '}
-                for stump grinding services in Greenville, Anderson, Easley, Clemson, Seneca, and
-                throughout Upstate South Carolina.
+                for stump grinding services in Columbia, West Columbia, Lexington, Irmo, Chapin, Cayce, and
+                throughout Midlands SC.
               </p>
             </div>
           </div>

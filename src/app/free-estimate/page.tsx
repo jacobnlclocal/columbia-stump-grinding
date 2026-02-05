@@ -6,13 +6,13 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Free Stump Grinding Estimate | Get a Quote in Upstate SC',
-  description: 'Get a free stump grinding, brush hogging, or land clearing estimate in Greenville, Spartanburg, Anderson, Pickens & Oconee Counties. No obligation quotes. Call (864) 760-9203 or fill out our form.',
-  keywords: 'free stump grinding estimate, stump grinding quote, land clearing estimate, brush hogging quote, free estimate Greenville SC, stump removal quote near me, land clearing quote Anderson SC',
+  title: 'Free Stump Grinding Estimate | Get a Quote in Columbia SC',
+  description: 'Get a free stump grinding, brush hogging, or land clearing estimate in Richland & Lexington Counties. No obligation quotes. Call (803) 470-0734 or fill out our form.',
+  keywords: 'free stump grinding estimate, stump grinding quote, land clearing estimate, brush hogging quote, free estimate Columbia SC, stump removal quote near me, land clearing quote Lexington SC',
   openGraph: {
-    title: 'Free Stump Grinding Estimate | Nelson Stump',
-    description: 'Get a free, no-obligation estimate for stump grinding, brush hogging, or land clearing in Upstate SC.',
-    url: 'https://www.nelsonstump.com/free-estimate',
+    title: 'Free Stump Grinding Estimate | Columbia Stump Grinding',
+    description: 'Get a free, no-obligation estimate for stump grinding, brush hogging, or land clearing in Midlands SC.',
+    url: 'https://www.columbiastumpgrinding.com/free-estimate',
   },
   alternates: {
     canonical: '/free-estimate',
@@ -51,7 +51,7 @@ export default function FreeEstimatePage() {
     },
     {
       title: 'Local & Insured',
-      description: 'Family-owned, fully insured, and serving Upstate SC for 5+ years.',
+      description: 'Family-owned, fully insured, and serving Midlands SC for 5+ years.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -78,13 +78,13 @@ export default function FreeEstimatePage() {
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-4">
               Request a free, no-obligation quote for stump grinding, brush hogging, or land clearing
-              services anywhere in Upstate South Carolina.
+              services anywhere in Columbia and Midlands South Carolina.
             </p>
             <p className="text-lg text-accent font-semibold mb-4">
               Most estimates scheduled within 1-2 business days
             </p>
             <p className="text-gray-400 max-w-3xl">
-              Nelson Land and Stump Services has been providing professional land clearing services in Upstate South Carolina for over five years. Our team visits your property to assess the scope of work, discuss your specific needs, and provide an accurate quote. We handle projects of all sizes, from single stump removal to multi-acre land clearing. Every estimate includes a detailed breakdown so you know exactly what to expect with no hidden fees or surprises.
+              Columbia Stump Grinding has been providing professional land clearing services in Columbia and Midlands South Carolina for over five years. Our team visits your property to assess the scope of work, discuss your specific needs, and provide an accurate quote. We handle projects of all sizes, from single stump removal to multi-acre land clearing. Every estimate includes a detailed breakdown so you know exactly what to expect with no hidden fees or surprises.
             </p>
           </div>
         </section>
@@ -142,15 +142,15 @@ export default function FreeEstimatePage() {
         <section className="py-16 bg-muted-light">
           <div className="max-w-6xl mx-auto px-6">
             <h2 className="text-3xl md:text-4xl font-black text-primary mb-6 text-center" style={{ fontFamily: 'var(--font-oswald)' }}>
-              FREE ESTIMATES THROUGHOUT UPSTATE SC
+              FREE ESTIMATES THROUGHOUT MIDLANDS SC
             </h2>
             <p className="text-muted text-lg text-center mb-10 max-w-2xl mx-auto">
-              We provide free on-site estimates in Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties, including:
+              We provide free on-site estimates in Richland & Lexington Counties, including:
             </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {[
-                'Greenville', 'Spartanburg', 'Anderson', 'Easley', 'Clemson', 'Seneca',
-                'Pickens', 'Simpsonville', 'Greer', 'Mauldin', 'Pendleton', 'Liberty',
+                'Columbia', 'West Columbia', 'Lexington', 'Irmo', 'Chapin', 'Cayce',
+                'Blythewood', 'Forest Acres', 'Elgin', 'Lugoff', 'Gilbert', 'Batesburg-Leesville',
               ].map((city) => (
                 <div key={city} className="bg-white rounded-lg p-3 text-center">
                   <span className="font-medium text-primary">{city}</span>
@@ -158,7 +158,7 @@ export default function FreeEstimatePage() {
               ))}
             </div>
             <p className="text-center text-muted mt-6">
-              Don&apos;t see your city? We likely serve your area too! <a href="tel:8647609203" className="text-accent hover:underline">Call to confirm</a>.
+              Don&apos;t see your city? We likely serve your area too! <a href="tel:8034700734" className="text-accent hover:underline">Call to confirm</a>.
             </p>
           </div>
         </section>
@@ -173,10 +173,10 @@ export default function FreeEstimatePage() {
               Speak directly with us to discuss your project and schedule your free estimate.
             </p>
             <a
-              href="tel:8647609203"
+              href="tel:8034700734"
               className="inline-block bg-accent hover:bg-accent-dark text-white px-10 py-5 rounded-md font-bold text-xl uppercase tracking-wide transition-colors"
             >
-              Call (864) 760-9203
+              Call (803) 470-0734
             </a>
             <p className="text-gray-400 mt-4">Monday – Saturday, 7AM – 6PM</p>
           </div>

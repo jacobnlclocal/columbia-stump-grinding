@@ -24,35 +24,35 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.nelsonstump.com'),
+  metadataBase: new URL('https://www.columbiastumpgrinding.com'),
   title: {
-    default: "Stump Grinding & Land Clearing Upstate SC | Nelson Stump",
-    template: "%s | Nelson Stump",
+    default: "Stump Grinding & Land Clearing Columbia SC | Columbia Stump Grinding",
+    template: "%s | Columbia Stump Grinding",
   },
-  description: "Professional stump grinding, brush hogging, and land clearing services in Upstate South Carolina. Serving Greenville, Spartanburg, Anderson, Pickens & Oconee Counties. Free estimates, fully licensed & insured. Call (864) 760-9203.",
-  keywords: "stump grinding Greenville SC, land clearing Upstate SC, brush hogging Anderson SC, stump removal near me, brush clearing Easley, land clearing Clemson SC, stump grinding Pickens County, tree stump removal South Carolina",
-  authors: [{ name: "Nelson Land & Stump Services" }],
+  description: "Professional stump grinding, brush hogging, and land clearing services in Columbia and Midlands South Carolina. Serving Richland & Lexington Counties. Free estimates, fully licensed & insured. Call (864) 760-9203.",
+  keywords: "stump grinding Columbia SC, land clearing Midlands SC, brush hogging Lexington SC, stump removal near me, brush clearing West Columbia, land clearing Irmo SC, stump grinding Richland County, tree stump removal South Carolina",
+  authors: [{ name: "Columbia Stump Grinding" }],
   robots: "index, follow",
   openGraph: {
-    title: "Stump Grinding & Land Clearing | Nelson Land & Stump Services",
-    description: "Professional stump grinding, brush hogging, and land clearing in Upstate SC. Serving Greenville, Spartanburg, Anderson, Pickens & Oconee Counties. Free estimates!",
+    title: "Stump Grinding & Land Clearing | Columbia Stump Grinding",
+    description: "Professional stump grinding, brush hogging, and land clearing in Columbia and Midlands SC. Serving Richland & Lexington Counties. Free estimates!",
     type: "website",
     locale: "en_US",
-    siteName: "Nelson Land & Stump Services",
-    url: "https://www.nelsonstump.com",
+    siteName: "Columbia Stump Grinding",
+    url: "https://www.columbiastumpgrinding.com",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Nelson Land & Stump - Professional Stump Grinding & Land Clearing in Upstate SC",
+        alt: "Columbia Stump Grinding - Professional Stump Grinding & Land Clearing in Columbia SC",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stump Grinding & Land Clearing in Greenville SC",
-    description: "Professional stump grinding and land clearing services in Upstate South Carolina. Free estimates!",
+    title: "Stump Grinding & Land Clearing in Columbia SC",
+    description: "Professional stump grinding and land clearing services in Columbia and Midlands South Carolina. Free estimates!",
     images: ["/og-image.jpg"],
   },
   alternates: {
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   },
   other: {
     "geo.region": "US-SC",
-    "geo.placename": "Greenville, South Carolina",
+    "geo.placename": "Columbia, South Carolina",
   },
 };
 

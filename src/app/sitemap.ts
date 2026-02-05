@@ -1,40 +1,25 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.nelsonstump.com';
+  const baseUrl = 'https://www.columbiastumpgrinding.com';
 
-  // Area pages with their slugs
+  // Area pages with their slugs - Columbia/Midlands SC cities
   const areaPages = [
-    'spartanburg-sc',
-    'boiling-springs-sc',
-    'duncan-sc',
-    'inman-sc',
-    'lyman-sc',
-    'woodruff-sc',
-    'greenville-sc',
-    'anderson-sc',
-    'easley-sc',
-    'clemson-sc',
-    'seneca-sc',
-    'pickens-sc',
-    'simpsonville-sc',
-    'greer-sc',
-    'mauldin-sc',
-    'travelers-rest-sc',
-    'fountain-inn-sc',
-    'pendleton-sc',
-    'williamston-sc',
-    'belton-sc',
-    'honea-path-sc',
-    'iva-sc',
-    'liberty-sc',
-    'central-sc',
-    'norris-sc',
-    'walhalla-sc',
-    'westminster-sc',
-    'salem-sc',
-    'west-union-sc',
-    'fair-play-sc',
+    'columbia-sc',
+    'west-columbia-sc',
+    'cayce-sc',
+    'lexington-sc',
+    'irmo-sc',
+    'chapin-sc',
+    'blythewood-sc',
+    'forest-acres-sc',
+    'springdale-sc',
+    'south-congaree-sc',
+    'gaston-sc',
+    'swansea-sc',
+    'batesburg-leesville-sc',
+    'gilbert-sc',
+    'hopkins-sc',
   ];
 
   // Services for service+city combo pages
@@ -42,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Blog posts with their slugs and dates
   const blogPosts = [
-    { slug: 'how-much-does-stump-grinding-cost-greenville-sc', date: '2025-01-15' },
+    { slug: 'how-much-does-stump-grinding-cost-columbia-sc', date: '2025-01-15' },
     { slug: 'stump-grinding-vs-stump-removal', date: '2025-02-28' },
     { slug: '5-signs-you-need-land-clearing', date: '2025-03-12' },
     { slug: 'brush-hogging-cost-per-acre-sc', date: '2025-04-22' },
@@ -111,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     })),
-    // Service + City combo pages (72 pages)
+    // Service + City combo pages (45 pages)
     ...areaPages.flatMap((areaSlug) =>
       servicePages.map((serviceSlug) => ({
         url: `${baseUrl}/areas/${areaSlug}/${serviceSlug}`,

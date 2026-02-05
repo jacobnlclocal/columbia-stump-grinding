@@ -4,7 +4,7 @@ export default function Services() {
   const services = [
     {
       title: 'STUMP GRINDING',
-      subtitle: 'Greenville, Easley & Beyond',
+      subtitle: 'Columbia, West Columbia & Beyond',
       description: 'Professional stump grinding and removal services. We grind stumps 6-8 inches below ground for complete root removal. Improve your curb appeal and reclaim your yard.',
       href: '/services/stump-grinding',
       icon: (
@@ -15,7 +15,7 @@ export default function Services() {
     },
     {
       title: 'BRUSH HOGGING',
-      subtitle: 'Anderson & Pickens Counties',
+      subtitle: 'Lexington & Richland Counties',
       description: 'Bush hogging and brush clearing for overgrown fields, fence lines, and trails. Our professional tree service handles tall grass, thick brush, and saplings up to 3 inches.',
       href: '/services/brush-hogging',
       icon: (
@@ -26,8 +26,8 @@ export default function Services() {
     },
     {
       title: 'LAND CLEARING',
-      subtitle: 'Clemson, Seneca & Oconee',
-      description: 'Complete land clearing and tree removal services for new construction, driveways, or property development. Professional tree cutting and debris removal throughout Upstate SC.',
+      subtitle: 'Irmo, Chapin & Lake Murray',
+      description: 'Complete land clearing and tree removal services for new construction, driveways, or property development. Professional tree cutting and debris removal throughout the Midlands.',
       href: '/services/land-clearing',
       icon: (
         <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -42,13 +42,13 @@ export default function Services() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
-            STUMP GRINDING & LAND CLEARING SERVICES IN UPSTATE SC
+            STUMP GRINDING & LAND CLEARING SERVICES IN COLUMBIA SC
           </h2>
           <p className="text-muted text-lg max-w-2xl mx-auto mb-4">
-            Professional equipment. Fair pricing. Clean results. Serving Greenville, Spartanburg, Anderson, Pickens & Oconee Counties.
+            Professional equipment. Fair pricing. Clean results. Serving Richland & Lexington Counties.
           </p>
           <p className="text-muted text-base max-w-3xl mx-auto">
-            Whether you need a single stump removed from your backyard or have acres of overgrown land that needs clearing, Nelson Land and Stump Services has the equipment and expertise to handle your project. We work with residential homeowners, commercial property managers, real estate agents, and contractors throughout Upstate South Carolina. Our services include complete stump removal with root grinding, brush hogging for overgrown fields and fence lines, and full lot clearing for new construction or property development.
+            Whether you need a single stump removed from your backyard or have acres of overgrown land that needs clearing, Columbia Stump Grinding has the equipment and expertise to handle your project. We work with residential homeowners, commercial property managers, real estate agents, and contractors throughout the Columbia and Midlands area. Our services include complete stump removal with root grinding, brush hogging for overgrown fields and fence lines, and full lot clearing for new construction or property development.
           </p>
         </div>
 

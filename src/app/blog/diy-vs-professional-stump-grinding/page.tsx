@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'DIY vs Professional Stump Grinding | Nelson Stump',
+  title: 'DIY vs Professional Stump Grinding | Columbia Stump Grinding',
   description: 'Should you rent a stump grinder or hire a professional? Compare DIY stump grinding costs, safety risks, and results vs hiring a pro. Plus alternatives to grinding.',
   keywords: 'do it yourself stump grinding, DIY stump grinding, rent stump grinder, getting rid of stumps without grinding, stump grinding rental, professional stump grinding',
 };
@@ -21,21 +21,21 @@ export default function DIYVsProfessionalStumpGrindingPost() {
     "dateModified": "2026-01-26",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/diy-vs-professional-stump-grinding"
+      "@id": "https://www.columbiastumpgrinding.com/blog/diy-vs-professional-stump-grinding"
     }
   };
 
@@ -276,8 +276,8 @@ export default function DIYVsProfessionalStumpGrindingPost() {
                 <h3 className="font-bold text-primary text-lg mb-2">Get a Free Quote First</h3>
                 <p className="text-muted mb-4">
                   Before deciding on DIY, get a free quote from a professional. You might be surprised
-                  how affordable it is - and you&apos;ll save yourself a day of hard work. Nelson Land &
-                  Stump serves Greenville, Anderson, Easley, Clemson, and all of Upstate South Carolina.
+                  how affordable it is - and you&apos;ll save yourself a day of hard work. Columbia Stump
+                  Grinding serves Columbia, West Columbia, Lexington, Irmo, Chapin, Cayce, and all of Midlands SC.
                 </p>
                 <Link
                   href="/#contact"
@@ -313,11 +313,11 @@ export default function DIYVsProfessionalStumpGrindingPost() {
                 are comfortable with the equipment.
               </p>
               <p className="text-muted mb-6">
-                Ready to get that stump removed? Call Nelson Land & Stump at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> for
+                Ready to get that stump removed? Call Columbia Stump Grinding at{' '}
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> for
                 a free estimate, or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a quote online</Link>.
-                We serve Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties in Upstate South Carolina.
+                We serve Richland & Lexington Counties in Midlands SC.
               </p>
             </div>
           </div>
@@ -330,9 +330,9 @@ export default function DIYVsProfessionalStumpGrindingPost() {
               RELATED ARTICLES
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <h3 className="font-bold text-primary mb-2">Stump Grinding Costs in Greenville</h3>
-                <p className="text-muted text-sm">Complete pricing guide for the Upstate.</p>
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <h3 className="font-bold text-primary mb-2">Stump Grinding Costs in Columbia</h3>
+                <p className="text-muted text-sm">Complete pricing guide for the Midlands.</p>
               </Link>
               <Link href="/blog/fastest-way-remove-tree-stump" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary mb-2">Fastest Way to Remove a Tree Stump</h3>

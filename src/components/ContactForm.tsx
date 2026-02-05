@@ -76,7 +76,7 @@ export default function ContactForm() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
-            GET A FREE STUMP GRINDING QUOTE IN UPSTATE SC
+            GET A FREE STUMP GRINDING QUOTE IN COLUMBIA
           </h2>
           <p className="text-muted text-lg">
             Contact us for a free estimate on stump grinding, brush hogging, or land clearing. We respond within 24 hours.
@@ -95,8 +95,8 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm text-muted uppercase tracking-wide mb-2">Email</p>
-              <a href="mailto:tigernelson@gmail.com" className="text-lg text-primary hover:text-accent transition-colors">
-                tigernelson@gmail.com
+              <a href="mailto:contact@columbiastumpgrinding.com" className="text-lg text-primary hover:text-accent transition-colors">
+                contact@columbiastumpgrinding.com
               </a>
             </div>
 
@@ -108,7 +108,7 @@ export default function ContactForm() {
 
             <div>
               <p className="text-sm text-muted uppercase tracking-wide mb-2">Service Area</p>
-              <p className="text-primary">Greenville, Spartanburg, Anderson, Pickens & Oconee Counties</p>
+              <p className="text-primary">Richland & Lexington Counties</p>
             </div>
           </div>
 

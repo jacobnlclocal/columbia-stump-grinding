@@ -1,28 +1,28 @@
 export default function FAQ() {
   const faqs = [
     {
-      question: 'How much does stump grinding cost in Greenville SC?',
-      answer: 'Stump grinding costs in the Greenville and Upstate SC area typically range from $75-$300 per stump depending on size, location, and accessibility. Larger stumps or those in tight spaces may cost more. We always provide free on-site estimates so you know exactly what to expect before we start.',
+      question: 'How much does stump grinding cost in Columbia SC?',
+      answer: 'Stump grinding costs in the Columbia and Midlands SC area typically range from $75-$300 per stump depending on size, location, and accessibility. Larger stumps or those in tight spaces may cost more. We always provide free on-site estimates so you know exactly what to expect before we start.',
     },
     {
-      question: 'What areas do you serve in Upstate South Carolina?',
-      answer: 'We serve all of Upstate South Carolina including Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. This includes Greenville, Anderson, Easley, Clemson, Seneca, Pickens, Simpsonville, Greer, Mauldin, Pendleton, Liberty, Central, Six Mile, and surrounding communities.',
+      question: 'What areas do you serve in the Columbia area?',
+      answer: 'We serve all of the Columbia and Midlands South Carolina area including Richland and Lexington Counties. This includes Columbia, West Columbia, Cayce, Lexington, Irmo, Chapin, Blythewood, Forest Acres, Springdale, South Congaree, Gaston, Swansea, Batesburg-Leesville, Gilbert, Hopkins, and surrounding communities.',
     },
     {
       question: 'What is the difference between stump grinding and stump removal?',
-      answer: 'Stump grinding uses a specialized machine to grind the stump 6-8 inches below ground level, leaving the roots to decay naturally underground. Stump removal pulls the entire stump and root ball out of the ground, which is more invasive, expensive, and leaves a larger hole. For most homeowners in the Upstate, stump grinding is the preferred and more cost-effective method.',
+      answer: 'Stump grinding uses a specialized machine to grind the stump 6-8 inches below ground level, leaving the roots to decay naturally underground. Stump removal pulls the entire stump and root ball out of the ground, which is more invasive, expensive, and leaves a larger hole. For most homeowners in the Midlands, stump grinding is the preferred and more cost-effective method.',
     },
     {
       question: 'How long does brush hogging take?',
-      answer: 'Brush hogging time depends on the size and condition of your property. A typical residential lot (1-2 acres) in places like Easley or Anderson can be cleared in a few hours. Larger properties or heavily overgrown areas common in rural Pickens and Oconee counties may take a full day or more. We provide time estimates during our free consultation.',
+      answer: 'Brush hogging time depends on the size and condition of your property. A typical residential lot (1-2 acres) in places like Lexington or Irmo can be cleared in a few hours. Larger properties or heavily overgrown areas common in rural Richland and Lexington counties may take a full day or more. We provide time estimates during our free consultation.',
     },
     {
       question: 'Are you licensed and insured?',
-      answer: 'Yes, Nelson Land & Stump Services is fully licensed and insured. We carry liability insurance to protect your property and our team while working on your land. We\'re happy to provide proof of insurance upon request.',
+      answer: 'Yes, Columbia Stump Grinding is fully licensed and insured. We carry liability insurance to protect your property and our team while working on your land. We\'re happy to provide proof of insurance upon request.',
     },
     {
       question: 'Do you offer free estimates?',
-      answer: 'Yes! We offer free on-site estimates for all our services including stump grinding, brush hogging, and land clearing throughout the Upstate SC area. Just give us a call at (864) 760-9203 or fill out our contact form, and we\'ll schedule a convenient time to assess your project.',
+      answer: 'Yes! We offer free on-site estimates for all our services including stump grinding, brush hogging, and land clearing throughout the Columbia area. Just give us a call at (864) 760-9203 or fill out our contact form, and we\'ll schedule a convenient time to assess your project.',
     },
     {
       question: 'What happens to the wood chips after stump grinding?',
@@ -30,7 +30,7 @@ export default function FAQ() {
     },
     {
       question: 'How soon can you schedule my job?',
-      answer: 'We typically can schedule jobs within 1-2 weeks, depending on current demand and weather conditions. For urgent situations like storm cleanup in the Greenville or Anderson area, we do our best to accommodate same-week appointments. Call us at (864) 760-9203 to check our current availability.',
+      answer: 'We typically can schedule jobs within 1-2 weeks, depending on current demand and weather conditions. For urgent situations like storm cleanup in the Columbia or Lexington area, we do our best to accommodate same-week appointments. Call us at (864) 760-9203 to check our current availability.',
     },
   ];
 
@@ -42,7 +42,7 @@ export default function FAQ() {
             FREQUENTLY ASKED QUESTIONS
           </h2>
           <p className="text-muted text-lg">
-            Common questions about stump grinding and land clearing in Upstate SC
+            Common questions about stump grinding and land clearing in the Columbia area
           </p>
         </div>
 

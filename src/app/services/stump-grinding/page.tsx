@@ -5,11 +5,11 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding Services Upstate SC | Nelson Stump',
-  description: 'Professional stump grinding services from a trusted stump grinder company in Upstate SC. Professional stump removal services in Greenville, Easley, Anderson, Spartanburg. Tree stump removal $75-$300. Free estimates. Call (864) 760-9203.',
-  keywords: 'professional stump grinding services, stump grinder company, professional stump removal, stump grinding services, stump removal contractors, tree stump removal, stump grinding Greenville SC, stump grinding near me, stump grinder services near me',
+  title: 'Stump Grinding Services Columbia SC | Columbia Stump Grinding',
+  description: 'Professional stump grinding services from a trusted stump grinder company in Columbia and Midlands SC. Professional stump removal services in Columbia, West Columbia, Lexington, Irmo. Tree stump removal $75-$300. Free estimates. Call (803) 470-0734.',
+  keywords: 'professional stump grinding services, stump grinder company, professional stump removal, stump grinding services, stump removal contractors, tree stump removal, stump grinding Columbia SC, stump grinding near me, stump grinder services near me',
   openGraph: {
-    title: 'Professional Stump Grinding Services | Nelson Stump',
+    title: 'Professional Stump Grinding Services | Columbia Stump Grinding',
     description: 'Professional stump removal services from a trusted stump grinder company. Free estimates!',
   },
   alternates: {
@@ -56,8 +56,8 @@ export default function StumpGrindingPage() {
               PROFESSIONAL STUMP GRINDING SERVICES | STUMP GRINDER COMPANY
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Looking for professional stump removal services? Nelson Land & Stump is a trusted stump grinder company serving
-              Greenville, Anderson, Pickens, Spartanburg, and Oconee Counties. Our professional stump grinding services include
+              Looking for professional stump removal services? Columbia Stump Grinding is a trusted stump grinder company serving
+              Richland & Lexington Counties. Our professional stump grinding services include
               grinding stumps 6-8 inches below ground level. As experienced stump removal contractors, we get the job done right. Call today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -68,10 +68,10 @@ export default function StumpGrindingPage() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
               >
-                (864) 760-9203
+                (803) 470-0734
               </a>
             </div>
           </div>
@@ -150,91 +150,85 @@ export default function StumpGrindingPage() {
               STUMP GRINDING SERVICE AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide professional stump grinding and stump removal services throughout Upstate South Carolina. Click your city for local pricing and details:
+              We provide professional stump grinding and stump removal services throughout Columbia and Midlands South Carolina. Click your city for local pricing and details:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              <Link href="/areas/greenville-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/columbia-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Greenville
+                Stump Grinding Columbia
               </Link>
-              <Link href="/areas/anderson-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/west-columbia-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Anderson
+                Stump Grinding West Columbia
               </Link>
-              <Link href="/areas/easley-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lexington-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Easley
+                Stump Grinding Lexington
               </Link>
-              <Link href="/areas/clemson-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/irmo-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Clemson
+                Stump Grinding Irmo
               </Link>
-              <Link href="/areas/seneca-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/chapin-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Seneca
+                Stump Grinding Chapin
               </Link>
-              <Link href="/areas/pickens-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/cayce-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Pickens
+                Stump Grinding Cayce
               </Link>
-              <Link href="/areas/simpsonville-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/blythewood-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Simpsonville
+                Stump Grinding Blythewood
               </Link>
-              <Link href="/areas/greer-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/forest-acres-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Greer
+                Stump Grinding Forest Acres
               </Link>
-              <Link href="/areas/spartanburg-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/elgin-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Spartanburg
+                Stump Grinding Elgin
               </Link>
-              <Link href="/areas/mauldin-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lugoff-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Mauldin
+                Stump Grinding Lugoff
               </Link>
-              <Link href="/areas/pendleton-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/gilbert-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Pendleton
+                Stump Grinding Gilbert
               </Link>
-              <Link href="/areas/liberty-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/batesburg-leesville-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Stump Grinding Liberty
-              </Link>
-              <Link href="/areas/central-sc/stump-grinding" className="flex items-center text-accent hover:text-accent-dark font-medium">
-                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                Stump Grinding Central
+                Stump Grinding Batesburg-Leesville
               </Link>
             </div>
             <p className="text-muted">
-              Don&apos;t see your town? We serve all of Greenville, Spartanburg, Anderson, Pickens, and Oconee counties.
-              Call us at <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> to confirm service in your area.
+              Don&apos;t see your town? We serve all of Richland & Lexington Counties.
+              Call us at <a href="tel:8034700734" className="text-accent hover:underline">(803) 470-0734</a> to confirm service in your area.
             </p>
           </div>
         </section>
@@ -243,10 +237,10 @@ export default function StumpGrindingPage() {
         <section className="py-16 bg-primary">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              HOW MUCH DOES STUMP GRINDING COST IN GREENVILLE SC?
+              HOW MUCH DOES STUMP GRINDING COST IN COLUMBIA SC?
             </h2>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto mb-8">
-              Stump grinding prices in the Upstate typically range from <span className="text-accent font-bold">$75 to $300+ per stump</span>,
+              Stump grinding prices in the Midlands typically range from <span className="text-accent font-bold">$75 to $300+ per stump</span>,
               depending on the size, location, and accessibility. We offer free on-site estimates so you know exactly what to expect.
             </p>
             <div className="bg-white/10 rounded-lg p-8 max-w-2xl mx-auto mb-8">
@@ -256,7 +250,7 @@ export default function StumpGrindingPage() {
                 <li>• <strong>Number of stumps</strong> - Multi-stump discounts available</li>
                 <li>• <strong>Accessibility</strong> - Backyard stumps may cost more than front yard</li>
                 <li>• <strong>Root exposure</strong> - Surface roots add to grinding time</li>
-                <li>• <strong>Location</strong> - Travel distance from our base in the Upstate</li>
+                <li>• <strong>Location</strong> - Travel distance from our base in the Midlands</li>
               </ul>
             </div>
             <Link
@@ -279,9 +273,9 @@ export default function StumpGrindingPage() {
                 <h3 className="font-bold text-primary text-lg mb-2">Pricing Guide</h3>
                 <p className="text-muted text-sm">Get an idea of stump grinding costs for your project.</p>
               </Link>
-              <Link href="/blog/how-much-does-stump-grinding-cost-greenville-sc" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <Link href="/blog/how-much-does-stump-grinding-cost-columbia-sc" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary text-lg mb-2">Cost Breakdown</h3>
-                <p className="text-muted text-sm">Detailed pricing info for Greenville and Upstate SC.</p>
+                <p className="text-muted text-sm">Detailed pricing info for Columbia and Midlands SC.</p>
               </Link>
               <Link href="/blog/stump-grinding-vs-stump-removal" className="bg-muted-light rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary text-lg mb-2">Grinding vs Removal</h3>
@@ -298,8 +292,8 @@ export default function StumpGrindingPage() {
               READY TO REMOVE THAT STUMP?
             </h2>
             <p className="text-muted text-lg mb-8">
-              Contact Nelson Land & Stump today for a free, no-obligation quote on professional stump grinding and tree stump removal services
-              in Greenville, Easley, Anderson, Clemson, Seneca, and throughout Upstate South Carolina. Customer satisfaction guaranteed!
+              Contact Columbia Stump Grinding today for a free, no-obligation quote on professional stump grinding and tree stump removal services
+              in Columbia, West Columbia, Lexington, Irmo, Chapin, and throughout Columbia and Midlands South Carolina. Customer satisfaction guaranteed!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -309,10 +303,10 @@ export default function StumpGrindingPage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
               >
-                Call (864) 760-9203
+                Call (803) 470-0734
               </a>
             </div>
           </div>

@@ -6,8 +6,8 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
   title: 'Stump Grinding & Land Clearing Pricing',
-  description: 'Transparent pricing for stump grinding, brush hogging, and land clearing in Greenville, Anderson, Easley & Upstate SC. Free estimates. Call (864) 760-9203.',
-  keywords: 'stump grinding prices, land clearing cost, brush hogging rates, stump removal pricing Greenville SC, land clearing prices Upstate SC',
+  description: 'Transparent pricing for stump grinding, brush hogging, and land clearing in Columbia, Lexington, West Columbia & Midlands SC. Free estimates. Call (803) 470-0734.',
+  keywords: 'stump grinding prices, land clearing cost, brush hogging rates, stump removal pricing Columbia SC, land clearing prices Midlands SC',
 };
 
 export default function PricingPage() {
@@ -29,7 +29,7 @@ export default function PricingPage() {
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
               Honest, transparent pricing for stump grinding, brush hogging, and land clearing
-              services in Greenville, Anderson, Easley, Clemson, and throughout Upstate South Carolina.
+              services in Columbia, Lexington, West Columbia, Irmo, and throughout Columbia and Midlands South Carolina.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -39,10 +39,10 @@ export default function PricingPage() {
                 Get Your Free Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
               >
-                (864) 760-9203
+                (803) 470-0734
               </a>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function PricingPage() {
                 FAIR, UPFRONT PRICING
               </h2>
               <p className="text-muted text-lg mb-4">
-                At Nelson Land & Stump, we believe in straightforward pricing with no hidden fees or
+                At Columbia Stump Grinding, we believe in straightforward pricing with no hidden fees or
                 surprises. Every quote includes everything you need—labor, equipment, and cleanup.
                 The price we quote is the price you pay.
               </p>
@@ -375,8 +375,8 @@ export default function PricingPage() {
             </h2>
             <p className="text-gray-300 text-lg mb-8">
               Ready to find out exactly what your project will cost? Contact us for a free,
-              no-obligation estimate. We serve Greenville, Anderson, Easley, Clemson, and all
-              of Upstate South Carolina.
+              no-obligation estimate. We serve Columbia, Lexington, West Columbia, Irmo, and all
+              of Columbia and Midlands South Carolina.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -386,10 +386,10 @@ export default function PricingPage() {
                 Request a Quote Online
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
               >
-                Call (864) 760-9203
+                Call (803) 470-0734
               </a>
             </div>
           </div>

@@ -37,7 +37,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
               {service.description} Our professional tree service serves {city.name} and all of {city.county}. Call today for a free estimate!
             </p>
             <p className="text-gray-400 max-w-3xl mb-8">
-              Nelson Land and Stump Services is a locally owned and operated company based in Williamston, South Carolina. We have been providing professional {service.name.toLowerCase()} services to homeowners and businesses in {city.name} and {city.county} for over five years. Our team uses professional-grade equipment to deliver quality results at competitive prices. We are fully licensed and insured for your protection.
+              Columbia Stump Grinding is a locally owned and operated company serving the Columbia and Midlands area. We have been providing professional {service.name.toLowerCase()} services to homeowners and businesses in {city.name} and {city.county} for over five years. Our team uses professional-grade equipment to deliver quality results at competitive prices. We are fully licensed and insured for your protection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -65,11 +65,11 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
                   PROFESSIONAL {service.name.toUpperCase()} IN {city.name.toUpperCase()}
                 </h2>
                 <p className="text-muted text-lg mb-4">
-                  Looking for reliable {service.name.toLowerCase()} services in {city.name}, SC? Nelson Land & Stump
-                  provides professional {service.name.toLowerCase()} (also known as {service.synonyms.slice(0, 2).join(' and ')}) throughout {city.county} and the surrounding Upstate area.
+                  Looking for reliable {service.name.toLowerCase()} services in {city.name}, SC? Columbia Stump Grinding
+                  provides professional {service.name.toLowerCase()} (also known as {service.synonyms.slice(0, 2).join(' and ')}) throughout {city.county} and the surrounding Midlands area.
                 </p>
                 <p className="text-muted text-lg mb-4">
-                  As a local, family-owned business based in Williamston, we understand the unique needs of {city.name}
+                  As a local, family-owned business serving the Columbia area, we understand the unique needs of {city.name}
                   property owners. Whether you have a residential lot or commercial property, our removal services
                   will improve your curb appeal. Customer satisfaction is our top priority.
                 </p>
@@ -262,7 +262,7 @@ export default function ServiceCityPage({ city, service }: ServiceCityPageProps)
               NEED {service.name.toUpperCase()} IN {city.name.toUpperCase()}?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Contact Nelson Land & Stump today for a free, no-obligation quote on {service.name.toLowerCase()}
+              Contact Columbia Stump Grinding today for a free, no-obligation quote on {service.name.toLowerCase()}
               services in {city.name}, SC and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

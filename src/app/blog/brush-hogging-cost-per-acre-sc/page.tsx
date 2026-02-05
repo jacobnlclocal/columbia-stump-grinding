@@ -6,9 +6,9 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Cost Per Acre SC (2025) | Nelson Stump',
-  description: 'How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Greenville, Anderson, and Upstate SC. Get free estimates.',
-  keywords: 'brush hogging cost per acre, brush hogging prices SC, bush hog rates, land mowing cost, brush clearing cost Greenville SC',
+  title: 'Brush Hogging Cost Per Acre SC (2025) | Columbia Stump Grinding',
+  description: 'How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Columbia, Lexington, and Midlands SC. Get free estimates.',
+  keywords: 'brush hogging cost per acre, brush hogging prices SC, bush hog rates, land mowing cost, brush clearing cost Columbia SC',
 };
 
 export default function BrushHoggingCostPost() {
@@ -16,26 +16,26 @@ export default function BrushHoggingCostPost() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Brush Hogging Cost Per Acre in SC (2025 Pricing Guide)",
-    "description": "How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Greenville, Anderson, and Upstate SC.",
+    "description": "How much does brush hogging cost per acre in South Carolina? Complete 2025 pricing guide for Columbia, Lexington, and Midlands SC.",
     "datePublished": "2025-04-18",
     "dateModified": "2025-04-18",
     "author": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com"
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Nelson Land & Stump",
-      "url": "https://www.nelsonstump.com",
+      "name": "Columbia Stump Grinding",
+      "url": "https://www.columbiastumpgrinding.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.nelsonstump.com/icon.png"
+        "url": "https://www.columbiastumpgrinding.com/icon.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.nelsonstump.com/blog/brush-hogging-cost-per-acre-sc"
+      "@id": "https://www.columbiastumpgrinding.com/blog/brush-hogging-cost-per-acre-sc"
     }
   };
 
@@ -87,14 +87,14 @@ export default function BrushHoggingCostPost() {
               <p className="text-xl text-muted leading-relaxed mb-8">
                 Got an overgrown field, pasture, or wooded lot that needs clearing? Brush hogging is one of
                 the most cost-effective ways to reclaim overgrown land. Here&apos;s what you can expect to pay
-                in Greenville, Anderson, and the Upstate SC area in 2025.
+                in Columbia, Lexington, and the Midlands SC area in 2025.
               </p>
 
               <h2 className="text-2xl font-black text-primary mt-10 mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
-                AVERAGE BRUSH HOGGING RATES IN UPSTATE SC
+                AVERAGE BRUSH HOGGING RATES IN MIDLANDS SC
               </h2>
               <p className="text-muted mb-6">
-                For most brush hogging jobs in the Greenville and Upstate South Carolina area, pricing falls into these ranges:
+                For most brush hogging jobs in the Columbia and Midlands SC area, pricing falls into these ranges:
               </p>
 
               <div className="bg-muted-light rounded-lg p-6 mb-8">
@@ -142,7 +142,7 @@ export default function BrushHoggingCostPost() {
                 PER ACRE VS. HOURLY RATES
               </h2>
               <p className="text-muted mb-6">
-                Some operators charge by the hour instead of by the acre. In Upstate SC, hourly rates typically range from $75 to $150 per hour, depending on equipment size and operator experience.
+                Some operators charge by the hour instead of by the acre. In Midlands SC, hourly rates typically range from $75 to $150 per hour, depending on equipment size and operator experience.
               </p>
               <p className="text-muted mb-6">
                 <strong>Which is better?</strong> For open, easy-to-mow land, per-acre pricing usually favors
@@ -216,8 +216,8 @@ export default function BrushHoggingCostPost() {
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-6 my-8">
                 <h3 className="font-bold text-primary text-lg mb-2">Get a Free Brush Hogging Quote</h3>
                 <p className="text-muted mb-4">
-                  Nelson Land & Stump provides free, no-obligation estimates for brush hogging throughout
-                  Greenville, Spartanburg, Anderson, Pickens, and Oconee counties. We&apos;ll assess your property and give
+                  Columbia Stump Grinding provides free, no-obligation estimates for brush hogging throughout
+                  Richland & Lexington Counties. We&apos;ll assess your property and give
                   you an honest, all-inclusive price.
                 </p>
                 <Link
@@ -232,14 +232,14 @@ export default function BrushHoggingCostPost() {
                 BOTTOM LINE
               </h2>
               <p className="text-muted mb-6">
-                For most properties in Upstate SC, expect to pay $100-$200 per acre for brush hogging, with a
+                For most properties in Midlands SC, expect to pay $100-$200 per acre for brush hogging, with a
                 minimum charge of $150-$250 for small lots. The actual price depends on vegetation density,
                 terrain, and accessibility. Getting a site visit and quote is the best way to know what your
                 specific property will cost.
               </p>
               <p className="text-muted">
                 Ready to reclaim your overgrown land? Call us at{' '}
-                <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> or{' '}
+                <a href="tel:8037945833" className="text-accent hover:underline">(803) 794-5833</a> or{' '}
                 <Link href="/#contact" className="text-accent hover:underline">request a quote online</Link>.
               </p>
             </div>

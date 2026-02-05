@@ -5,12 +5,12 @@ import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Brush Hogging Services Upstate SC | Nelson Stump',
-  description: 'Brush hogging services and bush hogging services in Upstate SC. Brush hogging cost per acre $150-$300. Brush clearing services for fields and fence lines. Free estimates. Call (864) 760-9203.',
-  keywords: 'brush hogging services, brush hogging cost per acre, bush hogging services, brush clearing services, brush hogging Anderson SC, bush hogging Greenville SC, field mowing Upstate SC',
+  title: 'Brush Hogging Services Columbia SC | Columbia Stump Grinding',
+  description: 'Brush hogging services and bush hogging services in Columbia and Midlands SC. Brush hogging cost per acre $150-$300. Brush clearing services for fields and fence lines. Free estimates. Call (803) 470-0734.',
+  keywords: 'brush hogging services, brush hogging cost per acre, bush hogging services, brush clearing services, brush hogging Columbia SC, bush hogging Lexington SC, field mowing Midlands SC',
   openGraph: {
-    title: 'Brush Hogging Services & Cost Per Acre | Nelson Stump',
-    description: 'Brush hogging cost per acre in Upstate SC. Bush hogging services. Free estimates!',
+    title: 'Brush Hogging Services & Cost Per Acre | Columbia Stump Grinding',
+    description: 'Brush hogging cost per acre in Midlands SC. Bush hogging services. Free estimates!',
   },
   alternates: {
     canonical: '/services/brush-hogging',
@@ -61,10 +61,10 @@ export default function BrushHoggingPage() {
               ]}
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              BRUSH HOGGING SERVICES & BRUSH CLEARING IN UPSTATE SC
+              BRUSH HOGGING SERVICES & BRUSH CLEARING IN MIDLANDS SC
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mb-8">
-              Professional bush hogging and brush clearing services throughout Anderson, Pickens, Greenville, and Oconee Counties.
+              Professional bush hogging and brush clearing services throughout Richland & Lexington Counties.
               Our tree service handles overgrown fields, fence lines, and everything in between. Call today for a free estimate!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -75,10 +75,10 @@ export default function BrushHoggingPage() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors text-center"
               >
-                (864) 760-9203
+                (803) 470-0734
               </a>
             </div>
           </div>
@@ -95,12 +95,12 @@ export default function BrushHoggingPage() {
                 <p className="text-muted text-lg mb-4">
                   Brush hogging (also called bush hogging) is a professional brush removal method using a heavy-duty rotary cutter
                   attached to a tractor. It&apos;s the fastest and most efficient way to clear overgrown vegetation on
-                  larger properties throughout Upstate South Carolina.
+                  larger properties throughout Columbia and Midlands South Carolina.
                 </p>
                 <p className="text-muted text-lg mb-4">
                   Our equipment can handle tall grass, thick weeds, blackberry briars, kudzu, and saplings up to
-                  3 inches in diameter. We work on properties of all sizes—from half-acre lots in Easley to
-                  50+ acre farms in Anderson County.
+                  3 inches in diameter. We work on properties of all sizes—from half-acre lots in Lexington to
+                  50+ acre farms in Richland County.
                 </p>
                 <p className="text-muted text-lg">
                   Unlike mowing, bush hogging is designed for rough terrain and heavy vegetation that a
@@ -177,85 +177,85 @@ export default function BrushHoggingPage() {
               BRUSH HOGGING SERVICE AREAS
             </h2>
             <p className="text-muted text-lg mb-8">
-              We provide professional brush hogging and brush clearing services throughout Upstate South Carolina. Click your city for local details:
+              We provide professional brush hogging and brush clearing services throughout Columbia and Midlands South Carolina. Click your city for local details:
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              <Link href="/areas/anderson-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/columbia-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Anderson
+                Brush Hogging Columbia
               </Link>
-              <Link href="/areas/greenville-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/west-columbia-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Greenville
+                Brush Hogging West Columbia
               </Link>
-              <Link href="/areas/pickens-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lexington-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Pickens
+                Brush Hogging Lexington
               </Link>
-              <Link href="/areas/easley-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/irmo-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Easley
+                Brush Hogging Irmo
               </Link>
-              <Link href="/areas/clemson-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/chapin-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Clemson
+                Brush Hogging Chapin
               </Link>
-              <Link href="/areas/seneca-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/cayce-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Seneca
+                Brush Hogging Cayce
               </Link>
-              <Link href="/areas/liberty-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/blythewood-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Liberty
+                Brush Hogging Blythewood
               </Link>
-              <Link href="/areas/pendleton-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/forest-acres-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Pendleton
+                Brush Hogging Forest Acres
               </Link>
-              <Link href="/areas/greer-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/elgin-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Greer
+                Brush Hogging Elgin
               </Link>
-              <Link href="/areas/simpsonville-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/gilbert-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Simpsonville
+                Brush Hogging Gilbert
               </Link>
-              <Link href="/areas/mauldin-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/lugoff-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Mauldin
+                Brush Hogging Lugoff
               </Link>
-              <Link href="/areas/central-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
+              <Link href="/areas/batesburg-leesville-sc/brush-hogging" className="flex items-center text-accent hover:text-accent-dark font-medium">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                Brush Hogging Central
+                Brush Hogging Batesburg-Leesville
               </Link>
             </div>
             <p className="text-muted">
-              We serve all of Anderson, Pickens, Greenville, and Oconee counties.
-              Call <a href="tel:8647609203" className="text-accent hover:underline">(864) 760-9203</a> to schedule a consultation.
+              We serve all of Richland & Lexington Counties.
+              Call <a href="tel:8034700734" className="text-accent hover:underline">(803) 470-0734</a> to schedule a consultation.
             </p>
           </div>
         </section>
@@ -273,7 +273,7 @@ export default function BrushHoggingPage() {
               </Link>
               <Link href="/blog/brush-hogging-cost-per-acre-sc" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary text-lg mb-2">Cost Per Acre</h3>
-                <p className="text-muted text-sm">Detailed pricing info for Upstate SC properties.</p>
+                <p className="text-muted text-sm">Detailed pricing info for Midlands SC properties.</p>
               </Link>
               <Link href="/blog/5-signs-you-need-land-clearing" className="bg-white rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <h3 className="font-bold text-primary text-lg mb-2">5 Signs You Need Clearing</h3>
@@ -290,8 +290,8 @@ export default function BrushHoggingPage() {
               READY TO CLEAR THAT OVERGROWN PROPERTY?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Contact Nelson Land & Stump today for a free quote on brush hogging services in Anderson, Pickens,
-              Greenville, and throughout Upstate South Carolina.
+              Contact Columbia Stump Grinding today for a free quote on brush hogging services in Columbia, Lexington,
+              West Columbia, and throughout Columbia and Midlands South Carolina.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -301,10 +301,10 @@ export default function BrushHoggingPage() {
                 Request a Quote
               </Link>
               <a
-                href="tel:8647609203"
+                href="tel:8034700734"
                 className="inline-block border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-4 rounded-md font-bold uppercase tracking-wide transition-colors"
               >
-                Call (864) 760-9203
+                Call (803) 470-0734
               </a>
             </div>
           </div>

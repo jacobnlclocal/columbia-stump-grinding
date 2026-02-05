@@ -4,38 +4,38 @@ export default function Gallery() {
   const projects = [
     {
       title: 'Backyard Stump Grinding',
-      location: 'Easley, SC',
-      altText: 'Stump grinding service in Easley SC - backyard stump removal by Nelson Land & Stump',
+      location: 'Columbia, SC',
+      altText: 'Stump grinding service in Columbia SC - backyard stump removal by Columbia Stump Grinding',
       image: '/gallery-1.jpg',
     },
     {
       title: 'Pasture Brush Hogging',
-      location: 'Pendleton, SC',
-      altText: 'Brush hogging service in Pendleton SC - pasture clearing by Nelson Land & Stump',
+      location: 'Lexington, SC',
+      altText: 'Brush hogging service in Lexington SC - pasture clearing by Columbia Stump Grinding',
       image: '/gallery-2.jpg',
     },
     {
       title: 'New Home Lot Clearing',
-      location: 'Six Mile, SC',
-      altText: 'Land clearing for new construction in Six Mile SC - lot prep by Nelson Land & Stump',
+      location: 'Irmo, SC',
+      altText: 'Land clearing for new construction in Irmo SC - lot prep by Columbia Stump Grinding',
       image: '/gallery-3.jpg',
     },
     {
       title: 'Storm Damage Cleanup',
-      location: 'Clemson, SC',
-      altText: 'Storm damage tree and stump cleanup in Clemson SC by Nelson Land & Stump',
+      location: 'West Columbia, SC',
+      altText: 'Storm damage tree and stump cleanup in West Columbia SC by Columbia Stump Grinding',
       image: '/gallery-4.jpg',
     },
     {
       title: 'Fence Line Clearing',
-      location: 'Anderson, SC',
-      altText: 'Fence line brush clearing in Anderson SC by Nelson Land & Stump Services',
+      location: 'Chapin, SC',
+      altText: 'Fence line brush clearing in Chapin SC by Columbia Stump Grinding',
       image: '/gallery-5.jpg',
     },
     {
       title: 'Driveway Land Clearing',
-      location: 'Seneca, SC',
-      altText: 'Driveway land clearing project in Seneca SC by Nelson Land & Stump',
+      location: 'Blythewood, SC',
+      altText: 'Driveway land clearing project in Blythewood SC by Columbia Stump Grinding',
       image: '/gallery-6.jpg',
     },
   ];
@@ -45,10 +45,10 @@ export default function Gallery() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4" style={{ fontFamily: 'var(--font-oswald)' }}>
-            RECENT PROJECTS IN UPSTATE SC
+            RECENT PROJECTS IN COLUMBIA SC
           </h2>
           <p className="text-muted text-lg">
-            Stump grinding, brush hogging, and land clearing jobs around Greenville, Anderson, and Pickens Counties
+            Stump grinding, brush hogging, and land clearing jobs around Richland and Lexington Counties
           </p>
         </div>
 

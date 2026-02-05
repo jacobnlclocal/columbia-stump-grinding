@@ -4,9 +4,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Stump Grinding & Land Clearing Blog | Nelson Stump',
-  description: 'Expert tips and guides on stump grinding, brush hogging, and land clearing in Upstate South Carolina. Learn about costs, methods, and when to hire a professional.',
-  keywords: 'stump grinding tips, land clearing guide, brush hogging information, tree stump removal advice, Upstate SC landscaping',
+  title: 'Stump Grinding & Land Clearing Blog | Columbia Stump Grinding',
+  description: 'Expert tips and guides on stump grinding, brush hogging, and land clearing in the Columbia area and Midlands SC. Learn about costs, methods, and when to hire a professional.',
+  keywords: 'stump grinding tips, land clearing guide, brush hogging information, tree stump removal advice, Midlands SC landscaping',
 };
 
 const posts = [
@@ -53,7 +53,7 @@ const posts = [
   {
     slug: 'best-time-stump-grinding',
     title: 'Best Time of Year for Stump Grinding in South Carolina',
-    excerpt: 'When is the best time to grind stumps? Learn about seasonal considerations for Greenville and Upstate SC.',
+    excerpt: 'When is the best time to grind stumps? Learn about seasonal considerations for Columbia and Midlands SC.',
     date: 'July 30, 2025',
     category: 'Tips',
     readTime: '4 min read',
@@ -69,7 +69,7 @@ const posts = [
   {
     slug: 'brush-hogging-cost-per-acre-sc',
     title: 'Brush Hogging Cost Per Acre in South Carolina',
-    excerpt: 'How much does brush hogging cost per acre? Complete 2025 pricing guide for Greenville, Anderson, and Upstate SC.',
+    excerpt: 'How much does brush hogging cost per acre? Complete 2025 pricing guide for Columbia, Lexington, and Midlands SC.',
     date: 'April 22, 2025',
     category: 'Pricing',
     readTime: '5 min read',
@@ -91,9 +91,9 @@ const posts = [
     readTime: '4 min read',
   },
   {
-    slug: 'how-much-does-stump-grinding-cost-greenville-sc',
-    title: 'How Much Does Stump Grinding Cost in Greenville SC?',
-    excerpt: 'A complete breakdown of stump grinding prices in the Upstate, what affects the cost, and how to get the best value for your money.',
+    slug: 'how-much-does-stump-grinding-cost-columbia-sc',
+    title: 'How Much Does Stump Grinding Cost in Columbia SC?',
+    excerpt: 'A complete breakdown of stump grinding prices in the Midlands, what affects the cost, and how to get the best value for your money.',
     date: 'January 15, 2025',
     category: 'Pricing',
     readTime: '5 min read',
@@ -112,10 +112,10 @@ export default function BlogPage() {
               LAND CLEARING TIPS & GUIDES
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl mb-4">
-              Expert advice on stump grinding, brush hogging, and land clearing from the pros at Nelson Land & Stump.
+              Expert advice on stump grinding, brush hogging, and land clearing from the pros at Columbia Stump Grinding.
             </p>
             <p className="text-gray-400 max-w-3xl">
-              Our blog provides helpful information for property owners throughout Upstate South Carolina. Whether you are wondering about stump grinding costs, trying to decide between stump grinding and complete stump removal, or need to know if you require a permit for land clearing in South Carolina, we have articles that cover the topics that matter most to our customers. We share our expertise from over five years of experience in the land clearing industry to help you make informed decisions about your property.
+              Our blog provides helpful information for property owners throughout the Columbia area and Midlands SC. Whether you are wondering about stump grinding costs, trying to decide between stump grinding and complete stump removal, or need to know if you require a permit for land clearing in South Carolina, we have articles that cover the topics that matter most to our customers. We share our expertise from over five years of experience in the land clearing industry to help you make informed decisions about your property.
             </p>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function BlogPage() {
               Contact us for a free consultation.
             </p>
             <p className="text-muted text-base mb-8 max-w-2xl mx-auto">
-              Nelson Land and Stump Services provides free on-site estimates throughout Greenville, Spartanburg, Anderson, Pickens, and Oconee Counties. Our team will assess your property, discuss your goals, and provide an accurate quote with no obligation. We can typically schedule estimates within one to two business days and are available Monday through Saturday from 7 AM to 6 PM. Call us today or fill out our online form to get started on your project.
+              Columbia Stump Grinding provides free on-site estimates throughout Richland & Lexington Counties. Our team will assess your property, discuss your goals, and provide an accurate quote with no obligation. We can typically schedule estimates within one to two business days and are available Monday through Saturday from 7 AM to 6 PM. Call us today or fill out our online form to get started on your project.
             </p>
             <Link
               href="/#contact"

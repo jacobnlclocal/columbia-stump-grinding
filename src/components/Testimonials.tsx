@@ -2,43 +2,43 @@ export default function Testimonials() {
   const testimonials = [
     {
       name: 'David M.',
-      location: 'Easley, SC',
-      text: 'Had 4 stumps in the backyard that I\'d been mowing around for years. Nelson knocked them out in a couple hours. Fair price, cleaned up after themselves.',
+      location: 'Columbia, SC',
+      text: 'Had 4 stumps in the backyard that I\'d been mowing around for years. They knocked them out in a couple hours. Fair price, cleaned up after themselves.',
       service: 'Stump Grinding',
     },
     {
       name: 'Carol T.',
-      location: 'Anderson, SC',
+      location: 'Lexington, SC',
       text: 'We bought 5 acres that hadn\'t been touched in a decade. They cleared the whole thing in two days. Now we can actually walk our property.',
       service: 'Land Clearing',
     },
     {
       name: 'Mike R.',
-      location: 'Clemson, SC',
+      location: 'Irmo, SC',
       text: 'Used them for brush hogging along my fence line. Professional, showed up when they said they would. Will call again next spring.',
       service: 'Brush Hogging',
     },
     {
       name: 'Jennifer S.',
-      location: 'Greenville, SC',
+      location: 'West Columbia, SC',
       text: 'Great experience from start to finish. They gave me a fair quote over the phone and the final price was exactly what they quoted. Stump was gone in under an hour.',
       service: 'Stump Grinding',
     },
     {
       name: 'Robert H.',
-      location: 'Seneca, SC',
-      text: 'Hired them to clear brush around our Lake Keowee property. They did an excellent job and were very careful around our landscaping. Highly recommend.',
+      location: 'Chapin, SC',
+      text: 'Hired them to clear brush around our Lake Murray property. They did an excellent job and were very careful around our landscaping. Highly recommend.',
       service: 'Brush Hogging',
     },
     {
       name: 'Lisa W.',
-      location: 'Simpsonville, SC',
-      text: 'Had a massive oak stump that other companies said was too big. Nelson Land & Stump handled it no problem. Very impressed with their equipment.',
+      location: 'Cayce, SC',
+      text: 'Had a massive oak stump that other companies said was too big. Columbia Stump Grinding handled it no problem. Very impressed with their equipment.',
       service: 'Stump Grinding',
     },
     {
       name: 'Thomas K.',
-      location: 'Pickens, SC',
+      location: 'Blythewood, SC',
       text: 'Cleared 3 acres for our new build site. Showed up on time, worked hard, and left the lot ready for the builder. Fair price for the amount of work.',
       service: 'Land Clearing',
     },
@@ -51,24 +51,24 @@ export default function Testimonials() {
           {/* About */}
           <div className="text-white">
             <h2 className="text-4xl md:text-5xl font-black mb-6" style={{ fontFamily: 'var(--font-oswald)' }}>
-              UPSTATE SC&apos;S TRUSTED LAND CLEARING PROS
+              COLUMBIA&apos;S TRUSTED LAND CLEARING PROS
             </h2>
             <div className="space-y-4 text-gray-300 text-lg">
               <p>
-                Nelson Land & Stump is a family operation based in the Upstate, serving Greenville, Spartanburg, Anderson, Pickens, and Oconee counties for over 5 years.
+                Columbia Stump Grinding is a family operation based in the Midlands, serving Richland and Lexington counties for over 5 years.
               </p>
               <p>
                 No big crews, no salespeople — when you call, you talk to us. We show up on time, give honest quotes, and don&apos;t leave until the job&apos;s done right.
               </p>
               <p>
-                Whether you need a single stump ground down in Easley or 10 acres cleared in Seneca, we&apos;ve got the equipment and experience to get it done.
+                Whether you need a single stump ground down in West Columbia or 10 acres cleared in Chapin, we&apos;ve got the equipment and experience to get it done.
               </p>
             </div>
 
             <div className="flex gap-12 mt-10">
               <div>
                 <p className="text-5xl font-black text-accent">5+</p>
-                <p className="text-gray-400 uppercase text-sm tracking-wide">Years in Upstate SC</p>
+                <p className="text-gray-400 uppercase text-sm tracking-wide">Years in the Midlands</p>
               </div>
               <div>
                 <p className="text-5xl font-black text-accent">500+</p>
