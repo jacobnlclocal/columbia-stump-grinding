@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Columbia Stump Grinding" }],
   robots: "index, follow",
   openGraph: {
-    title: "Stump Grinding & Land Clearing | Columbia Stump Grinding",
-    description: "Professional stump grinding, brush hogging, and land clearing in Columbia and Midlands SC. Serving Richland & Lexington Counties. Free estimates!",
+    title: "Columbia Stump Grinding | Stump Removal & Land Clearing Columbia SC",
+    description: "Get rid of ugly stumps fast. Professional stump grinding, brush hogging & land clearing in Columbia SC. Free estimates. Call (864) 760-9203.",
     type: "website",
     locale: "en_US",
     siteName: "Columbia Stump Grinding",
